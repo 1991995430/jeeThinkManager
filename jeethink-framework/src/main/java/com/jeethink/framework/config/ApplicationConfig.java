@@ -10,7 +10,7 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 /**
  * 程序注解配置
  *
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 @Configuration
 // 表示通过aop框架暴露该代理对象,AopContext能够访问

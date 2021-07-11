@@ -8,7 +8,7 @@ import com.jeethink.common.utils.DateUtils;
 /**
  * JVM相关信息
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 public class Jvm
 {

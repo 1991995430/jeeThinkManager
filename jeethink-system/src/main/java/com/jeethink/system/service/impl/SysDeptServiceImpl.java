@@ -21,7 +21,7 @@ import com.jeethink.system.service.ISysDeptService;
 /**
  * 部门管理 服务实现
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 @Service
 public class SysDeptServiceImpl implements ISysDeptService

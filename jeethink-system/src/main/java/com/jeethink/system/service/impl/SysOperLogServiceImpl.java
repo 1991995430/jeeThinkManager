@@ -11,7 +11,7 @@ import com.jeethink.system.service.ISysOperLogService;
 /**
  * 操作日志 服务层处理
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 @Service
 public class SysOperLogServiceImpl implements ISysOperLogService

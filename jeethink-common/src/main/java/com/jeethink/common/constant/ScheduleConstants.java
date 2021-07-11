@@ -3,7 +3,7 @@ package com.jeethink.common.constant;
 /**
  * 任务调度通用常量
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 public class ScheduleConstants
 {

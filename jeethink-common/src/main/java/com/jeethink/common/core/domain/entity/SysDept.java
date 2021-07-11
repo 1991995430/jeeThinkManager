@@ -13,7 +13,7 @@ import com.jeethink.common.core.domain.BaseEntity;
 /**
  * 部门表 sys_dept
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 public class SysDept extends BaseEntity
 {

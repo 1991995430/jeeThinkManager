@@ -12,7 +12,7 @@ import com.jeethink.common.core.domain.BaseEntity;
 /**
  * 参数配置表 sys_config
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 public class SysConfig extends BaseEntity
 {

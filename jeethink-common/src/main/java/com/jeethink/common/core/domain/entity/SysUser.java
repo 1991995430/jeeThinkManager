@@ -18,7 +18,7 @@ import com.jeethink.common.core.domain.BaseEntity;
 /**
  * 用户对象 sys_user
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 public class SysUser extends BaseEntity
 {

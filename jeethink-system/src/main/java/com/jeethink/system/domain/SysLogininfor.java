@@ -9,7 +9,7 @@ import com.jeethink.common.core.domain.BaseEntity;
 /**
  * 系统访问记录表 sys_logininfor
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 public class SysLogininfor extends BaseEntity
 {

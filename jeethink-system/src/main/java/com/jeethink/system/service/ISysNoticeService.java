@@ -7,7 +7,7 @@ import com.jeethink.system.domain.SysNotice;
 /**
  * 公告 服务层
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 public interface ISysNoticeService
 {

@@ -3,7 +3,7 @@ package com.jeethink.common.constant;
 /**
  * 通用常量信息
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 public class Constants
 {

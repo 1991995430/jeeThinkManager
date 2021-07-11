@@ -3,7 +3,7 @@ package com.jeethink.common.enums;
 /**
  * 操作人类别
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 public enum OperatorType
 {

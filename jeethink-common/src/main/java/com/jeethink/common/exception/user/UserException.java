@@ -5,7 +5,7 @@ import com.jeethink.common.exception.BaseException;
 /**
  * 用户信息异常类
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 public class UserException extends BaseException
 {

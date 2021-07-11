@@ -7,7 +7,7 @@ import org.springframework.lang.Nullable;
 /**
  * 请求方式
  *
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 public enum HttpMethod
 {

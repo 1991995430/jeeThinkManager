@@ -3,7 +3,7 @@ package com.jeethink.common.exception.user;
 /**
  * 验证码失效异常类
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 public class CaptchaExpireException extends UserException
 {

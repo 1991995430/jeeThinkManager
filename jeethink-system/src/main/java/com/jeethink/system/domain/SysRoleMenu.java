@@ -6,7 +6,7 @@ import org.apache.commons.lang3.builder.ToStringStyle;
 /**
  * 角色和菜单关联 sys_role_menu
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 public class SysRoleMenu
 {

@@ -32,7 +32,7 @@ import com.jeethink.generator.service.IGenTableService;
 /**
  * 代码生成 操作处理
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 @RestController
 @RequestMapping("/tool/gen")

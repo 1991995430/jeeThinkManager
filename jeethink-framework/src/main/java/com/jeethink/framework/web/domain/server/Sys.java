@@ -3,7 +3,7 @@ package com.jeethink.framework.web.domain.server;
 /**
  * 系统相关信息
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 public class Sys
 {

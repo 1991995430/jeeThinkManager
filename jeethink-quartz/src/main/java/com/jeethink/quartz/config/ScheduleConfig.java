@@ -9,7 +9,7 @@ import java.util.Properties;
 /**
  * 定时任务配置
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 @Configuration
 public class ScheduleConfig

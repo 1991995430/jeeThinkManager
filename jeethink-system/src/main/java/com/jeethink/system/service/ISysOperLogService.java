@@ -7,7 +7,7 @@ import com.jeethink.system.domain.SysOperLog;
 /**
  * 操作日志 服务层
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 public interface ISysOperLogService
 {

@@ -10,7 +10,7 @@ import com.jeethink.system.domain.vo.RouterVo;
 /**
  * 菜单 业务层
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 public interface ISysMenuService
 {

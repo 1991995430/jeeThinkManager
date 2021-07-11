@@ -6,7 +6,7 @@ import com.jeethink.common.utils.StringUtils;
 /**
  * sql操作工具类
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 public class SqlUtil
 {

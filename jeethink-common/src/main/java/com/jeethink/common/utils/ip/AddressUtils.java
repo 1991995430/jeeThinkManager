@@ -11,7 +11,7 @@ import com.jeethink.common.utils.http.HttpUtils;
 /**
  * 获取地址类
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 public class AddressUtils
 {

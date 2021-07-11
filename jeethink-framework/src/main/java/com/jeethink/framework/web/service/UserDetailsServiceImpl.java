@@ -18,7 +18,7 @@ import com.jeethink.system.service.ISysUserService;
 /**
  * 用户验证处理
  *
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 @Service
 public class UserDetailsServiceImpl implements UserDetailsService

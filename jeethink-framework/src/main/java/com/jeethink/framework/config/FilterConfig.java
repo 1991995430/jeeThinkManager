@@ -15,7 +15,7 @@ import com.jeethink.common.utils.StringUtils;
 /**
  * Filter配置
  *
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 @Configuration
 public class FilterConfig

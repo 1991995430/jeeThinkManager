@@ -8,7 +8,7 @@ import com.jeethink.common.core.domain.entity.SysMenu;
 /**
  * 菜单表 数据层
  *
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 public interface SysMenuMapper
 {

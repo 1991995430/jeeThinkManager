@@ -21,7 +21,7 @@ import com.jeethink.system.service.ISysConfigService;
 /**
  * 参数配置 服务层实现
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 @Service
 public class SysConfigServiceImpl implements ISysConfigService

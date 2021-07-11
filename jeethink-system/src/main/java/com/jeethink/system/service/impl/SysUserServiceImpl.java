@@ -29,7 +29,7 @@ import com.jeethink.system.service.ISysUserService;
 /**
  * 用户 业务层处理
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 @Service
 public class SysUserServiceImpl implements ISysUserService

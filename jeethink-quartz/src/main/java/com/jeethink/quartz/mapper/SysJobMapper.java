@@ -7,7 +7,7 @@ import com.jeethink.quartz.domain.SysJob;
 /**
  * 调度任务信息 数据层
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 public interface SysJobMapper
 {

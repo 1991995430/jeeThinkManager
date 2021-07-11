@@ -3,7 +3,7 @@ package com.jeethink.common.exception.job;
 /**
  * 计划策略异常
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 public class TaskException extends Exception
 {

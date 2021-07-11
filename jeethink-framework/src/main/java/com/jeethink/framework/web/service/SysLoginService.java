@@ -27,7 +27,7 @@ import com.jeethink.system.service.ISysUserService;
 /**
  * 登录校验方法
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 @Component
 public class SysLoginService

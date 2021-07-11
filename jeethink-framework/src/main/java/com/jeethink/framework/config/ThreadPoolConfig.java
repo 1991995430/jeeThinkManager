@@ -13,7 +13,7 @@ import com.jeethink.common.utils.Threads;
 /**
  * 线程池配置
  *
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  **/
 @Configuration
 public class ThreadPoolConfig

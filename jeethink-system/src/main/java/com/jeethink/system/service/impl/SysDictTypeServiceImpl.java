@@ -19,7 +19,7 @@ import com.jeethink.system.service.ISysDictTypeService;
 /**
  * 字典 业务层处理
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 @Service
 public class SysDictTypeServiceImpl implements ISysDictTypeService

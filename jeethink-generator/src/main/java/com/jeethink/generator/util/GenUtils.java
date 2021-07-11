@@ -12,7 +12,7 @@ import com.jeethink.generator.domain.GenTableColumn;
 /**
  * 代码生成器 工具类
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 public class GenUtils
 {

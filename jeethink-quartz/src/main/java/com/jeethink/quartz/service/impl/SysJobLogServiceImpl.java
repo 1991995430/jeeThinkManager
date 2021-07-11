@@ -11,7 +11,7 @@ import com.jeethink.quartz.service.ISysJobLogService;
 /**
  * 定时任务调度日志信息 服务层
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 @Service
 public class SysJobLogServiceImpl implements ISysJobLogService

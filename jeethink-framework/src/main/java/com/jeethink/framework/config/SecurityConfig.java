@@ -22,7 +22,7 @@ import com.jeethink.framework.security.handle.LogoutSuccessHandlerImpl;
 /**
  * spring security配置
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 @EnableGlobalMethodSecurity(prePostEnabled = true, securedEnabled = true)
 public class SecurityConfig extends WebSecurityConfigurerAdapter

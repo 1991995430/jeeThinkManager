@@ -10,7 +10,7 @@ import com.jeethink.common.core.domain.entity.SysMenu;
 /**
  * Treeselect树结构实体类
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 public class TreeSelect implements Serializable
 {

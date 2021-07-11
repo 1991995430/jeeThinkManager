@@ -22,7 +22,7 @@ import com.jeethink.framework.web.service.TokenService;
 /**
  * 数据过滤处理
  *
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 @Aspect
 @Component

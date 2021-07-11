@@ -26,7 +26,7 @@ import com.jeethink.system.service.ISysRoleService;
 /**
  * 角色 业务层处理
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 @Service
 public class SysRoleServiceImpl implements ISysRoleService

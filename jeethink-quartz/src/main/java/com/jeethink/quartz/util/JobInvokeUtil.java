@@ -12,7 +12,7 @@ import com.jeethink.quartz.domain.SysJob;
 /**
  * 任务执行工具
  *
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 public class JobInvokeUtil
 {

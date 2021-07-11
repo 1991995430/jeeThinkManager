@@ -10,7 +10,7 @@ import com.jeethink.common.core.domain.entity.SysUser;
 /**
  * 登录用户身份权限
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 public class LoginUser implements UserDetails
 {

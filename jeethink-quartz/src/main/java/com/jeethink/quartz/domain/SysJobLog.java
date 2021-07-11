@@ -10,7 +10,7 @@ import com.jeethink.common.core.domain.BaseEntity;
 /**
  * 定时任务调度日志表 sys_job_log
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 public class SysJobLog extends BaseEntity
 {

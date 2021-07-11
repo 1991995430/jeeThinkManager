@@ -7,7 +7,7 @@ import com.jeethink.common.core.domain.entity.SysUser;
 /**
  * 用户 业务层
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 public interface ISysUserService
 {

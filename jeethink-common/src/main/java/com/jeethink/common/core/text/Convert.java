@@ -14,7 +14,7 @@ import com.jeethink.common.utils.StringUtils;
 /**
  * 类型转换器
  *
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 public class Convert
 {

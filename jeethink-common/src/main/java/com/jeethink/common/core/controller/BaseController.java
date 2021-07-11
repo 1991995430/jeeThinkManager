@@ -21,7 +21,7 @@ import com.jeethink.common.utils.sql.SqlUtil;
 /**
  * web层通用数据处理
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 public class BaseController
 {

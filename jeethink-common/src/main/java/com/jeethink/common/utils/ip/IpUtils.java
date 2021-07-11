@@ -10,7 +10,7 @@ import com.jeethink.common.utils.html.EscapeUtil;
 /**
  * 获取IP方法
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 public class IpUtils
 {

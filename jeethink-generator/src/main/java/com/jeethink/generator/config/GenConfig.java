@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 /**
  * 读取代码生成相关配置
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 @Component
 @ConfigurationProperties(prefix = "gen")

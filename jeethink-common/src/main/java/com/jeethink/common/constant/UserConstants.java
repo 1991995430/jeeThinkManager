@@ -3,7 +3,7 @@ package com.jeethink.common.constant;
 /**
  * 用户常量信息
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 public class UserConstants
 {

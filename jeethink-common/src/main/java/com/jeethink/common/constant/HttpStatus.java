@@ -3,7 +3,7 @@ package com.jeethink.common.constant;
 /**
  * 返回状态码
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 public class HttpStatus
 {

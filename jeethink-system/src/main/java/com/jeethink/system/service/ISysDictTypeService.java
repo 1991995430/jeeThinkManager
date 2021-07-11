@@ -8,7 +8,7 @@ import com.jeethink.common.core.domain.entity.SysDictType;
 /**
  * 字典 业务层
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 public interface ISysDictTypeService
 {

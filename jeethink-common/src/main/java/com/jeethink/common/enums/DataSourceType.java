@@ -3,7 +3,7 @@ package com.jeethink.common.enums;
 /**
  * 数据源
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 public enum DataSourceType
 {

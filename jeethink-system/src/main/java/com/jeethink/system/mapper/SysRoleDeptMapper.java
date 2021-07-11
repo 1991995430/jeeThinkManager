@@ -7,7 +7,7 @@ import com.jeethink.system.domain.SysRoleDept;
 /**
  * 角色与部门关联表 数据层
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 public interface SysRoleDeptMapper
 {

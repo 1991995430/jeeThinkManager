@@ -28,7 +28,7 @@ import com.jeethink.common.utils.poi.ExcelUtil;
 /**
  * 参数配置 信息操作处理
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 @RestController
 @RequestMapping("/system/config")

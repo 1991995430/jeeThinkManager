@@ -12,7 +12,7 @@ import com.jeethink.system.service.ISysRoleService;
 /**
  * 用户权限处理
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 @Component
 public class SysPermissionService

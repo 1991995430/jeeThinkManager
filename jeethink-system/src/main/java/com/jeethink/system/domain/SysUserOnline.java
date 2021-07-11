@@ -3,7 +3,7 @@ package com.jeethink.system.domain;
 /**
  * 当前在线会话
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 public class SysUserOnline
 {

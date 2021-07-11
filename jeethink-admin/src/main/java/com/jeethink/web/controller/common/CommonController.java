@@ -21,7 +21,7 @@ import com.jeethink.framework.config.ServerConfig;
 /**
  * 通用请求处理
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 @RestController
 public class CommonController

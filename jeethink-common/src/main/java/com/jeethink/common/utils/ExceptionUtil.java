@@ -7,7 +7,7 @@ import org.apache.commons.lang3.exception.ExceptionUtils;
 /**
  * 错误信息处理类。
  *
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 public class ExceptionUtil
 {

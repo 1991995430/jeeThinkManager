@@ -7,7 +7,7 @@ import com.jeethink.system.domain.SysUserPost;
 /**
  * 用户与岗位关联表 数据层
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 public interface SysUserPostMapper
 {

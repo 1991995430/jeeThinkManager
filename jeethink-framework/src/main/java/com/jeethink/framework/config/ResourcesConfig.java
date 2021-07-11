@@ -17,7 +17,7 @@ import com.jeethink.framework.interceptor.RepeatSubmitInterceptor;
 /**
  * 通用配置
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 @Configuration
 public class ResourcesConfig implements WebMvcConfigurer

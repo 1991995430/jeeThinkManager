@@ -9,7 +9,7 @@ import com.jeethink.common.core.controller.BaseController;
 /**
  * swagger 接口
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 @Controller
 @RequestMapping("/tool/swagger")

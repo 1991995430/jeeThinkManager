@@ -8,7 +8,7 @@ import com.jeethink.common.utils.StringUtils;
 /**
  * 代码生成业务字段表 gen_table_column
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 public class GenTableColumn extends BaseEntity
 {

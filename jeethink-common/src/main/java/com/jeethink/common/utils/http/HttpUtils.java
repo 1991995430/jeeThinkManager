@@ -24,7 +24,7 @@ import com.jeethink.common.constant.Constants;
 /**
  * 通用http发送方法
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 public class HttpUtils
 {

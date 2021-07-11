@@ -29,7 +29,7 @@ import com.jeethink.common.utils.poi.ExcelUtil;
 /**
  * 数据字典信息
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 @RestController
 @RequestMapping("/system/dict/data")

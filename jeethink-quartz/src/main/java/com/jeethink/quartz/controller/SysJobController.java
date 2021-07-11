@@ -28,7 +28,7 @@ import com.jeethink.quartz.util.CronUtils;
 /**
  * 调度任务信息操作处理
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 @RestController
 @RequestMapping("/monitor/job")

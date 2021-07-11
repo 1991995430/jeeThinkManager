@@ -13,7 +13,7 @@ import java.util.regex.Pattern;
 /**
  * HTML过滤器，用于去除XSS漏洞隐患。
  *
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 public final class HTMLFilter
 {

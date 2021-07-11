@@ -19,7 +19,7 @@ import com.jeethink.quartz.domain.SysJob;
 /**
  * 定时任务工具类
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  *
  */
 public class ScheduleUtils

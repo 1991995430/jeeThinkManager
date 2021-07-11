@@ -16,7 +16,7 @@ import com.jeethink.quartz.util.CronUtils;
 /**
  * 定时任务调度表 sys_job
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 public class SysJob extends BaseEntity
 {

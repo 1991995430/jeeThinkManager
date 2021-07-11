@@ -19,7 +19,7 @@ import com.jeethink.common.utils.StringUtils;
 /**
  * 防止XSS攻击的过滤器
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 public class XssFilter implements Filter
 {

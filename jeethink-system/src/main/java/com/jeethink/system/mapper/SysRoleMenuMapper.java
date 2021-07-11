@@ -7,7 +7,7 @@ import com.jeethink.system.domain.SysRoleMenu;
 /**
  * 角色与菜单关联表 数据层
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 public interface SysRoleMenuMapper
 {

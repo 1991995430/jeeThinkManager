@@ -14,7 +14,7 @@ import com.jeethink.common.utils.StringUtils;
 /**
  * spring工具类 方便在非spring管理环境中获取bean
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 @Component
 public final class SpringUtils implements BeanFactoryPostProcessor, ApplicationContextAware 

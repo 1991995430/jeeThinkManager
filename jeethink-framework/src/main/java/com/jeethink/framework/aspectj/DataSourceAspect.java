@@ -19,7 +19,7 @@ import com.jeethink.framework.datasource.DynamicDataSourceContextHolder;
 /**
  * 多数据源处理
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 @Aspect
 @Order(1)

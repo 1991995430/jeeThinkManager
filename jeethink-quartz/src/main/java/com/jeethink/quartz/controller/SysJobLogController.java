@@ -21,7 +21,7 @@ import com.jeethink.quartz.service.ISysJobLogService;
 /**
  * 调度日志操作处理
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 @RestController
 @RequestMapping("/monitor/jobLog")

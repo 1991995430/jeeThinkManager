@@ -7,7 +7,7 @@ import com.jeethink.quartz.domain.SysJobLog;
 /**
  * 调度任务日志信息 数据层
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 public interface SysJobLogMapper
 {

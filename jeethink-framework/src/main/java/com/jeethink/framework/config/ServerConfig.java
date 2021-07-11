@@ -8,7 +8,7 @@ import com.jeethink.common.utils.ServletUtils;
 /**
  * 服务相关配置
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 @Component
 public class ServerConfig

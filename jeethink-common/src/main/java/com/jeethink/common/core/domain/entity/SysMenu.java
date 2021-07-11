@@ -12,7 +12,7 @@ import com.jeethink.common.core.domain.BaseEntity;
 /**
  * 菜单权限表 sys_menu
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 public class SysMenu extends BaseEntity
 {

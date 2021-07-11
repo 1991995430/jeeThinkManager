@@ -3,7 +3,7 @@ package com.jeethink.common.exception;
 /**
  * 演示模式异常
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 public class DemoModeException extends RuntimeException
 {

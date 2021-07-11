@@ -3,7 +3,7 @@ package com.jeethink.common.exception.file;
 /**
  * 文件名大小限制异常类
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 public class FileSizeLimitExceededException extends FileException
 {

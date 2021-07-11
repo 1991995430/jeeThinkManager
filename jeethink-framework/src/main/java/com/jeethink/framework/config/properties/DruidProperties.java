@@ -7,7 +7,7 @@ import com.alibaba.druid.pool.DruidDataSource;
 /**
  * druid 配置属性
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 @Configuration
 public class DruidProperties

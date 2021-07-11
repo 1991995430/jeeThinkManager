@@ -28,7 +28,7 @@ import com.jeethink.common.utils.StringUtils;
 /**
  * 部门信息
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 @RestController
 @RequestMapping("/system/dept")

@@ -3,7 +3,7 @@ package com.jeethink.common.utils.uuid;
 /**
  * ID生成器工具类
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 public class IdUtils
 {

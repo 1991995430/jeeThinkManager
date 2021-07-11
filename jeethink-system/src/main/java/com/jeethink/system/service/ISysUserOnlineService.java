@@ -6,7 +6,7 @@ import com.jeethink.system.domain.SysUserOnline;
 /**
  * 在线用户 服务层
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 public interface ISysUserOnlineService
 {

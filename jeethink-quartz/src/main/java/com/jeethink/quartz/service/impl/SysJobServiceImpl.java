@@ -21,7 +21,7 @@ import com.jeethink.quartz.util.ScheduleUtils;
 /**
  * 定时任务调度信息 服务层
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 @Service
 public class SysJobServiceImpl implements ISysJobService

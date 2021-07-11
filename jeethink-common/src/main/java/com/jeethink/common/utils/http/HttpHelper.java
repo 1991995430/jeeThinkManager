@@ -13,7 +13,7 @@ import org.slf4j.LoggerFactory;
 /**
  * 通用http工具封装
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 public class HttpHelper
 {

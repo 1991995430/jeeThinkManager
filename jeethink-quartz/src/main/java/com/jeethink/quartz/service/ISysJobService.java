@@ -9,7 +9,7 @@ import com.jeethink.quartz.domain.SysJob;
 /**
  * 定时任务调度信息信息 服务层
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 public interface ISysJobService
 {

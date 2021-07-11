@@ -5,7 +5,7 @@ import com.jeethink.common.utils.Arith;
 /**
  * CPU相关信息
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 public class Cpu
 {

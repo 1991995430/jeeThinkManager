@@ -23,7 +23,7 @@ import com.jeethink.framework.web.service.TokenService;
 /**
  * 登录验证
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 @RestController
 public class SysLoginController

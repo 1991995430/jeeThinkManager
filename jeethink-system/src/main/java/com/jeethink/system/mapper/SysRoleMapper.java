@@ -7,7 +7,7 @@ import com.jeethink.common.core.domain.entity.SysRole;
 /**
  * 角色表 数据层
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 public interface SysRoleMapper
 {

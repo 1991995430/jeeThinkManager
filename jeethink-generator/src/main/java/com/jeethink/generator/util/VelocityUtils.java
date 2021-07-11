@@ -14,7 +14,7 @@ import com.jeethink.generator.domain.GenTableColumn;
 /**
  * 模板处理工具类
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 public class VelocityUtils
 {

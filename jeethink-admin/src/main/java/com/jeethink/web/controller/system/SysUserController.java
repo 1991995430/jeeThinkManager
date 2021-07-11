@@ -36,7 +36,7 @@ import com.jeethink.framework.web.service.TokenService;
 /**
  * 用户信息
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 @RestController
 @RequestMapping("/system/user")

@@ -7,7 +7,7 @@ import com.jeethink.system.domain.SysPost;
 /**
  * 岗位信息 服务层
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 public interface ISysPostService
 {

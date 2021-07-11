@@ -10,7 +10,7 @@ import com.jeethink.common.utils.spring.SpringUtils;
 /**
  * 异步任务管理器
  *
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 public class AsyncManager {
     /**

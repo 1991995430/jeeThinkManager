@@ -22,7 +22,7 @@ import com.jeethink.framework.web.service.TokenService;
 /**
  * 自定义退出处理类 返回成功
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 @Configuration
 public class LogoutSuccessHandlerImpl implements LogoutSuccessHandler

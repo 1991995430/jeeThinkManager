@@ -15,7 +15,7 @@ import com.jeethink.system.service.ISysPostService;
 /**
  * 岗位信息 服务层处理
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 @Service
 public class SysPostServiceImpl implements ISysPostService

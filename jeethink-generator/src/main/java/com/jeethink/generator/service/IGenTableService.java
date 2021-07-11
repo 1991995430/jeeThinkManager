@@ -8,7 +8,7 @@ import com.jeethink.generator.domain.GenTable;
 /**
  * 业务 服务层
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 public interface IGenTableService
 {

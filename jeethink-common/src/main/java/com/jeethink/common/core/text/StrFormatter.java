@@ -5,7 +5,7 @@ import com.jeethink.common.utils.StringUtils;
 /**
  * 字符串格式化
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 public class StrFormatter
 {

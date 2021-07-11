@@ -6,7 +6,7 @@ import com.jeethink.common.utils.StringUtils;
 /**
  * 基础异常
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 public class BaseException extends RuntimeException
 {

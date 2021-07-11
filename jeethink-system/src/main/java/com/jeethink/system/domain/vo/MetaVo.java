@@ -3,7 +3,7 @@ package com.jeethink.system.domain.vo;
 /**
  * 路由显示信息
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 public class MetaVo
 {

@@ -36,7 +36,7 @@ import com.jeethink.system.domain.SysOperLog;
 /**
  * 操作日志记录处理
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 @Aspect
 @Component

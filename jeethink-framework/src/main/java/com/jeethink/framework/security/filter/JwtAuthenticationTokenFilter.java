@@ -21,7 +21,7 @@ import com.jeethink.framework.web.service.TokenService;
 /**
  * token过滤器 验证token有效性
  *
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 @Component
 public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {

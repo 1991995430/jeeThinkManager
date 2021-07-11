@@ -16,7 +16,7 @@ import com.jeethink.common.utils.html.EscapeUtil;
 /**
  * XSS过滤处理
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 public class XssHttpServletRequestWrapper extends HttpServletRequestWrapper
 {

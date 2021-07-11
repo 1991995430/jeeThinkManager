@@ -7,7 +7,7 @@ import com.jeethink.generator.domain.GenTableColumn;
 /**
  * 业务字段 数据层
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 public interface GenTableColumnMapper
 {

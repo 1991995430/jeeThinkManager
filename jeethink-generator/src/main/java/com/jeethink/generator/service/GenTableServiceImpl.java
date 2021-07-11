@@ -39,7 +39,7 @@ import com.jeethink.generator.util.VelocityUtils;
 /**
  * 业务 服务层实现
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 @Service
 public class GenTableServiceImpl implements IGenTableService

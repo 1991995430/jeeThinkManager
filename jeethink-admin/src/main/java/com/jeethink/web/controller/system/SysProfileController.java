@@ -29,7 +29,7 @@ import com.jeethink.framework.web.service.TokenService;
 /**
  * 个人信息 业务处理
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 @RestController
 @RequestMapping("/system/user/profile")

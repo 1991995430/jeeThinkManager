@@ -28,7 +28,7 @@ import com.jeethink.common.utils.StringUtils;
 /**
  * Mybatis支持*匹配扫描包
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 @Configuration
 public class MyBatisConfig

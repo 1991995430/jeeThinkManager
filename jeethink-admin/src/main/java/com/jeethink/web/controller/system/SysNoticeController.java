@@ -25,7 +25,7 @@ import com.jeethink.common.utils.SecurityUtils;
 /**
  * 公告 信息操作处理
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 @RestController
 @RequestMapping("/system/notice")

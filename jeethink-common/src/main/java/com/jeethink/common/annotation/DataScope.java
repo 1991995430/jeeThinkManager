@@ -9,7 +9,7 @@ import java.lang.annotation.Target;
 /**
  * 数据权限过滤注解
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)

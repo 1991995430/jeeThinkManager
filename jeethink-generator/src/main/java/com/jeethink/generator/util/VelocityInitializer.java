@@ -8,7 +8,7 @@ import com.jeethink.common.constant.Constants;
 /**
  * VelocityEngine工厂
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 public class VelocityInitializer
 {

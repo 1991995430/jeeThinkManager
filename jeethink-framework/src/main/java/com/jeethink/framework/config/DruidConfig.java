@@ -27,7 +27,7 @@ import com.jeethink.framework.datasource.DynamicDataSource;
 /**
  * druid 配置多数据源
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 @Configuration
 public class DruidConfig

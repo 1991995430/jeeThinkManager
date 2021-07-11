@@ -3,7 +3,7 @@ package com.jeethink.common.core.domain.model;
 /**
  * 用户登录对象
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 public class LoginBody
 {

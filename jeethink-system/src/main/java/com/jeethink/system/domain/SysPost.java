@@ -12,7 +12,7 @@ import com.jeethink.common.core.domain.BaseEntity;
 /**
  * 岗位表 sys_post
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 public class SysPost extends BaseEntity
 {

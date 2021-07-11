@@ -12,7 +12,7 @@ import com.jeethink.common.core.domain.BaseEntity;
 /**
  * 字典类型表 sys_dict_type
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 public class SysDictType extends BaseEntity
 {

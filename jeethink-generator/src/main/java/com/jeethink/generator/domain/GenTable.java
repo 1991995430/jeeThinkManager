@@ -12,7 +12,7 @@ import com.jeethink.common.utils.StringUtils;
 /**
  * 业务表 gen_table
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 public class GenTable extends BaseEntity
 {

@@ -26,7 +26,7 @@ import oshi.util.Util;
 /**
  * 服务器相关信息
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 public class Server
 {

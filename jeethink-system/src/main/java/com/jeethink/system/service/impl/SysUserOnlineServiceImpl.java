@@ -10,7 +10,7 @@ import com.jeethink.system.service.ISysUserOnlineService;
 /**
  * 在线用户 服务层处理
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 @Service
 public class SysUserOnlineServiceImpl implements ISysUserOnlineService

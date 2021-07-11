@@ -3,7 +3,7 @@ package com.jeethink.common.enums;
 /**
  * 用户状态
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 public enum UserStatus
 {

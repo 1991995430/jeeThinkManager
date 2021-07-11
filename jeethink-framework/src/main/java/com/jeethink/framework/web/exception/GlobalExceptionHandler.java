@@ -21,7 +21,7 @@ import com.jeethink.common.utils.StringUtils;
 /**
  * 全局异常处理器
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 @RestControllerAdvice
 public class GlobalExceptionHandler

@@ -10,7 +10,7 @@ import com.jeethink.common.core.domain.BaseEntity;
 /**
  * 通知公告表 sys_notice
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 public class SysNotice extends BaseEntity
 {

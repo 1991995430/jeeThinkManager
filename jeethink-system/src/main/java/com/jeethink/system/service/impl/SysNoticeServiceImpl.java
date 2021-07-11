@@ -11,7 +11,7 @@ import com.jeethink.system.service.ISysNoticeService;
 /**
  * 公告 服务层实现
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 @Service
 public class SysNoticeServiceImpl implements ISysNoticeService

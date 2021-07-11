@@ -5,7 +5,7 @@ import com.jeethink.common.utils.StringUtils;
 /**
  * 转义和反转义工具类
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 public class EscapeUtil
 {

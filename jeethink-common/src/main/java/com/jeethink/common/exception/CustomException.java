@@ -3,7 +3,7 @@ package com.jeethink.common.exception;
 /**
  * 自定义异常
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 public class CustomException extends RuntimeException
 {

@@ -20,7 +20,7 @@ import com.jeethink.quartz.service.ISysJobLogService;
 /**
  * 抽象quartz调用
  *
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 public abstract class AbstractQuartzJob implements Job
 {

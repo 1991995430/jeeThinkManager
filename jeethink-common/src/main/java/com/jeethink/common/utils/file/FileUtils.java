@@ -17,7 +17,7 @@ import com.jeethink.common.utils.StringUtils;
 /**
  * 文件处理工具类
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 public class FileUtils extends org.apache.commons.io.FileUtils
 {

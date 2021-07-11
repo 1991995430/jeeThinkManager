@@ -7,7 +7,7 @@ import com.jeethink.system.domain.SysConfig;
 /**
  * 参数配置 服务层
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 public interface ISysConfigService
 {

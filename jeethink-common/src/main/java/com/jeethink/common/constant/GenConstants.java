@@ -3,7 +3,7 @@ package com.jeethink.common.constant;
 /**
  * 代码生成通用常量
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 public class GenConstants
 {

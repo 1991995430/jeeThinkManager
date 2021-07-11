@@ -30,7 +30,7 @@ import com.jeethink.framework.web.service.TokenService;
 /**
  * 菜单信息
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink  
  */
 @RestController
 @RequestMapping("/system/menu")

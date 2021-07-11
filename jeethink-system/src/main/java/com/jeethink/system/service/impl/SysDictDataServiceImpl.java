@@ -12,7 +12,7 @@ import com.jeethink.system.service.ISysDictDataService;
 /**
  * 字典 业务层处理
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 @Service
 public class SysDictDataServiceImpl implements ISysDictDataService

@@ -9,7 +9,7 @@ import com.jeethink.common.core.domain.BaseEntity;
 /**
  * 操作日志记录表 oper_log
  * 
- * @author jeethink  官方网址：www.jeethink.vip
+ * @author jeethink
  */
 public class SysOperLog extends BaseEntity
 {
