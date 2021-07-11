@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/jeethink.iml" filepath="$PROJECT_DIR$/jeethink.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jeethink-admin/jeethink-admin.iml" filepath="$PROJECT_DIR$/jeethink-admin/jeethink-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jeethink-common/jeethink-common.iml" filepath="$PROJECT_DIR$/jeethink-common/jeethink-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jeethink-framework/jeethink-framework.iml" filepath="$PROJECT_DIR$/jeethink-framework/jeethink-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jeethink-generator/jeethink-generator.iml" filepath="$PROJECT_DIR$/jeethink-generator/jeethink-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jeethink-quartz/jeethink-quartz.iml" filepath="$PROJECT_DIR$/jeethink-quartz/jeethink-quartz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jeethink-system/jeethink-system.iml" filepath="$PROJECT_DIR$/jeethink-system/jeethink-system.iml" />
+    </modules>
+  </component>
+</project>
