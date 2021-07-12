@@ -1,9 +1,9 @@
 <template>
   <div class="login">
     <el-form ref="loginForm" :model="loginForm" :rules="loginRules" class="login-form">
-      <h3 class="title">吉想敏捷开发框架</h3>
+      <h3 class="title">SS开发框架</h3>
       <h4 class="title" style="color:red;">
-				<a href="https://item.taobao.com/item.htm?id=616173515805" target="_blank">版权所有 侵权必究 授权店铺购买源码</a>&nbsp;&nbsp;&nbsp;
+				<a href="https://item.taobao.com/item.htm?id=616173515805" target="_blank">版权所有</a>&nbsp;&nbsp;&nbsp;
 				<a style="color:blue;" href="http://jeethink.vip/doc/jeethink-vue/document/gxrz.html"
 				 target="_blank">更新日志</a>
 			</h4>
