@@ -1,6 +1,8 @@
 package com.jeethink.system.mapper;
 
 import java.util.List;
+
+import com.jeethink.system.domain.ApiInvokeMsg;
 import org.apache.ibatis.annotations.Param;
 
 import com.jeethink.common.core.domain.entity.SysDept;
@@ -19,6 +21,14 @@ public interface SysDeptMapper
      * @return 部门信息集合
      */
     public List<SysDept> selectDeptList(SysDept dept);
+
+    /**
+     * 查询部门管理数据
+     *
+     * @param api_endpoint 部门信息
+     * @return 部门信息集合
+     */
+    public List<ApiInvokeMsg> selectApiInvokeMsg(List<String> api_endpoint);
 
     /**
      * 根据角色ID查询部门树信息

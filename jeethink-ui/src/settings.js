@@ -1,5 +1,5 @@
 module.exports = {
-  title: '吉想敏捷开发框架',
+  title: 'SS敏捷开发框架',
 
   /**
    * 侧边栏主题 深色主题theme-dark，浅色主题theme-light

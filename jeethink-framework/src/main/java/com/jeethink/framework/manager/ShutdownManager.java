@@ -17,6 +17,7 @@ public class ShutdownManager {
 
     @PreDestroy
     public void destroy() {
+        System.out.println("服务停止，我运行了~");
         shutdownAsyncManager();
     }
 

@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.stream.Collectors;
+
+import com.jeethink.system.domain.ApiInvokeMsg;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -43,6 +45,11 @@ public class SysDeptServiceImpl implements ISysDeptService
     public List<SysDept> selectDeptList(SysDept dept)
     {
         return deptMapper.selectDeptList(dept);
+    }
+
+    @Override
+    public List<ApiInvokeMsg> selectApiInvokeMsg(List<String> api_endpoint) {
+        return deptMapper.selectApiInvokeMsg(api_endpoint);
     }
 
     /**

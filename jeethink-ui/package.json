@@ -1,8 +1,8 @@
 {
   "name": "jeethink",
   "version": "3.5.0",
-  "description": "吉想敏捷开发框架",
-  "author": "吉想",
+  "description": "SS敏捷开发框架",
+  "author": "SS",
   "scripts": {
     "dev": "vue-cli-service serve",
     "build:prod": "vue-cli-service build",

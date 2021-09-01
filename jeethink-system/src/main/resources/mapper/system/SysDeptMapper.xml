@@ -43,6 +43,18 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		${params.dataScope}
 		order by d.parent_id, d.order_num
     </select>
+
+	<select id="selectApiInvokeMsg" parameterType="java.util.List" resultType="ApiInvokeMsg">
+		select apiendpoint,apiinvoketimes, metrdate
+		from jeethink.api_statistic
+		where metrdate
+		    between current_date - 30
+		    and current_date + 1
+		  and apiendpoint in
+		<foreach collection="list" index="index" item="item" open="(" separator="," close=")">
+			#{item}
+		</foreach>
+	</select>
     
     <select id="selectDeptListByRoleId" resultType="Integer">
 		select d.dept_id

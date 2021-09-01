@@ -1,7 +1,10 @@
 package com.jeethink.web.controller.system;
 
-import java.util.Iterator;
-import java.util.List;
+import java.sql.Timestamp;
+import java.util.*;
+
+import com.jeethink.system.domain.ApiInvokeMsg;
+import com.jeethink.system.domain.ApiInvokeResultMsg;
 import org.apache.commons.lang3.ArrayUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
@@ -45,8 +48,25 @@ public class SysDeptController extends BaseController
     public AjaxResult list(SysDept dept)
     {
         List<SysDept> depts = deptService.selectDeptList(dept);
+        List<String> api_endpoint = new ArrayList<>();
+        api_endpoint.add("api1");
+        api_endpoint.add("api3");
+        api_endpoint.add("api9");
+        api_endpoint.add("api6");
+        Map<Timestamp, List<ApiInvokeMsg>> apiMsg = new HashMap<>();
+        List<ApiInvokeMsg> apiInvokeMsgsList = deptService.selectApiInvokeMsg(api_endpoint);
+        
+        List<ApiInvokeResultMsg> apiInvokeResultMsg = getApiResult(apiInvokeMsgsList);
+
         return AjaxResult.success(depts);
     }
+
+    private List<ApiInvokeResultMsg> getApiResult(List<ApiInvokeMsg> apiInvokeMsgsList) {
+        List<ApiInvokeResultMsg> apiInvokeResultMsgs = new ArrayList<>();
+
+        return apiInvokeResultMsgs;
+    }
+
 
     /**
      * 查询部门列表（排除节点）

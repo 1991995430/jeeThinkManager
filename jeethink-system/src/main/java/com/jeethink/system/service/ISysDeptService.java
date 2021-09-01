@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.jeethink.common.core.domain.TreeSelect;
 import com.jeethink.common.core.domain.entity.SysDept;
+import com.jeethink.system.domain.ApiInvokeMsg;
 
 /**
  * 部门管理 服务层
@@ -19,6 +20,14 @@ public interface ISysDeptService
      * @return 部门信息集合
      */
     public List<SysDept> selectDeptList(SysDept dept);
+
+    /**
+     * 查询部门管理数据
+     *
+     * @param api_endpoint 部门信息
+     * @return 部门信息集合
+     */
+    public List<ApiInvokeMsg> selectApiInvokeMsg(List<String> api_endpoint);
 
     /**
      * 构建前端所需要树结构
