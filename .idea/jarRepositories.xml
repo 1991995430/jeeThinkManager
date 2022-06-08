@@ -12,6 +12,16 @@
       <option name="url" value="http://maven.aliyun.com/nexus/content/groups/public/" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="nexus" />
+      <option name="name" value="nexus" />
+      <option name="url" value="http://192.168.1.11:8087/nexus/content/groups/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="alibaba" />
+      <option name="name" value="alibabaRepository" />
+      <option name="url" value="http://maven.aliyun.com/nexus/content/groups/public/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="public" />
       <option name="name" value="aliyun nexus" />
       <option name="url" value="http://maven.aliyun.com/nexus/content/groups/public/" />

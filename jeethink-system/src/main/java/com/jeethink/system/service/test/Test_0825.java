@@ -16,7 +16,6 @@ public class Test_0825 {
             System.out.println(nums.length / 2 + " " + (nums.length / 2 - 1) + "aa" + (nums[nums.length / 2]) + "bb" + (nums[nums.length / 2 - 1]));
             System.out.println("中位数为1：" + (double)((nums[nums.length / 2] + nums[nums.length / 2 - 1]) / 2.0));
         }
-
     }
 
     private static void sort(int[] nums) {

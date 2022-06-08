@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/jeethink.iml" filepath="$PROJECT_DIR$/jeethink.iml" />
       <module fileurl="file://$PROJECT_DIR$/jeethink-admin/jeethink-admin.iml" filepath="$PROJECT_DIR$/jeethink-admin/jeethink-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/jeethink-common/jeethink-common.iml" filepath="$PROJECT_DIR$/jeethink-common/jeethink-common.iml" />

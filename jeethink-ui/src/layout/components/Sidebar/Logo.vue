@@ -35,7 +35,7 @@ export default {
   },
   data() {
     return {
-      title: '尚松开发框架',
+      title: 'ss',
       logo: logoImg
     }
   }

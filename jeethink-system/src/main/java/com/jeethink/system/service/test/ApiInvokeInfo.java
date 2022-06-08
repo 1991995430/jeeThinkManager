@@ -1,45 +1,25 @@
 package com.jeethink.system.service.test;
 
+import lombok.Data;
+
 import java.sql.Date;
 
+@Data
 public class ApiInvokeInfo {
 
-    private String apiEndpoint;
+    private Integer apiEndpoint;
 
-    private Date invokeDate;
+    private Long invokeDate;
 
-    private int invokeTimes;
+    private Integer invokeTimes;
+
 
     public ApiInvokeInfo() {
     }
 
-    public ApiInvokeInfo(String apiEndpoint, Date invokeDate, int invokeTimes) {
+    public ApiInvokeInfo(Integer apiEndpoint, Long invokeDate, Integer invokeTimes) {
         this.apiEndpoint = apiEndpoint;
         this.invokeDate = invokeDate;
-        this.invokeTimes = invokeTimes;
-    }
-
-    public String getApiEndpoint() {
-        return apiEndpoint;
-    }
-
-    public void setApiEndpoint(String apiEndpoint) {
-        this.apiEndpoint = apiEndpoint;
-    }
-
-    public Date getInvokeDate() {
-        return invokeDate;
-    }
-
-    public void setInvokeDate(Date invokeDate) {
-        this.invokeDate = invokeDate;
-    }
-
-    public int getInvokeTimes() {
-        return invokeTimes;
-    }
-
-    public void setInvokeTimes(int invokeTimes) {
         this.invokeTimes = invokeTimes;
     }
 }

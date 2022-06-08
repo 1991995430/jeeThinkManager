@@ -17,6 +17,21 @@
 
     <dependencies>
 
+        <!-- https://mvnrepository.com/artifact/junit/junit -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.1</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>name.remal.tools.test</groupId>
+            <artifactId>junit4</artifactId>
+            <version>1.26.147</version>
+        </dependency>
+
+
         <!-- 通用工具-->
         <dependency>
             <groupId>com.jeethink</groupId>

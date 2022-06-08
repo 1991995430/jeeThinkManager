@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: name.remal.tools.test:common:1.26.147">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../maven/LocalRepository/name/remal/tools/test/common/1.26.147/common-1.26.147.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../maven/LocalRepository/name/remal/tools/test/common/1.26.147/common-1.26.147-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../maven/LocalRepository/name/remal/tools/test/common/1.26.147/common-1.26.147-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

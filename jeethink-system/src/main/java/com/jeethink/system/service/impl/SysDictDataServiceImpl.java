@@ -66,8 +66,7 @@ public class SysDictDataServiceImpl implements ISysDictDataService
     @Override
     public void deleteDictDataByIds(Long[] dictCodes)
     {
-        for (Long dictCode : dictCodes)
-        {
+        for (Long dictCode : dictCodes) {
             SysDictData data = selectDictDataById(dictCode);
             dictDataMapper.deleteDictDataById(dictCode);
             List<SysDictData> dictDatas = dictDataMapper.selectDictDataByType(data.getDictType());
