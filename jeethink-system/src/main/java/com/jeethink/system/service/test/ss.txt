@@ -1,0 +1,462 @@
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(295988, 20220100000000, '体育中心', 1413227, '8', 20200301050043, 1413260, '体育中心', 1000, 0.0, 155.931, 155.931, 6393.7198, 6393.7198, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(295989, 20220100000000, '体育中心', 1413227, '9', 20200301050043, 1413260, '体育中心', 1000, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(295991, 20220100000000, '价值工厂', 1413228, '8', 20200301050044, 1413262, '价值工厂', 1000, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(295995, 20220100000000, '仓库', 1413231, '2', 20200301050044, 1413270, '仓库', 1000, 6000.069, 6655.2414, 327.5862, 272888.2569, 13432.1844, 1.029684E7);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(295996, 20220100000000, '仓库', 1413231, '4', 20200301050045, 1413270, '仓库', 1000, 9519.6552, 67444.7586, 60461.2759, 2765471.8395, 2479124.5338, 3.63682786E8);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(296325, 20220100000000, '体育中心', 1413227, '8', 20200501050048, 1413260, '体育中心', 1000, 0.0, 87.2667, 87.2667, 87.2667, 87.2667, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(296326, 20220100000000, '体育中心', 1413227, '9', 20200501050048, 1413260, '体育中心', 1000, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(296328, 20220100000000, '价值工厂', 1413228, '8', 20200501050049, 1413262, '价值工厂', 1000, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(296332, 20220100000000, '仓库', 1413231, '2', 20200501050050, 1413270, '仓库', 1000, 3357.9333, 3724.6, 183.3333, 3724.6, 183.3333, 1.029684E7);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(296333, 20220100000000, '仓库', 1413231, '4', 20200501050050, 1413270, '仓库', 1000, 5327.6667, 37745.4, 33837.1, 37745.4, 33837.1, 3.63682786E8);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(296692, 20220100000000, '体育中心', 1413227, '8', 20200601050208, 1413260, '体育中心', 1000, 0.0, 214.9677, 214.9677, 302.2344, 302.2344, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(296693, 20220100000000, '体育中心', 1413227, '9', 20200601050208, 1413260, '体育中心', 1000, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(296695, 20220100000000, '价值工厂', 1413228, '8', 20200601050209, 1413262, '价值工厂', 1000, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(296699, 20220100000000, '仓库', 1413231, '2', 20200601050212, 1413270, '仓库', 1000, 8271.7419, 9174.9677, 451.6129, 12899.5677, 634.9462, 2120000.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(296700, 20220100000000, '仓库', 1413231, '4', 20200601050213, 1413270, '仓库', 1000, 13123.871, 92979.871, 83352.3871, 130725.271, 117189.4871, 3.64855699E8);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(297057, 20220100000000, '体育中心', 1413227, '8', 20200701050251, 1413260, '体育中心', 1000, 0.0, 238.0, 238.0, 540.2344, 540.2344, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(297058, 20220100000000, '体育中心', 1413227, '9', 20200701050251, 1413260, '体育中心', 1000, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(297060, 20220100000000, '价值工厂', 1413228, '8', 20200701050253, 1413262, '价值工厂', 1000, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(297064, 20220100000000, '仓库', 1413231, '2', 20200701050256, 1413270, '仓库', 1000, 9158.0, 10158.0, 500.0, 23057.5677, 1134.9462, 2120000.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(297065, 20220100000000, '仓库', 1413231, '4', 20200701050257, 1413270, '仓库', 1000, 14530.0, 102942.0, 92283.0, 233667.271, 209472.4871, 3.64855699E8);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(297432, 20220100000000, '体育中心', 1413227, '8', 20200801050322, 1413260, '体育中心', 1000, 0.0, 184.2581, 184.2581, 724.4925, 724.4925, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(297433, 20220100000000, '体育中心', 1413227, '9', 20200801050323, 1413260, '体育中心', 1000, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(297435, 20220100000000, '价值工厂', 1413228, '8', 20200801050325, 1413262, '价值工厂', 1000, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(297439, 20220100000000, '仓库', 1413231, '2', 20200801050329, 1413270, '仓库', 1000, 7090.0645, 7864.2581, 387.0968, 30921.8258, 1522.043, 2120000.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(297440, 20220100000000, '仓库', 1413231, '4', 20200801050330, 1413270, '仓库', 1000, 11249.0323, 79697.0323, 71444.9032, 313364.3033, 280917.3903, 3.64855699E8);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(297802, 20220800000000, '体育中心', 1413227, '8', 20200901050409, 1413260, '体育中心', 1000, 0.0, 238.0, 238.0, 962.4925, 962.4925, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(297803, 20220800000000, '体育中心', 1413227, '9', 20200901050410, 1413260, '体育中心', 1000, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(297805, 20220800000000, '价值工厂', 1413228, '8', 20200901050413, 1413262, '价值工厂', 1000, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(297809, 20220800000000, '仓库', 1413231, '2', 20200901050417, 1413270, '仓库', 1000, 9158.0, 10158.0, 500.0, 41079.8258, 2022.043, 2120000.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(297810, 20220800000000, '仓库', 1413231, '4', 20200901050419, 1413270, '仓库', 1000, 14530.0, 102942.0, 92283.0, 416306.3033, 373200.3903, 3.64855699E8);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(298172, 20220900000000, '体育中心', 1413227, '8', 20221001050306, 1413260, '体育中心', 1000, 0.0, 90.0, 90.0, 1052.4925, 1052.4925, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(298173, 20220900000000, '体育中心', 1413227, '9', 20221001050307, 1413260, '体育中心', 1000, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(298175, 20220900000000, '价值工厂', 1413228, '8', 20221001050311, 1413262, '价值工厂', 1000, 500.0, 500.0, 0.0, 500.0, 0.0, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(298179, 20220900000000, '仓库', 1413231, '2', 20201001050455, 1413270, '仓库', 1000, 9158.0, 10158.0, 500.0, 51237.8258, 2522.043, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(298180, 20220900000000, '仓库', 1413231, '4', 20221001050315, 1413270, '仓库', 1000, 24957.76, 54755.48, 19349.17, 471061.7833, 392549.5603, 3.55651829E8);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(298548, 20221000000000, '体育中心', 1413227, '8', 20221101051541, 1413260, '体育中心', 1000, 0.0, 252.5806, 252.5806, 1305.0731, 1305.0731, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(298549, 20221000000000, '体育中心', 1413227, '9', 20221101051545, 1413260, '体育中心', 1000, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(298551, 20221000000000, '价值工厂', 1413228, '8', 20221101051607, 1413262, '价值工厂', 1000, 1403.2258, 1403.2258, 0.0, 1903.2258, 0.0, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(298555, 20221000000000, '仓库', 1413231, '2', 20201101050538, 1413270, '仓库', 1000, 8567.1613, 9502.6452, 467.7419, 60740.471, 2989.7849, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(298556, 20221000000000, '仓库', 1413231, '4', 20221101051629, 1413270, '仓库', 1000, 70042.7458, 153668.6052, 54302.5094, 624730.3885, 446852.0697, 3.56217253E8);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(298929, 20221100000000, '体育中心', 1413227, '8', 20221201051710, 1413260, '体育中心', 1000, 0.0, 270.0, 270.0, 1575.0731, 1575.0731, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(298930, 20221100000000, '体育中心', 1413227, '9', 20221201051715, 1413260, '体育中心', 1000, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(298932, 20221100000000, '价值工厂', 1413228, '8', 20221201051739, 1413262, '价值工厂', 1000, 1500.0, 1500.0, 0.0, 3403.2258, 0.0, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(298936, 20221100000000, '仓库', 1413231, '2', 20201201051110, 1413270, '仓库', 1000, 7936.9333, 8803.6, 433.3333, 69544.071, 3423.1182, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(298937, 20221100000000, '仓库', 1413231, '4', 20221201051803, 1413270, '仓库', 1000, 74873.28, 164266.44, 58047.51, 788996.8285, 504899.5797, 3.56217253E8);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(299308, 20221200000000, '体育中心', 1413227, '8', 20220101051951, 1413260, '体育中心', 1000, 0.0, 243.871, 243.871, 1818.9441, 1818.9441, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(299309, 20221200000000, '体育中心', 1413227, '9', 20220101051956, 1413260, '体育中心', 1000, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(299311, 20221200000000, '价值工厂', 1413228, '8', 20220101052023, 1413262, '价值工厂', 1000, 1354.8387, 1354.8387, 0.0, 4758.0645, 0.0, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(299315, 20221200000000, '仓库', 1413231, '2', 20220101051230, 1413270, '仓库', 1000, 9158.0, 10158.0, 500.0, 79702.071, 3923.1182, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(299316, 20221200000000, '仓库', 1413231, '4', 20220101052050, 1413270, '仓库', 1000, 67627.4787, 148369.6877, 52430.009, 937366.5162, 557329.5887, 3.56217253E8);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390146, 20220900000000, '价值工厂', 1413228, '1', 20221001050308, 1413262, '价值工厂', 1000, 3843.5433, 3843.5433, 3843.5433, 3843.5433, 3843.5433, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390147, 20220900000000, '价值工厂', 1413228, '2', 20221001050309, 1413262, '价值工厂', 1000, 81.9567, 81.9567, 0.0, 81.9567, 0.0, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390148, 20220900000000, '价值工厂', 1413228, '5', 20221001050310, 1413262, '价值工厂', 1000, 47.24, 6.6667, 6.6667, 6.6667, 6.6667, 200000.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390149, 20220900000000, '价值工厂', 1413228, '11', 20221001050312, 1413262, '价值工厂', 1000, 822.7367, 822.7367, 822.7367, 822.7367, 822.7367, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390150, 20220900000000, '仓库', 1413231, '8', 20221001050316, 1413270, '仓库', 1000, 54204.6667, 4.6667, 1.3333, 4.6667, 1.3333, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390236, 20220900000000, '万维大厦', 1431199, '3', 20221001050630, 1431205, '万维大厦', 1000, 200.87, 200.87, 200.87, 200.87, 200.87, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390237, 20220900000000, '万维大厦', 1431199, '8', 20221001050631, 1431205, '万维大厦', 1000, 0.0, 33.3333, 33.3333, 33.3333, 33.3333, 6670000.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390238, 20220900000000, '万维大厦', 1431199, '9', 20221001050631, 1431205, '万维大厦', 1000, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390239, 20220900000000, '万维大厦', 1431199, '11', 20221001050632, 1431205, '万维大厦', 1000, 4437.6767, 4437.6767, 4018.8367, 4437.6767, 4018.8367, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390240, 20220900000000, '万融大厦', 1431201, '1', 20221001050633, 1431202, '万融大厦', 1000, 388.6433, 388.6433, 0.0, 388.6433, 0.0, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390241, 20220900000000, '万融大厦', 1431201, '3', 20221001050634, 1431202, '万融大厦', 1000, 596.07, 596.07, 444.5633, 596.07, 444.5633, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390242, 20220900000000, '万融大厦', 1431201, '8', 20221001050635, 1431202, '万融大厦', 1000, 5.2, 5.2, 5.2, 5.2, 5.2, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390243, 20220900000000, '万融大厦', 1431201, '9', 20221001050636, 1431202, '万融大厦', 1000, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390244, 20220900000000, '万融大厦', 1431201, '11', 20221001050637, 1431202, '万融大厦', 1000, 11464.29, 11530.9567, 9932.6267, 11530.9567, 9932.6267, 1000000.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390245, 20220900000000, '万海大厦', 1431203, '8', 20221001050637, 1430201, '万海大厦', 1000, 0.0, 0.0, 0.0, 0.0, 0.0, 4.20333E7);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390246, 20220900000000, '万海大厦', 1431203, '9', 20221001050638, 1430201, '万海大厦', 1000, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390247, 20220900000000, '万海大厦', 1431203, '11', 20221001050639, 1430201, '万海大厦', 1000, 16165.6667, 16027.1367, 14013.4167, 16027.1367, 14013.4167, 3727880.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390267, 20220900000000, '万融大厦-商业', 1432229, '1', 20221001050656, 1432230, '万融大厦-商业', 1000, 1745.5967, 1745.5967, 1356.9533, 1745.5967, 1356.9533, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390268, 20220900000000, '万融大厦-商业', 1432229, '8', 20221001050657, 1432230, '万融大厦-商业', 1000, 7.88, 7.88, 7.88, 7.88, 7.88, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390269, 20220900000000, '万维大厦-商业', 1432231, '1', 20221001050658, 1432232, '万维大厦-商业', 1000, 178.6767, 178.6767, 178.6767, 178.6767, 178.6767, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390282, 20220900000000, '万海大厦-商业', 1433224, '1', 20221001050709, 1433225, '万海大厦-商业', 1000, 1191.6567, 1191.6567, 900.0167, 1191.6567, 900.0167, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390359, 20220900000000, '体育中心', 1413227, '0', 20221001050305, 1413260, '体育中心', 1000, 73.3333, 73.3333, 73.3333, 73.3333, 73.3333, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390360, 20220900000000, '价值工厂', 1413228, '0', 20221001050308, 1413262, '价值工厂', 1000, 1017.1167, 1017.1167, 1017.1167, 1017.1167, 1017.1167, 1.31993E7);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390362, 20220900000000, '仓库', 1413231, '0', 20221001050315, 1413270, '仓库', 1000, 2161.0, 2161.0, 1004.3333, 2161.0, 1004.3333, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390383, 20220900000000, '万维大厦-商业', 1432231, '15', 20221001050659, 1432232, '万维大厦-商业', 1000, 153.2033, 153.2033, 153.2033, 153.2033, 153.2033, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390384, 20220900000000, '万海大厦-商业', 1433224, '15', 20221001050710, 1433225, '万海大厦-商业', 1000, 191.4267, 191.4267, 191.4267, 191.4267, 191.4267, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390506, 20221000000000, '体育中心', 1413227, '0', 20221101051537, 1413260, '体育中心', 1000, 205.8065, 205.8065, 205.8065, 279.1398, 279.1398, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390507, 20221000000000, '价值工厂', 1413228, '0', 20221101051550, 1413262, '价值工厂', 1000, 2854.4887, 2854.4887, 2854.4887, 3871.6054, 3871.6054, 1.31993E7);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390508, 20221000000000, '价值工厂', 1413228, '1', 20221101051554, 1413262, '价值工厂', 1000, 10786.7184, 10786.7184, 10786.7184, 14630.2617, 14630.2617, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390509, 20221000000000, '价值工厂', 1413228, '2', 20221101051558, 1413262, '价值工厂', 1000, 230.0074, 230.0074, 0.0, 311.9641, 0.0, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390510, 20221000000000, '价值工厂', 1413228, '5', 20221101051603, 1413262, '价值工厂', 1000, 132.5768, 18.7097, 18.7097, 25.3764, 25.3764, 200000.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390511, 20221000000000, '价值工厂', 1413228, '11', 20221101051611, 1413262, '价值工厂', 1000, 2308.9706, 2308.9706, 2308.9706, 3131.7073, 3131.7073, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390513, 20221000000000, '仓库', 1413231, '0', 20221101051624, 1413270, '仓库', 1000, 6064.7419, 6064.7419, 2818.6129, 8225.7419, 3822.9462, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390514, 20221000000000, '仓库', 1413231, '8', 20221101051633, 1413270, '仓库', 1000, 152122.7742, 13.0968, 3.7419, 17.7635, 5.0752, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390615, 20221000000000, '万维大厦', 1431199, '3', 20221101053238, 1431205, '万维大厦', 1000, 563.7319, 563.7319, 563.7319, 764.6019, 764.6019, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390616, 20221000000000, '万维大厦', 1431199, '8', 20221101053242, 1431205, '万维大厦', 1000, 0.0, 0.0, 0.0, 33.3333, 33.3333, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390617, 20221000000000, '万维大厦', 1431199, '9', 20221101053247, 1431205, '万维大厦', 1000, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390618, 20221000000000, '万维大厦', 1431199, '11', 20221101053251, 1431205, '万维大厦', 1000, 12454.1248, 12454.1248, 11278.6706, 16891.8015, 15297.5073, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390619, 20221000000000, '万融大厦', 1431201, '1', 20221101053255, 1431202, '万融大厦', 1000, 1090.7087, 1090.7087, 0.0, 1479.352, 0.0, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390620, 20221000000000, '万融大厦', 1431201, '3', 20221101053300, 1431202, '万融大厦', 1000, 1672.8416, 1672.8416, 1247.6455, 2268.9116, 1692.2088, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390621, 20221000000000, '万融大厦', 1431201, '8', 20221101053304, 1431202, '万融大厦', 1000, 14.5935, 14.5935, 14.5935, 19.7935, 19.7935, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390622, 20221000000000, '万融大厦', 1431201, '9', 20221101053308, 1431202, '万融大厦', 1000, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390623, 20221000000000, '万融大厦', 1431201, '11', 20221101053313, 1431202, '万融大厦', 1000, 32173.9752, 32361.0719, 27875.4361, 43892.0286, 37808.0628, 1000000.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390624, 20221000000000, '万海大厦', 1431203, '8', 20221101053317, 1430201, '万海大厦', 1000, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390625, 20221000000000, '万海大厦', 1431203, '9', 20221101053321, 1430201, '万海大厦', 1000, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390626, 20221000000000, '万海大厦', 1431203, '11', 20221101053326, 1430201, '万海大厦', 1000, 45368.1613, 44979.3835, 39327.9758, 61006.5202, 53341.3925, 1.8894032E7);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390646, 20221000000000, '万融大厦-商业', 1432229, '1', 20221101053451, 1432230, '万融大厦-商业', 1000, 4898.9326, 4898.9326, 3808.2239, 6644.5293, 5165.1772, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390647, 20221000000000, '万融大厦-商业', 1432229, '8', 20221101053456, 1432230, '万融大厦-商业', 1000, 22.1148, 22.1148, 22.1148, 29.9948, 29.9948, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390648, 20221000000000, '万维大厦-商业', 1432231, '1', 20221101053500, 1432232, '万维大厦-商业', 1000, 501.4474, 501.4474, 501.4474, 680.1241, 680.1241, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390649, 20221000000000, '万维大厦-商业', 1432231, '15', 20221101053504, 1432232, '万维大厦-商业', 1000, 429.9577, 429.9577, 429.9577, 583.161, 583.161, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390661, 20221000000000, '万海大厦-商业', 1433224, '1', 20221101053556, 1433225, '万海大厦-商业', 1000, 3344.3268, 3344.3268, 2525.8532, 4535.9835, 3425.8699, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390662, 20221000000000, '万海大厦-商业', 1433224, '15', 20221101053600, 1433225, '万海大厦-商业', 1000, 537.2297, 537.2297, 537.2297, 728.6564, 728.6564, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390796, 20221100000000, '体育中心', 1413227, '0', 20221201051705, 1413260, '体育中心', 1000, 220.0, 220.0, 220.0, 499.1398, 499.1398, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390797, 20221100000000, '价值工厂', 1413228, '0', 20221201051720, 1413262, '价值工厂', 1000, 3051.35, 3051.35, 3051.35, 6922.9554, 6922.9554, 1.32954E7);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390798, 20221100000000, '价值工厂', 1413228, '1', 20221201051725, 1413262, '价值工厂', 1000, 11530.63, 11530.63, 11530.63, 26160.8917, 26160.8917, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390799, 20221100000000, '价值工厂', 1413228, '2', 20221201051729, 1413262, '价值工厂', 1000, 245.87, 245.87, 0.0, 557.8341, 0.0, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390800, 20221100000000, '价值工厂', 1413228, '5', 20221201051734, 1413262, '价值工厂', 1000, 141.72, 20.0, 20.0, 45.3764, 45.3764, 200000.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390801, 20221100000000, '价值工厂', 1413228, '11', 20221201051744, 1413262, '价值工厂', 1000, 2468.21, 2468.21, 2468.21, 5599.9173, 5599.9173, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390803, 20221100000000, '仓库', 1413231, '0', 20221201051759, 1413270, '仓库', 1000, 6483.0, 6483.0, 3013.0, 14708.7419, 6835.9462, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390804, 20221100000000, '仓库', 1413231, '8', 20221201051808, 1413270, '仓库', 1000, 162614.0, 14.0, 4.0, 31.7635, 9.0752, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390906, 20221100000000, '万维大厦', 1431199, '3', 20221201053551, 1431205, '万维大厦', 1000, 602.61, 602.61, 602.61, 1367.2119, 1367.2119, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390907, 20221100000000, '万维大厦', 1431199, '8', 20221201053555, 1431205, '万维大厦', 1000, 0.0, 0.0, 0.0, 33.3333, 33.3333, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390908, 20221100000000, '万维大厦', 1431199, '9', 20221201053559, 1431205, '万维大厦', 1000, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390909, 20221100000000, '万维大厦', 1431199, '11', 20221201053604, 1431205, '万维大厦', 1000, 13313.03, 13313.03, 12056.51, 30204.8315, 27354.0173, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390910, 20221100000000, '万融大厦', 1431201, '1', 20221201053609, 1431202, '万融大厦', 1000, 1165.93, 1165.93, 0.0, 2645.282, 0.0, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390911, 20221100000000, '万融大厦', 1431201, '3', 20221201053613, 1431202, '万融大厦', 1000, 1788.21, 1788.21, 1333.69, 4057.1216, 3025.8988, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390912, 20221100000000, '万融大厦', 1431201, '8', 20221201053618, 1431202, '万融大厦', 1000, 15.6, 15.6, 15.6, 35.3935, 35.3935, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390913, 20221100000000, '万融大厦', 1431201, '9', 20221201053622, 1431202, '万融大厦', 1000, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390914, 20221100000000, '万融大厦', 1431201, '11', 20221201053627, 1431202, '万融大厦', 1000, 34392.87, 34519.5367, 29724.5467, 78411.5653, 67532.6095, 366700.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390915, 20221100000000, '万海大厦', 1431203, '8', 20221201053631, 1430201, '万海大厦', 1000, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390916, 20221100000000, '万海大厦', 1431203, '9', 20221201053636, 1430201, '万海大厦', 1000, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390917, 20221100000000, '万海大厦', 1431203, '11', 20221201053640, 1430201, '万海大厦', 1000, 48497.0, 48081.41, 42040.25, 109087.9302, 95381.6425, 1.8894032E7);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390937, 20221100000000, '万融大厦-商业', 1432229, '1', 20221201053814, 1432230, '万融大厦-商业', 1000, 5236.79, 5236.79, 4070.86, 11881.3193, 9236.0372, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390938, 20221100000000, '万融大厦-商业', 1432229, '8', 20221201053819, 1432230, '万融大厦-商业', 1000, 23.64, 23.64, 23.64, 53.6348, 53.6348, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390939, 20221100000000, '万维大厦-商业', 1432231, '1', 20221201053824, 1432232, '万维大厦-商业', 1000, 536.03, 536.03, 536.03, 1216.1541, 1216.1541, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390940, 20221100000000, '万维大厦-商业', 1432231, '15', 20221201053829, 1432232, '万维大厦-商业', 1000, 459.61, 459.61, 459.61, 1042.771, 1042.771, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390952, 20221100000000, '万海大厦-商业', 1433224, '1', 20221201053923, 1433225, '万海大厦-商业', 1000, 3574.97, 3574.97, 2700.05, 8110.9535, 6125.9199, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(390953, 20221100000000, '万海大厦-商业', 1433224, '15', 20221201053928, 1433225, '万海大厦-商业', 1000, 574.28, 574.28, 574.28, 1302.9364, 1302.9364, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(391089, 20221200000000, '体育中心', 1413227, '0', 20220101051946, 1413260, '体育中心', 1000, 198.7097, 198.7097, 198.7097, 697.8495, 697.8495, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(391090, 20221200000000, '价值工厂', 1413228, '0', 20220101052002, 1413262, '价值工厂', 1000, 2756.0581, 2756.0581, 2756.0581, 9679.0135, 9679.0135, 1.32954E7);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(391091, 20221200000000, '价值工厂', 1413228, '1', 20220101052007, 1413262, '价值工厂', 1000, 10414.7626, 10414.7626, 10414.7626, 36575.6543, 36575.6543, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(391092, 20221200000000, '价值工厂', 1413228, '2', 20220101052013, 1413262, '价值工厂', 1000, 222.0761, 222.0761, 0.0, 779.9102, 0.0, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(391093, 20221200000000, '价值工厂', 1413228, '5', 20220101052018, 1413262, '价值工厂', 1000, 128.0052, 18.0645, 18.0645, 63.4409, 63.4409, 200000.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(391094, 20221200000000, '价值工厂', 1413228, '11', 20220101052028, 1413262, '价值工厂', 1000, 2229.351, 2229.351, 2229.351, 7829.2683, 7829.2683, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(391096, 20221200000000, '仓库', 1413231, '0', 20220101052044, 1413270, '仓库', 1000, 5855.6129, 5855.6129, 2721.4194, 20564.3548, 9557.3656, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(391097, 20221200000000, '仓库', 1413231, '8', 20220101052055, 1413270, '仓库', 1000, 146877.1613, 12.6452, 3.6129, 44.4087, 12.6881, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(391200, 20221200000000, '万维大厦', 1431199, '3', 20220101054051, 1431205, '万维大厦', 1000, 544.2929, 544.2929, 544.2929, 1911.5048, 1911.5048, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(391201, 20221200000000, '万维大厦', 1431199, '8', 20220101054057, 1431205, '万维大厦', 1000, 0.0, 0.0, 0.0, 33.3333, 33.3333, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(391202, 20221200000000, '万维大厦', 1431199, '9', 20220101054102, 1431205, '万维大厦', 1000, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(391203, 20221200000000, '万维大厦', 1431199, '11', 20220101054107, 1431205, '万维大厦', 1000, 12024.6723, 12024.6723, 10889.751, 42229.5038, 38243.7683, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(391204, 20221200000000, '万融大厦', 1431201, '1', 20220101054113, 1431202, '万融大厦', 1000, 1053.0981, 1053.0981, 0.0, 3698.3801, 0.0, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(391205, 20221200000000, '万融大厦', 1431201, '3', 20220101054118, 1431202, '万融大厦', 1000, 1615.1574, 1615.1574, 1204.6232, 5672.279, 4230.522, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(391206, 20221200000000, '万融大厦', 1431201, '8', 20220101054124, 1431202, '万融大厦', 1000, 14.0903, 14.0903, 14.0903, 49.4838, 49.4838, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(391207, 20221200000000, '万融大厦', 1431201, '9', 20220101054129, 1431202, '万融大厦', 1000, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(391208, 20221200000000, '万融大厦', 1431201, '11', 20220101054134, 1431202, '万融大厦', 1000, 31064.5277, 31064.5277, 26733.569, 109476.093, 94266.1785, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(391209, 20221200000000, '万海大厦', 1431203, '8', 20220101054140, 1430201, '万海大厦', 1000, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(391210, 20221200000000, '万海大厦', 1431203, '9', 20220101054145, 1430201, '万海大厦', 1000, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(391211, 20221200000000, '万海大厦', 1431203, '11', 20220101054151, 1430201, '万海大厦', 1000, 43803.7419, 43421.1187, 37964.5871, 152509.0489, 133346.2296, 1.7785152E7);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(391231, 20221200000000, '万融大厦-商业', 1432229, '1', 20220101054337, 1432230, '万融大厦-商业', 1000, 4730.0039, 4730.0039, 3676.9058, 16611.3232, 12912.943, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(391232, 20221200000000, '万融大厦-商业', 1432229, '8', 20220101054342, 1432230, '万融大厦-商业', 1000, 21.3523, 21.3523, 21.3523, 74.9871, 74.9871, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(391233, 20221200000000, '万维大厦-商业', 1432231, '1', 20220101054348, 1432232, '万维大厦-商业', 1000, 484.1561, 484.1561, 484.1561, 1700.3102, 1700.3102, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(391234, 20221200000000, '万维大厦-商业', 1432231, '15', 20220101054353, 1432232, '万维大厦-商业', 1000, 415.1316, 415.1316, 415.1316, 1457.9026, 1457.9026, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(391246, 20221200000000, '万海大厦-商业', 1433224, '1', 20220101054457, 1433225, '万海大厦-商业', 1000, 3229.0052, 3229.0052, 2438.7548, 11339.9587, 8564.6747, 0.0);
+INSERT INTO lease_stat.zl_business_trend
+(id, total_date, proj_name, proj_id, res_purpose, sync_time, organ_id, organ_name, group_id, build_area, able_area, able_already_area, able_area_sum, able_already_area_sum, rent)
+VALUES(391247, 20221200000000, '万海大厦-商业', 1433224, '15', 20220101054502, 1433225, '万海大厦-商业', 1000, 518.7045, 518.7045, 518.7045, 1821.6409, 1821.6409, 0.0);
