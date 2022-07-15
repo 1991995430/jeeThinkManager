@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: segi.common.ice:ice-user-client:1.3.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../maven/LocalRepository/segi/common/ice/ice-user-client/1.3.5/ice-user-client-1.3.5.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../maven/LocalRepository/segi/common/ice/ice-user-client/1.3.5/ice-user-client-1.3.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../maven/LocalRepository/segi/common/ice/ice-user-client/1.3.5/ice-user-client-1.3.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
