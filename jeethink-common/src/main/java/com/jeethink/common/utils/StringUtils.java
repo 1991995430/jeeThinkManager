@@ -1,13 +1,28 @@
 package com.jeethink.common.utils;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.math.BigDecimal;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.*;
+import java.util.stream.Collectors;
 
 import com.jeethink.common.core.text.StrFormatter;
+import ma.glasnost.orika.MapperFacade;
+import ma.glasnost.orika.MapperFactory;
+import ma.glasnost.orika.impl.DefaultMapperFactory;
+import org.apache.commons.collections4.CollectionUtils;
+import org.csource.common.MyException;
+import org.csource.common.NameValuePair;
+import org.csource.fastdfs.*;
+import org.junit.Test;
+import org.springframework.beans.BeanUtils;
+import org.springframework.context.ApplicationContext;
+import org.springframework.scheduling.annotation.Async;
+import org.springframework.transaction.annotation.Transactional;
+import org.springframework.util.StopWatch;
+import segi.common.user.rel.PaginatorICE;
 
 /**
  * 字符串工具类
@@ -54,6 +69,348 @@ public class StringUtils extends org.apache.commons.lang3.StringUtils
     {
         return !isEmpty(coll);
     }
+
+    @Test
+    public void aa () {
+        try {
+            ClientGlobal.initByProperties("fastdfs.properties");
+            TrackerClient trackerClient = new TrackerClient();
+            //根据tracker客户端创建连接,获取到跟踪服务器对象
+            TrackerServer trackerServer = trackerClient.getConnection();
+            StorageServer storageServer = null;
+            //定义storage客户端
+            StorageClient1 storageClient1 = new StorageClient1(trackerServer, storageServer);
+            //文件元信息
+            NameValuePair[] nameValuePairs = new NameValuePair[1];
+            nameValuePairs[0] = new NameValuePair("fileName", "销售车位台账001.xlsx");
+            //上传,返回fileId
+            String fileId = storageClient1.upload_file1("D:\\fastdfs\\销售车位台账001.xlsx", "xlsx", nameValuePairs);
+            System.out.println(fileId);
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (MyException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Test
+    public void testQuery() throws IOException, MyException {
+        //加载配置文件
+        ClientGlobal.initByProperties("fastdfs.properties");
+        //创建tracker客户端
+        TrackerClient trackerClient = new TrackerClient();
+        //根据tracker客户端创建连接,获取到跟踪服务器对象
+        TrackerServer trackerServer = trackerClient.getConnection();
+        StorageServer storageServer = null;
+        //定义storage客户端
+        StorageClient1 storageClient1 = new StorageClient1(trackerServer, storageServer);
+        //查询文件信息
+        FileInfo fileInfo = storageClient1.query_file_info1("group1/M0A/00/7A/wKgBB2K76UOATNp7ABtltZzzoTA75.xlsx");
+        System.out.println(fileInfo);
+    }
+
+    @Test
+    public void testDownload() throws IOException, MyException {
+        //加载配置文件
+        ClientGlobal.initByProperties("fastdfs.properties");
+        //创建tracker客户端
+        TrackerClient trackerClient = new TrackerClient();
+        //根据tracker客户端创建连接
+        TrackerServer trackerServer = trackerClient.getConnection();
+        StorageServer storageServer = null;
+        //定义storage客户端
+        StorageClient1 storageClient = new StorageClient1(trackerServer, storageServer);
+
+        String downLoadUrl = "group1/M0A/00/7A/wKgBB2K76UOATNp7ABtltZzzoTA75.xlsx";
+        // downLoad(storageClient, downLoadUrl);
+        System.out.println("下载中，请稍后查看。。。");
+    }
+
+    public static void main(String[] args) throws MyException, IOException {
+        //加载配置文件
+        ClientGlobal.initByProperties("fastdfs.properties");
+        //创建tracker客户端
+        TrackerClient trackerClient = new TrackerClient();
+        //根据tracker客户端创建连接
+        TrackerServer trackerServer = trackerClient.getConnection();
+        StorageServer storageServer = null;
+        //定义storage客户端
+        StorageClient1 storageClient = new StorageClient1(trackerServer, storageServer);
+
+        String downLoadUrl = "group1/M0A/00/7A/wKgBB2K76UOATNp7ABtltZzzoTA75.xlsx";
+        AsyncUtils asyncUtils = new AsyncUtils();
+        asyncUtils.downLoad(storageClient, downLoadUrl);
+
+        /*new Thread(() -> {
+            System.out.println("异步任务开始。。。");
+            //下载
+            byte[] bytes;
+            try {
+                bytes = storageClient.download_file1(downLoadUrl);
+                FileOutputStream fileOutputStream = new FileOutputStream("D:\\fastdfs\\销售车位台账010.xlsx");
+                fileOutputStream.write(bytes);
+                fileOutputStream.close();
+            } catch (IOException | MyException e) {
+                e.printStackTrace();
+            }
+            System.out.println("异步任务结束。。。");
+        }).start();*/
+        System.out.println("下载中，请稍后查看1111。。。");
+    }
+
+
+
+    @Test
+    public void test1() {
+        /*List<Long> houseIdList = new ArrayList<>();
+        houseIdList.add(11L);
+        houseIdList.add(13L);
+        houseIdList.add(15L);
+        houseIdList.add(12L);
+        System.out.println(new BigDecimal("25.32"));
+        System.out.println(StringUtils.join(houseIdList, ","));*/
+
+        MapperFactory mapperFactory = new DefaultMapperFactory.Builder().build();
+        MapperFacade mapper = mapperFactory.getMapperFacade();
+        stuResInfoV2  s = new stuResInfoV2();
+        s.setLandArea("25.36");
+        // ResExt resExt = new ResExt();
+        ResExt resExt = mapper.map(s, ResExt.class);
+        if (s.getLandArea() != null) {
+            resExt.setLandArea(new BigDecimal(s.getLandArea()));
+        }
+
+        BeanUtils.copyProperties(s, resExt);
+        System.out.println(resExt.getLandArea());
+    }
+
+    @Test
+    public void test062901() {
+
+        ResUseDirectionReportDto res1 = new ResUseDirectionReportDto();
+        res1.setSecondCompanyName("北海1");
+        res1.setCity("南京");
+        res1.setCommunityId(112L);
+        res1.setIdleCount(12);
+        res1.setRentedCount(18);
+        res1.setUnRentedCount(16);
+        res1.setHelpOneselfCount(11);
+
+        ResUseDirectionReportDto res7 = new ResUseDirectionReportDto();
+        res7.setSecondCompanyName("北海6");
+        res7.setCity("南京");
+        res7.setCommunityId(113L);
+        res7.setIdleCount(1);
+        res7.setRentedCount(1);
+        res7.setUnRentedCount(1);
+        res7.setHelpOneselfCount(1);
+
+        ResUseDirectionReportDto res2 = new ResUseDirectionReportDto();
+        res2.setSecondCompanyName("北海2");
+        res2.setCity("南京");
+        res2.setCommunityId(113L);
+        res2.setIdleCount(1);
+        res2.setRentedCount(15);
+        res2.setUnRentedCount(16);
+        res2.setHelpOneselfCount(17);
+
+        ResUseDirectionReportDto res9 = new ResUseDirectionReportDto();
+        res9.setSecondCompanyName("北海6");
+        res9.setCity("南京");
+        res9.setCommunityId(113L);
+        res9.setIdleCount(88);
+        res9.setRentedCount(88);
+        res9.setUnRentedCount(88);
+        res9.setHelpOneselfCount(88);
+
+        ResUseDirectionReportDto res4 = new ResUseDirectionReportDto();
+        res4.setSecondCompanyName("北海1");
+        res4.setCity("南京");
+        res4.setCommunityId(113L);
+        res4.setIdleCount(1);
+        res4.setRentedCount(15);
+        res4.setUnRentedCount(16);
+        res4.setHelpOneselfCount(17);
+
+        ResUseDirectionReportDto res8 = new ResUseDirectionReportDto();
+        res8.setSecondCompanyName("中海2");
+        res8.setCity("广东");
+        res8.setCommunityId(113L);
+        res8.setIdleCount(22);
+        res8.setRentedCount(15);
+        res8.setUnRentedCount(16);
+        res8.setHelpOneselfCount(17);
+
+        ResUseDirectionReportDto res5 = new ResUseDirectionReportDto();
+        res5.setSecondCompanyName("北海2");
+        res5.setCity("南京");
+        res5.setCommunityId(113L);
+        res5.setIdleCount(1);
+        res5.setRentedCount(15);
+        res5.setUnRentedCount(16);
+        res5.setHelpOneselfCount(17);
+
+        ResUseDirectionReportDto res10 = new ResUseDirectionReportDto();
+        res10.setSecondCompanyName("中海1");
+        res10.setCity("广东");
+        res10.setCommunityId(113L);
+        res10.setIdleCount(22);
+        res10.setRentedCount(15);
+        res10.setUnRentedCount(16);
+        res10.setHelpOneselfCount(17);
+
+        ResUseDirectionReportDto res6 = new ResUseDirectionReportDto();
+        res6.setSecondCompanyName("北海6");
+        res6.setCity("南京");
+        res6.setCommunityId(113L);
+        res6.setIdleCount(1);
+        res6.setRentedCount(15);
+        res6.setUnRentedCount(16);
+        res6.setHelpOneselfCount(17);
+        ResUseDirectionReportDto res0 = new ResUseDirectionReportDto();
+        res6.setSecondCompanyName("北海77");
+        res6.setCity("南京111");
+        res6.setCommunityId(113L);
+        res6.setIdleCount(1);
+        res6.setRentedCount(15);
+        res6.setUnRentedCount(16);
+        res6.setHelpOneselfCount(17);
+
+
+        ResUseDirectionReportDto res3 = new ResUseDirectionReportDto();
+        res3.setSecondCompanyName("中海1");
+        res3.setCity("广东");
+        res3.setCommunityId(113L);
+        res3.setIdleCount(22);
+        res3.setRentedCount(15);
+        res3.setUnRentedCount(16);
+        res3.setHelpOneselfCount(17);
+
+        ResUseDirectionReportDto res11 = new ResUseDirectionReportDto();
+        res11.setSecondCompanyName("中海1");
+        res11.setCity("深圳");
+        res11.setCommunityId(113L);
+        res11.setIdleCount(22);
+        res11.setRentedCount(15);
+        res11.setUnRentedCount(16);
+        res11.setHelpOneselfCount(17);
+
+        List<ResUseDirectionReportDto> list = new ArrayList<>();
+        list.add(res1);
+        list.add(res2);
+        list.add(res3);
+        list.add(res4);
+        list.add(res5);
+        list.add(res6);
+        list.add(res7);
+        list.add(res8);
+        list.add(res9);
+        list.add(res10);
+        list.add(res11);
+
+        List<Integer> aa1 = new ArrayList<>();
+        aa1.add(23);
+        aa1.add(1);
+        aa1.add(26);
+        System.out.println(aa1.stream().sorted().collect(Collectors.toList()));
+
+
+        for (int i = 0; i < list.size() ; i++) {
+            for (int j = i + 1; j < list.size(); j++) {
+                if (list.get(i).getSecondCompanyName().equals(list.get(j).getSecondCompanyName()) && list.get(i).getCity().equals(list.get(j).getCity())) {
+                    setNewCount(list.get(j), list.get(i));
+                    list.remove(j);
+                }
+            }
+        }
+
+        System.out.println(list.stream()
+                .sorted(Comparator.comparing(ResUseDirectionReportDto::getSecondCompanyName)).collect(Collectors.toList()));
+
+        List<ResUseDirectionReportDto> aa = new ArrayList<>();
+        List<ResUseDirectionReportDto> ppp = new ArrayList<>();
+        Map<String, ResUseDirectionReportDto> map = new HashMap<>();
+        list.forEach(resUseDirection -> {
+            if (map.containsKey(resUseDirection.getCity()) &&
+                    map.get(resUseDirection.getCity()).getSecondCompanyName().equals(resUseDirection.getSecondCompanyName())) {
+                // 同一个城市且上级分公司一致 数值叠加
+                ResUseDirectionReportDto reportDtoNew = map.get(resUseDirection.getCity());
+                setNewCount(resUseDirection, reportDtoNew);
+            } else if (map.containsKey(resUseDirection.getCity()) &&
+                    !map.get(resUseDirection.getCity()).getSecondCompanyName().equals(resUseDirection.getSecondCompanyName())) {
+                List<ResUseDirectionReportDto> bb = aa.stream().filter(var0 -> var0.getSecondCompanyName().equals(resUseDirection.getSecondCompanyName())).collect(Collectors.toList());
+                if (bb.size() > 0) {
+                    setNewCount(resUseDirection, bb.get(0));
+                } else {
+                    aa.add(resUseDirection);
+                }
+            } else {
+                map.put(resUseDirection.getCity(), resUseDirection);
+            }
+        });
+
+        ppp.addAll(map.values());
+        if (aa.size() > 0) {
+            ppp.addAll(aa);
+        }
+        // System.out.println(aa);
+        System.out.println("aaa");
+    }
+
+    @Test
+    public void test0712 () {
+        Date dateByStrDate = getDateByStrDate("2022-07-12");
+        String date = "2022-07-12";
+        StringBuilder bb = new StringBuilder();
+        for (String aa : date.split("-")) {
+            bb.append(aa);
+        }
+        System.out.println(bb);
+    }
+
+    public static Long getLongDate(Date date) {
+        SimpleDateFormat fmt = new SimpleDateFormat("yyyyMMddHHmmss");
+        return Long.valueOf(fmt.format(date));
+    }
+
+    public static Date getDateByStrDate(String strDate) {
+        return getDateByStrDate(strDate, "yyyy-MM-dd");
+    }
+
+    public static Date getDateByStrDate(String strDate,String pattern) {
+        try {
+            SimpleDateFormat fmt = new SimpleDateFormat(pattern);
+            return fmt.parse(strDate);
+        } catch (ParseException ex) {
+            return null;
+        }
+    }
+
+    private void setNewCount(ResUseDirectionReportDto resUseDirection, ResUseDirectionReportDto reportDtoNew) {
+        reportDtoNew.setRentedCount(Math.addExact(reportDtoNew.getRentedCount() == null ? 0 : reportDtoNew.getRentedCount(), resUseDirection.getRentedCount() == null ? 0 : resUseDirection.getRentedCount()));
+        reportDtoNew.setUnRentedCount(Math.addExact(reportDtoNew.getUnRentedCount() == null ? 0 : reportDtoNew.getUnRentedCount(), resUseDirection.getUnRentedCount() == null ? 0 : resUseDirection.getUnRentedCount()));
+        reportDtoNew.setHelpOneselfCount(Math.addExact(reportDtoNew.getHelpOneselfCount() == null ? 0 : reportDtoNew.getHelpOneselfCount(), resUseDirection.getHelpOneselfCount() == null ? 0 : resUseDirection.getHelpOneselfCount()));
+        reportDtoNew.setIdleCount(Math.addExact(reportDtoNew.getIdleCount() == null ? 0 : reportDtoNew.getIdleCount(), resUseDirection.getIdleCount() == null ? 0 : resUseDirection.getIdleCount()));
+        reportDtoNew.setRentedStandardCount(Math.addExact(reportDtoNew.getRentedStandardCount() == null ? 0 : reportDtoNew.getRentedStandardCount(), resUseDirection.getRentedStandardCount() == null ? 0 : resUseDirection.getRentedStandardCount()));
+        reportDtoNew.setUnRentedStandardCount(Math.addExact(reportDtoNew.getUnRentedStandardCount() == null ? 0 : reportDtoNew.getUnRentedStandardCount(), resUseDirection.getUnRentedStandardCount() == null ? 0 : resUseDirection.getUnRentedStandardCount()));
+        reportDtoNew.setHelpOneselfStandardCount(Math.addExact(reportDtoNew.getHelpOneselfStandardCount() == null ? 0 : reportDtoNew.getHelpOneselfStandardCount(), resUseDirection.getHelpOneselfStandardCount() == null ? 0 : resUseDirection.getHelpOneselfStandardCount()));
+        reportDtoNew.setIdleStandardCount(Math.addExact(reportDtoNew.getIdleStandardCount() == null ? 0 : reportDtoNew.getIdleStandardCount(), resUseDirection.getIdleStandardCount() == null ? 0 : resUseDirection.getIdleStandardCount()));
+    }
+
+    private void collectResData(List<ResUseDirectionReportDto> resUseDirectionReportDtoAll, List<ResUseDirectionReportDto> resUseDirectionStandardReportDto) {
+        for (ResUseDirectionReportDto var0 : resUseDirectionReportDtoAll) {
+            resUseDirectionStandardReportDto.forEach(var1 -> {
+                if (var0.getCommunityId().equals(var1.getCommunityId())) {
+                    var0.setIdleStandardCount(var1.getIdleStandardCount());
+                    var0.setRentedStandardCount(var1.getRentedStandardCount());
+                    var0.setUnRentedStandardCount(var1.getUnRentedStandardCount());
+                    var0.setHelpOneselfStandardCount(var1.getHelpOneselfStandardCount());
+                }
+            });
+        }
+    }
+
+
 
     /**
      * * 判断一个对象数组是否为空

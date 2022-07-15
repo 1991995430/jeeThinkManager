@@ -1,15 +1,25 @@
 package com.jeethink.system.service.test;
 
+import jdk.internal.org.objectweb.asm.Handle;
+
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class Test{
 
     public static void main(String[] args) {
 
-        String[] tokens = {"2","888","9","10","+","10","*","/","*","17","+","5","+"};
+        /*String[] tokens = {"2","888","9","10","+","10","*","/","*","17","+","5","+"};
         int i = evalRPN(tokens);
-        System.out.printf(i + "");
+        System.out.printf(i + "");*/
+        User user = new User();
+        user.setAge(12);
+        user.setName(null);
+        Map<String, Integer> aa = new HashMap<>();
+        aa.put("1", 1);
+        System.out.println(aa.get(user.getName()));
     }
 
     public static int evalRPN(String[] tokens) {

@@ -66,7 +66,7 @@ public class Test1025 {
 
         List<Integer> collect = integers.stream().distinct().collect(Collectors.toList());
 
-        System.out.println(collect.size());
+        // System.out.println(collect.size());
 
         /*for (Integer a : collect) {
             System.out.println(a);
@@ -77,7 +77,7 @@ public class Test1025 {
         map.put("2", 8888888);
         map.put("3", 6);
         map.put("4", 77777777);
-        System.out.println(map.get("2"));
+        // System.out.println(map.get("2"));
 
         /*Thread thread1 = new Thread(() -> {
             for (int i = 0; i < 100; i++) {
@@ -90,9 +90,8 @@ public class Test1025 {
             }
         });
         thread1.start();*/
-        System.out.println(getNextDate(2));
+        // System.out.println(getNextDate(2));
     }
-
 
     /**
      * 获取当前时间点指定几个月后的时间
