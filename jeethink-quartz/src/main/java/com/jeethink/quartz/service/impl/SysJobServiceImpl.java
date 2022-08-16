@@ -7,6 +7,8 @@ import org.quartz.JobKey;
 import org.quartz.Scheduler;
 import org.quartz.SchedulerException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.annotation.EnableScheduling;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -24,6 +26,7 @@ import com.jeethink.quartz.util.ScheduleUtils;
  * @author jeethink
  */
 @Service
+@EnableScheduling
 public class SysJobServiceImpl implements ISysJobService
 {
     @Autowired
@@ -251,5 +254,12 @@ public class SysJobServiceImpl implements ISysJobService
     public boolean checkCronExpressionIsValid(String cronExpression)
     {
         return CronUtils.isValid(cronExpression);
+    }
+
+    @Scheduled(cron = "0 * * * * ?")
+    public void push(){
+        System.out.println("*********************** 资源提醒检索开始 **********************");
+
+        System.out.println("*********************** 资源提醒检索结束 **********************");
     }
 }

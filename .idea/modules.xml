@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/jeethink-generator/jeethink-generator.iml" filepath="$PROJECT_DIR$/jeethink-generator/jeethink-generator.iml" />
       <module fileurl="file://$PROJECT_DIR$/jeethink-quartz/jeethink-quartz.iml" filepath="$PROJECT_DIR$/jeethink-quartz/jeethink-quartz.iml" />
       <module fileurl="file://$PROJECT_DIR$/jeethink-system/jeethink-system.iml" filepath="$PROJECT_DIR$/jeethink-system/jeethink-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jeethinktest/jeethinktest.iml" filepath="$PROJECT_DIR$/jeethinktest/jeethinktest.iml" />
     </modules>
   </component>
 </project>

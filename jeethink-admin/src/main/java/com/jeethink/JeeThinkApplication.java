@@ -10,7 +10,8 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
  * @author jeethink
  */
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
-public class JeeThinkApplication {
+public class
+JeeThinkApplication {
     public static void main(String[] args) {
         // System.setProperty("spring.devtools.restart.enabled", "false");
         SpringApplication.run(JeeThinkApplication.class, args);
