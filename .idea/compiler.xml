@@ -9,9 +9,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="jeethink-common" />
         <module name="jeethink-quartz" />
+        <module name="ssmodule" />
         <module name="jeethink-generator" />
         <module name="jeethink-framework" />
-        <module name="jeethinktest" />
+        <module name="ss-0819" />
         <module name="jeethink-system" />
         <module name="jeethink-admin" />
         <module name="demo" />
@@ -26,7 +27,10 @@
       <module name="jeethink-generator" target="1.8" />
       <module name="jeethink-quartz" target="1.8" />
       <module name="jeethink-system" target="1.8" />
-      <module name="jeethinktest" target="1.8" />
+      <module name="ss-0819" target="1.8" />
+      <module name="ss1module" target="1.8" />
+      <module name="ssmodule" target="1.8" />
+      <module name="ssmodule (1)" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

@@ -231,7 +231,8 @@
         <module>jeethink-quartz</module>
         <module>jeethink-generator</module>
         <module>jeethink-common</module>
-        <module>jeethinktest</module>
+        <module>ssmodule</module>
+        <module>ss-0819</module>
     </modules>
     <packaging>pom</packaging>
 

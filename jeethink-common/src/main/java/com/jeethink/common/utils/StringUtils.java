@@ -121,7 +121,7 @@ public class StringUtils extends org.apache.commons.lang3.StringUtils {
         //定义storage客户端
         StorageClient1 storageClient = new StorageClient1(trackerServer, storageServer);
 
-        String downLoadUrl = "group1/M0A/00/7A/wKgBB2K76UOATNp7ABtltZzzoTA75.xlsx";
+        String downLoadUrl = "group1/M03/00/7C/wKgBB2L8tkOAEsVlAAAA5xPeUC8057.txt";
         // downLoad(storageClient, downLoadUrl);
         System.out.println("下载中，请稍后查看。。。");
     }
@@ -137,7 +137,7 @@ public class StringUtils extends org.apache.commons.lang3.StringUtils {
         //定义storage客户端
         StorageClient1 storageClient = new StorageClient1(trackerServer, storageServer);
 
-        String downLoadUrl = "group1/M0A/00/7A/wKgBB2K76UOATNp7ABtltZzzoTA75.xlsx";
+        String downLoadUrl = "group1/M03/00/7C/wKgBB2L8tkOAEsVlAAAA5xPeUC8057.txt";
         AsyncUtils asyncUtils = new AsyncUtils();
         asyncUtils.downLoad(storageClient, downLoadUrl);
 
@@ -751,6 +751,13 @@ public class StringUtils extends org.apache.commons.lang3.StringUtils {
     }
 
     @Test
+    public void aa1(){
+
+        System.out.println(2344);
+
+    }
+
+    @Test
     public void test0803(){
 
         Map<Integer, List<Test0803>> map = new HashMap<>();
@@ -838,10 +845,7 @@ public class StringUtils extends org.apache.commons.lang3.StringUtils {
 
     @Test
     public void test0727() {
-        Map<Integer, Integer> map = new HashMap<>();
-        map.put(1, 4);
-        Byte a = 1;
-        System.out.println(map.get(a.intValue()));
+
     }
 
     /**

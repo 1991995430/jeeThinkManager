@@ -22,7 +22,7 @@ public class AsyncUtils implements AsyncUtilInterface{
         }
         //下载
         byte[] bytes = storageClient.download_file1(downLoadUrl);
-        FileOutputStream fileOutputStream = new FileOutputStream("D:\\fastdfs\\销售车位台账022.xlsx");
+        FileOutputStream fileOutputStream = new FileOutputStream("D:\\fastdfs\\日志022.txt");
         fileOutputStream.write(bytes);
         fileOutputStream.close();
         System.out.println("异步任务结束。。。");
