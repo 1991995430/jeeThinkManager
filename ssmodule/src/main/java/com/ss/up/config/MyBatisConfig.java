@@ -26,86 +26,64 @@ import java.util.List;
 
 /**
  * Mybatis支持*匹配扫描包
- * 
- * @author jeethink  
+ *
+ * @author jeethink
  */
 @Configuration
-public class MyBatisConfig
-{
+public class MyBatisConfig {
     @Autowired
     private Environment env;
 
     static final String DEFAULT_RESOURCE_PATTERN = "**/*.class";
 
-    public static String setTypeAliasesPackage(String typeAliasesPackage)
-    {
-        ResourcePatternResolver resolver = (ResourcePatternResolver) new PathMatchingResourcePatternResolver();
+    public static String setTypeAliasesPackage(String typeAliasesPackage) {
+        ResourcePatternResolver resolver = new PathMatchingResourcePatternResolver();
         MetadataReaderFactory metadataReaderFactory = new CachingMetadataReaderFactory(resolver);
-        List<String> allResult = new ArrayList<String>();
-        try
-        {
-            for (String aliasesPackage : typeAliasesPackage.split(","))
-            {
-                List<String> result = new ArrayList<String>();
+        List<String> allResult = new ArrayList<>();
+        try {
+            for (String aliasesPackage : typeAliasesPackage.split(",")) {
+                List<String> result = new ArrayList<>();
                 aliasesPackage = ResourcePatternResolver.CLASSPATH_ALL_URL_PREFIX
                         + ClassUtils.convertClassNameToResourcePath(aliasesPackage.trim()) + "/" + DEFAULT_RESOURCE_PATTERN;
                 Resource[] resources = resolver.getResources(aliasesPackage);
-                if (resources != null && resources.length > 0)
-                {
-                    MetadataReader metadataReader = null;
-                    for (Resource resource : resources)
-                    {
-                        if (resource.isReadable())
-                        {
+                if (resources != null && resources.length > 0) {
+                    MetadataReader metadataReader;
+                    for (Resource resource : resources) {
+                        if (resource.isReadable()) {
                             metadataReader = metadataReaderFactory.getMetadataReader(resource);
-                            try
-                            {
+                            try {
                                 result.add(Class.forName(metadataReader.getClassMetadata().getClassName()).getPackage().getName());
-                            }
-                            catch (ClassNotFoundException e)
-                            {
+                            } catch (ClassNotFoundException e) {
                                 e.printStackTrace();
                             }
                         }
                     }
                 }
-                if (result.size() > 0)
-                {
-                    HashSet<String> hashResult = new HashSet<String>(result);
+                if (result.size() > 0) {
+                    HashSet<String> hashResult = new HashSet<>(result);
                     allResult.addAll(hashResult);
                 }
             }
-            if (allResult.size() > 0)
-            {
-                typeAliasesPackage = String.join(",", (String[]) allResult.toArray(new String[0]));
-            }
-            else
-            {
+            if (allResult.size() > 0) {
+                typeAliasesPackage = String.join(",", allResult.toArray(new String[0]));
+            } else {
                 throw new RuntimeException("mybatis typeAliasesPackage 路径扫描错误,参数typeAliasesPackage:" + typeAliasesPackage + "未找到任何包");
             }
-        }
-        catch (IOException e)
-        {
+        } catch (IOException e) {
             e.printStackTrace();
         }
         return typeAliasesPackage;
     }
 
-    public Resource[] resolveMapperLocations(String[] mapperLocations)
-    {
+    public Resource[] resolveMapperLocations(String[] mapperLocations) {
         ResourcePatternResolver resourceResolver = new PathMatchingResourcePatternResolver();
         List<Resource> resources = new ArrayList<Resource>();
-        if (mapperLocations != null)
-        {
-            for (String mapperLocation : mapperLocations)
-            {
-                try
-                {
+        if (mapperLocations != null) {
+            for (String mapperLocation : mapperLocations) {
+                try {
                     Resource[] mappers = resourceResolver.getResources(mapperLocation);
                     resources.addAll(Arrays.asList(mappers));
-                }
-                catch (IOException e)
-                {
+                } catch (IOException e) {
                     // ignore
                 }
             }
@@ -114,8 +92,7 @@ public class MyBatisConfig
     }
 
     @Bean
-    public SqlSessionFactory sqlSessionFactory(DataSource dataSource) throws Exception
-    {
+    public SqlSessionFactory sqlSessionFactory(DataSource dataSource) throws Exception {
         String typeAliasesPackage = env.getProperty("mybatis.typeAliasesPackage");
         String mapperLocations = env.getProperty("mybatis.mapperLocations");
         String configLocation = env.getProperty("mybatis.configLocation");
