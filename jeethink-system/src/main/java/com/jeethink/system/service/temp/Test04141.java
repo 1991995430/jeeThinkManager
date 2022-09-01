@@ -2,7 +2,6 @@ package com.jeethink.system.service.temp;
 
 
 import com.jeethink.system.service.test.User;
-import net.sourceforge.pinyin4j.PinyinHelper;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -40,7 +39,7 @@ public class Test04141 {
         return newArrays;
     }
 
-    public static String getPinYinHeadChar(String str) {
+    /*public static String getPinYinHeadChar(String str) {
         StringBuilder convert = new StringBuilder();
         for (int j = 0; j < str.length(); j++) {
             char word = str.charAt(j);
@@ -52,6 +51,6 @@ public class Test04141 {
             }
         }
         return convert.toString().toUpperCase();
-    }
+    }*/
 
 }

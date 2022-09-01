@@ -52,9 +52,9 @@ public class SysDeptController extends BaseController {
         api_endpoint.add("api9");
         api_endpoint.add("api6");
         Map<Timestamp, List<ApiInvokeMsg>> apiMsg = new HashMap<>();
-        List<ApiInvokeMsg> apiInvokeMsgsList = deptService.selectApiInvokeMsg(api_endpoint);
+        // List<ApiInvokeMsg> apiInvokeMsgsList = deptService.selectApiInvokeMsg(api_endpoint);
 
-        List<ApiInvokeResultMsg> apiInvokeResultMsg = getApiResult(apiInvokeMsgsList);
+        // List<ApiInvokeResultMsg> apiInvokeResultMsg = getApiResult(apiInvokeMsgsList);
 
         return AjaxResult.success(depts);
     }

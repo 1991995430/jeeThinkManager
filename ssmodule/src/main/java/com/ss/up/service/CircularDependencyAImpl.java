@@ -2,9 +2,13 @@ package com.ss.up.service;
 
 import com.ss.up.dto.CircularRespDto;
 import com.ss.up.mapper.ResExtMapper;
+import com.ss.up.mapper.UserMapper;
 import com.ss.up.model.ResExt;
 import com.ss.up.model.ResExtCriteria;
+import com.ss.up.model.User;
+import com.ss.up.model.UserCriteria;
 import com.ss.up.service.impl.CircularDependencyA;
+import com.ss.up.utils.ExcelUtil;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -18,14 +22,17 @@ public class CircularDependencyAImpl implements CircularDependencyA {
 
     private final ResExtMapper resExtMapper;
 
+    private final UserMapper userMapper;
+
     @Autowired
-    public CircularDependencyAImpl(CircularDependencyBImpl circB, ResExtMapper resExtMapper) {
+    public CircularDependencyAImpl(CircularDependencyBImpl circB, ResExtMapper resExtMapper, UserMapper userMapper) {
         this.circB = circB;
         this.resExtMapper = resExtMapper;
+        this.userMapper = userMapper;
     }
 
     public CircularRespDto getResponce(String s){
-        CircularRespDto circularRespDto = new CircularRespDto();
+        /*CircularRespDto circularRespDto = new CircularRespDto();
         circularRespDto.setId("s");
         circularRespDto.setName("sad" + s);
         List<ResExt> resExtList = new ArrayList<>();
@@ -36,7 +43,14 @@ public class CircularDependencyAImpl implements CircularDependencyA {
         ResExtCriteria resExtCriteria = new ResExtCriteria();
         resExtCriteria.createCriteria().andIdIn(idList);
         List<ResExt> resExts = resExtMapper.selectByExample(resExtCriteria);
-        circularRespDto.setResExtList(resExts);
+        circularRespDto.setResExtList(resExts);*/
+
+        ExcelUtil<User> util = new ExcelUtil<>(User.class);
+        UserCriteria userCriteria = new UserCriteria();
+        userCriteria.createCriteria().andIdBetween(1, 8);
+        List<User> userList = userMapper.selectByExample(userCriteria);
+        util.exportExcel(userList);
+        CircularRespDto circularRespDto = new CircularRespDto();
         return circularRespDto;
     }
 

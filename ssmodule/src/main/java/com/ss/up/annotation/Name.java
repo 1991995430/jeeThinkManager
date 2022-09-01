@@ -1,4 +1,4 @@
-package com.ss.up.notation;
+package com.ss.up.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

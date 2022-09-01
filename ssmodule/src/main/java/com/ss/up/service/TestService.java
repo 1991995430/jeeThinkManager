@@ -6,6 +6,10 @@ import com.ss.up.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 @Service
 public class TestService {
 
@@ -21,6 +25,8 @@ public class TestService {
         User user1 = userMapper.selectByPrimaryKey(8);
 
         ResExt resExt = new ResExt();
+
+        List<String> list = new ArrayList<>();
 
         functionService.setRewardResult(resExt, user1);
 

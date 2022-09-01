@@ -258,8 +258,5 @@ public class SysJobServiceImpl implements ISysJobService
 
     @Scheduled(cron = "0 * * * * ?")
     public void push(){
-        System.out.println("*********************** 资源提醒检索开始 **********************");
-
-        System.out.println("*********************** 资源提醒检索结束 **********************");
     }
 }
