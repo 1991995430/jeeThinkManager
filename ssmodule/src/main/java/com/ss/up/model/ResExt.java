@@ -190,6 +190,11 @@ public class ResExt implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
+    public ResExt(Integer id, Integer resType) {
+        this.id = id;
+        this.resType = resType;
+    }
+
     public Integer getId() {
         return id;
     }

@@ -22,15 +22,7 @@ public class TestService {
     
     public void setTestData() {
 
-        User user1 = userMapper.selectByPrimaryKey(8);
 
-        ResExt resExt = new ResExt();
-
-        List<String> list = new ArrayList<>();
-
-        functionService.setRewardResult(resExt, user1);
-
-        System.out.println(resExt.getResName());
     }
     
 }

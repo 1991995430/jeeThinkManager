@@ -1,6 +1,5 @@
 package com.jeethink.common.utils;
 
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.text.ParseException;
@@ -12,23 +11,23 @@ import com.jeethink.common.core.text.StrFormatter;
 import ma.glasnost.orika.MapperFacade;
 import ma.glasnost.orika.MapperFactory;
 import ma.glasnost.orika.impl.DefaultMapperFactory;
-import org.apache.commons.collections4.CollectionUtils;
 import org.csource.common.MyException;
 import org.csource.common.NameValuePair;
 import org.csource.fastdfs.*;
 import org.junit.Test;
 import org.springframework.beans.BeanUtils;
-import org.springframework.context.ApplicationContext;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Async;
-import org.springframework.transaction.annotation.Transactional;
-import org.springframework.util.StopWatch;
-import segi.common.user.rel.PaginatorICE;
+import org.springframework.scheduling.annotation.EnableAsync;
+import org.springframework.stereotype.Component;
 
 /**
  * 字符串工具类
  *
  * @author jeethink
  */
+@Component
+@EnableAsync
 public class StringUtils extends org.apache.commons.lang3.StringUtils {
     /**
      * 空字符串
@@ -39,6 +38,9 @@ public class StringUtils extends org.apache.commons.lang3.StringUtils {
      * 下划线
      */
     private static final char SEPARATOR = '_';
+
+    @Autowired
+    private AsyncUtilInterface asyncUtilInterface;
 
     /**
      * 获取参数不为空值
@@ -126,7 +128,8 @@ public class StringUtils extends org.apache.commons.lang3.StringUtils {
         System.out.println("下载中，请稍后查看。。。");
     }
 
-    public static void main(String[] args) throws MyException, IOException {
+    @Test
+    public void asynDownload() throws MyException, IOException {
         //加载配置文件
         ClientGlobal.initByProperties("fastdfs.properties");
         //创建tracker客户端
@@ -137,9 +140,9 @@ public class StringUtils extends org.apache.commons.lang3.StringUtils {
         //定义storage客户端
         StorageClient1 storageClient = new StorageClient1(trackerServer, storageServer);
 
-        String downLoadUrl = "group1/M03/00/7C/wKgBB2L8tkOAEsVlAAAA5xPeUC8057.txt";
-        AsyncUtils asyncUtils = new AsyncUtils();
-        asyncUtils.downLoad(storageClient, downLoadUrl);
+        String downLoadUrl = "group1/M17/00/7D/wKgBB2Mpk1CAKYktAAAQrwtYBq0179.xls";
+        // AsyncUtils asyncUtils = new AsyncUtils();
+        asyncUtilInterface.downLoad(storageClient, downLoadUrl);
 
         /*new Thread(() -> {
             System.out.println("异步任务开始。。。");
@@ -906,5 +909,20 @@ public class StringUtils extends org.apache.commons.lang3.StringUtils {
     @SuppressWarnings("unchecked")
     public static <T> T cast(Object obj) {
         return (T) obj;
+    }
+
+
+    @Test
+    public void test092001() {
+        List<ResExt> list = new ArrayList<>();
+        list.add(new ResExt(1, 8));
+        list.add(new ResExt(2, 9));
+        list.add(new ResExt(3, 2));
+        list.add(new ResExt(4, 5));
+        list.add(new ResExt(5, 99));
+
+        list.removeIf(var -> var.getId().equals(2));
+
+        System.out.println(list);
     }
 }

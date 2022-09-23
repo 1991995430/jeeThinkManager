@@ -12,6 +12,11 @@ public class ResExt  {
 
     private Long groupId;
 
+    public ResExt(Integer id, Integer resType) {
+        this.id = id;
+        this.resType = resType;
+    }
+
     public Integer getId() {
         return id;
     }

@@ -1,6 +1,7 @@
 package com.ss.up.model;
 
 import java.io.Serializable;
+import java.util.Objects;
 
 public class User implements Serializable {
     private Integer id;
@@ -24,6 +25,14 @@ public class User implements Serializable {
     private String region;
 
     private String province;
+
+    public User() {
+    }
+
+    public User(Integer id, String name) {
+        this.id = id;
+        this.name = name;
+    }
 
     private static final long serialVersionUID = 1L;
 
@@ -134,5 +143,18 @@ public class User implements Serializable {
         sb.append(", province=").append(province);
         sb.append("]");
         return sb.toString();
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        User user = (User) o;
+        return Objects.equals(id, user.id) && Objects.equals(name, user.name) && Objects.equals(age, user.age) && Objects.equals(sex, user.sex) && Objects.equals(englishScore, user.englishScore) && Objects.equals(mathScore, user.mathScore) && Objects.equals(address, user.address) && Objects.equals(school, user.school) && Objects.equals(city, user.city) && Objects.equals(region, user.region) && Objects.equals(province, user.province);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, name, age, sex, englishScore, mathScore, address, school, city, region, province);
     }
 }
