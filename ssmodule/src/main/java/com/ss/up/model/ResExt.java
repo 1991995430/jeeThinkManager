@@ -186,14 +186,13 @@ public class ResExt implements Serializable {
 
     private Integer roomType;
 
+    private String houseName;
+
+    private Long belongCommunityId;
+
     private String remark;
 
     private static final long serialVersionUID = 1L;
-
-    public ResExt(Integer id, Integer resType) {
-        this.id = id;
-        this.resType = resType;
-    }
 
     public Integer getId() {
         return id;
@@ -923,6 +922,22 @@ public class ResExt implements Serializable {
         this.roomType = roomType;
     }
 
+    public String getHouseName() {
+        return houseName;
+    }
+
+    public void setHouseName(String houseName) {
+        this.houseName = houseName == null ? null : houseName.trim();
+    }
+
+    public Long getBelongCommunityId() {
+        return belongCommunityId;
+    }
+
+    public void setBelongCommunityId(Long belongCommunityId) {
+        this.belongCommunityId = belongCommunityId;
+    }
+
     public String getRemark() {
         return remark;
     }
@@ -1028,6 +1043,8 @@ public class ResExt implements Serializable {
         sb.append(", landArea=").append(landArea);
         sb.append(", oldManagementType=").append(oldManagementType);
         sb.append(", roomType=").append(roomType);
+        sb.append(", houseName=").append(houseName);
+        sb.append(", belongCommunityId=").append(belongCommunityId);
         sb.append(", remark=").append(remark);
         sb.append("]");
         return sb.toString();

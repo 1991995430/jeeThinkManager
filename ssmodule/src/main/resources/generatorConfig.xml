@@ -54,6 +54,6 @@
         </javaClientGenerator>
 
         <!--<table schema="uhome_resource" tableName="res_ext" domainObjectName="ResExt"/>-->
-        <table schema="shangsong" tableName="user" domainObjectName="User"/>
+        <table schema="shangsong" tableName="res_ext" domainObjectName="ResExt"/>
     </context>
 </generatorConfiguration>

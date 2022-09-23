@@ -202,3 +202,322 @@
 11:15:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1055=shang}
 11:15:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
 11:15:11.046 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2043] - {dataSource-0} closing ...
+11:26:54.051 [main] INFO  c.s.up.SsApplication - [logStarting,55] - Starting SsApplication on DESKTOP-1OONTGS with PID 75520 (D:\Program Files\project\ssmodule\target\classes started by Thin'k'pa'd in D:\Program Files\project)
+11:26:54.054 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.0.22.Final
+11:26:54.056 [main] INFO  c.s.up.SsApplication - [logStartupProfileInfo,655] - The following profiles are active: druid
+11:26:55.557 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8955"]
+11:26:55.557 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:26:55.558 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+11:26:55.697 [main] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:26:56.394 [main] INFO  c.s.u.s.TaskServiceImpl - [init,17] - -------初始化开始--------
+11:26:56.448 [main] INFO  c.ss.up.task.ScTask - [addCache,34] - ************* 添加缓存开始 data:shang
+11:26:57.762 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8955"]
+11:26:57.806 [main] INFO  c.s.up.SsApplication - [logStarted,61] - Started SsApplication in 4.297 seconds (JVM running for 6.718)
+11:27:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+11:27:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1126":"shang"}
+11:27:00.009 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1127
+11:27:00.009 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1126=shang}
+11:27:00.009 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+11:27:15.445 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2043] - {dataSource-0} closing ...
+14:19:45.597 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.0.22.Final
+14:19:45.604 [main] INFO  c.s.up.SsApplication - [logStarting,55] - Starting SsApplication on DESKTOP-1OONTGS with PID 76016 (D:\Program Files\project\ssmodule\target\classes started by Thin'k'pa'd in D:\Program Files\project)
+14:19:45.605 [main] INFO  c.s.up.SsApplication - [logStartupProfileInfo,655] - The following profiles are active: druid
+14:19:47.451 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8955"]
+14:19:47.452 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+14:19:47.452 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+14:19:47.608 [main] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring embedded WebApplicationContext
+14:19:48.364 [main] INFO  c.s.u.s.TaskServiceImpl - [init,17] - -------初始化开始--------
+14:19:48.424 [main] INFO  c.ss.up.task.ScTask - [addCache,34] - ************* 添加缓存开始 data:shang
+14:19:49.742 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8955"]
+14:19:49.780 [main] INFO  c.s.up.SsApplication - [logStarted,61] - Started SsApplication in 4.795 seconds (JVM running for 7.412)
+14:20:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+14:20:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1419":"shang"}
+14:20:00.007 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1420
+14:20:00.007 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1419=shang}
+14:20:00.007 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+14:20:06.276 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2043] - {dataSource-0} closing ...
+15:06:48.962 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.0.22.Final
+15:06:48.970 [main] INFO  c.s.up.SsApplication - [logStarting,55] - Starting SsApplication on DESKTOP-1OONTGS with PID 14424 (D:\Program Files\project\ssmodule\target\classes started by Thin'k'pa'd in D:\Program Files\project)
+15:06:48.971 [main] INFO  c.s.up.SsApplication - [logStartupProfileInfo,655] - The following profiles are active: druid
+15:06:51.087 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8955"]
+15:06:51.088 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+15:06:51.088 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+15:06:51.275 [main] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring embedded WebApplicationContext
+15:06:52.065 [main] INFO  c.s.u.s.TaskServiceImpl - [init,17] - -------初始化开始--------
+15:06:52.127 [main] INFO  c.ss.up.task.ScTask - [addCache,34] - ************* 添加缓存开始 data:shang
+15:06:53.477 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8955"]
+15:06:53.517 [main] INFO  c.s.up.SsApplication - [logStarted,61] - Started SsApplication in 5.167 seconds (JVM running for 8.186)
+15:06:56.930 [http-nio-8955-exec-1] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:07:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:07:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:07:00.009 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1507
+15:07:00.009 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:07:00.009 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:07:10.200 [http-nio-8955-exec-3] INFO  c.a.d.p.DruidDataSource - [init,990] - {dataSource-1} inited
+15:08:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:08:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:08:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1508
+15:08:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:08:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:09:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:09:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:09:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1509
+15:09:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:09:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:10:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:10:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:10:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1510
+15:10:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:10:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:11:00.000 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:11:00.000 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:11:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1511
+15:11:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:11:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:12:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:12:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:12:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1512
+15:12:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:12:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:13:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:13:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:13:00.005 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1513
+15:13:00.005 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:13:00.005 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:14:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:14:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:14:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1514
+15:14:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:14:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:15:00.000 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:15:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:15:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1515
+15:15:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:15:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:16:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:16:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:16:00.005 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1516
+15:16:00.005 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:16:00.006 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:17:00.000 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:17:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:17:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1517
+15:17:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:17:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:18:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:18:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:18:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1518
+15:18:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:18:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:19:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:19:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:19:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1519
+15:19:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:19:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:20:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:20:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:20:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1520
+15:20:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:20:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:21:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:21:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:21:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1521
+15:21:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:21:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:22:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:22:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:22:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1522
+15:22:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:22:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:23:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:23:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:23:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1523
+15:23:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:23:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:24:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:24:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:24:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1524
+15:24:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:24:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:25:00.000 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:25:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:25:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1525
+15:25:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:25:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:26:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:26:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:26:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1526
+15:26:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:26:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:27:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:27:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:27:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1527
+15:27:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:27:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:28:00.031 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:28:00.031 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:28:00.065 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1528
+15:28:00.066 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:28:00.067 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:29:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:29:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:29:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1529
+15:29:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:29:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:30:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:30:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:30:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1530
+15:30:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:30:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:31:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:31:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:31:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1531
+15:31:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:31:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:32:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:32:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:32:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1532
+15:32:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:32:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:33:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:33:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:33:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1533
+15:33:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:33:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:34:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:34:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:34:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1534
+15:34:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:34:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:35:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:35:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:35:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1535
+15:35:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:35:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:36:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:36:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:36:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1536
+15:36:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:36:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:37:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:37:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:37:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1537
+15:37:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:37:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:38:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:38:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:38:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1538
+15:38:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:38:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:39:00.000 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:39:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:39:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1539
+15:39:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:39:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:40:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:40:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:40:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1540
+15:40:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:40:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:41:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:41:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:41:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1541
+15:41:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:41:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:42:00.000 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:42:00.000 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:42:00.000 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1542
+15:42:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:42:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:43:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:43:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:43:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1543
+15:43:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:43:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:44:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:44:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:44:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1544
+15:44:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:44:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:45:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:45:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:45:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1545
+15:45:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:45:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:46:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:46:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:46:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1546
+15:46:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:46:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:47:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:47:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:47:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1547
+15:47:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:47:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:48:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:48:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:48:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1548
+15:48:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:48:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:49:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:49:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:49:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1549
+15:49:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:49:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:50:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:50:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:50:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1550
+15:50:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:50:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:51:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:51:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:51:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1551
+15:51:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:51:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:51:32.452 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2043] - {dataSource-1} closing ...
+15:51:32.455 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2116] - {dataSource-1} closed
+15:58:37.838 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.0.22.Final
+15:58:37.844 [main] INFO  c.s.up.SsApplication - [logStarting,55] - Starting SsApplication on DESKTOP-1OONTGS with PID 39312 (D:\Program Files\project\ssmodule\target\classes started by Thin'k'pa'd in D:\Program Files\project)
+15:58:37.844 [main] INFO  c.s.up.SsApplication - [logStartupProfileInfo,655] - The following profiles are active: druid
+15:58:39.793 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8955"]
+15:58:39.794 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+15:58:39.794 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+15:58:39.958 [main] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring embedded WebApplicationContext
+15:58:40.716 [main] INFO  c.s.u.s.TaskServiceImpl - [init,17] - -------初始化开始--------
+15:58:40.776 [main] INFO  c.ss.up.task.ScTask - [addCache,34] - ************* 添加缓存开始 data:shang
+15:58:42.140 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8955"]
+15:58:42.181 [main] INFO  c.s.up.SsApplication - [logStarted,61] - Started SsApplication in 5.013 seconds (JVM running for 7.804)
+15:58:44.109 [http-nio-8955-exec-2] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:58:44.595 [http-nio-8955-exec-2] INFO  c.a.d.p.DruidDataSource - [init,990] - {dataSource-1} inited
+15:59:00.000 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:59:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1558":"shang"}
+15:59:00.009 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1559
+15:59:00.009 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1558=shang}
+15:59:00.009 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+16:00:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+16:00:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1558":"shang"}
+16:00:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1600
+16:00:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1558=shang}
+16:00:00.005 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+16:01:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+16:01:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1558":"shang"}
+16:01:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1601
+16:01:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1558=shang}
+16:01:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+16:02:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+16:02:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1558":"shang"}
+16:02:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1602
+16:02:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1558=shang}
+16:02:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+16:03:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+16:03:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1558":"shang"}
+16:03:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1603
+16:03:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1558=shang}
+16:03:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+16:04:00.081 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+16:04:00.082 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1558":"shang"}
+16:04:00.083 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1604
+16:04:00.083 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1558=shang}
+16:04:00.083 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+16:04:07.380 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2043] - {dataSource-1} closing ...
+16:04:07.391 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2116] - {dataSource-1} closed

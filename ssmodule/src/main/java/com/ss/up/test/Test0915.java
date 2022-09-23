@@ -2,14 +2,12 @@ package com.ss.up.test;
 
 import com.ss.up.enums.ServiceTypeE;
 import com.ss.up.enums.SystemServiceTypeE;
-import com.ss.up.model.ResExt;
 import org.junit.Test;
 import org.springframework.util.StopWatch;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class Test0915 {
 

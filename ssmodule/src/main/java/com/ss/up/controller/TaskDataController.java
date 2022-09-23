@@ -1,10 +1,6 @@
 package com.ss.up.controller;
 
-import com.ss.up.exception.ServiceException;
-import com.ss.up.model.ResExt;
-import com.ss.up.rest.RestResponse;
 import com.ss.up.service.TestService;
-import com.ss.up.task.ScTask;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

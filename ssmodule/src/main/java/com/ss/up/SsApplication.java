@@ -10,10 +10,10 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 @ServletComponentScan
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
 @MapperScan("com.ss.up.mapper")
-public class CircularApplication extends SpringBootServletInitializer {
+public class SsApplication extends SpringBootServletInitializer {
 
     public static void main(String[] args) {
-        SpringApplication.run(CircularApplication.class, args);
+        SpringApplication.run(SsApplication.class, args);
     }
 
 }

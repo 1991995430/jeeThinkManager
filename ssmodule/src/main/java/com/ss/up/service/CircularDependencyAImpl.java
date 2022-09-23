@@ -3,17 +3,13 @@ package com.ss.up.service;
 import com.ss.up.dto.CircularRespDto;
 import com.ss.up.mapper.ResExtMapper;
 import com.ss.up.mapper.UserMapper;
-import com.ss.up.model.ResExt;
-import com.ss.up.model.ResExtCriteria;
 import com.ss.up.model.User;
 import com.ss.up.model.UserCriteria;
 import com.ss.up.service.impl.CircularDependencyA;
 import com.ss.up.utils.ExcelUtil;
-import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Component

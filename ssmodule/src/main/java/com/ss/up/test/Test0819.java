@@ -1,15 +1,11 @@
 package com.ss.up.test;
 
-import com.segi.uhomecp.utils.BeanCopierUtils;
 import com.ss.up.model.ResExt;
 import com.ss.up.model.User;
 import com.ss.up.utils.OrikaUtil;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class Test0819 {
 

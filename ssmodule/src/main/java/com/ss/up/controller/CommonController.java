@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 @RestController
@@ -54,6 +55,14 @@ public class CommonController {
         }
 
 
+        return RestResponse.RestResponseBuilder.createSuccessBuilder().setResult("").buidler();
+    }
+
+    @GetMapping("/excelExport")
+    public RestResponse excelExport(HttpServletResponse response) {
+        System.out.println("开始导出。。。");
+        asyncService.excelExport(response);
+        System.out.println("导出结束。。。");
         return RestResponse.RestResponseBuilder.createSuccessBuilder().setResult("").buidler();
     }
 

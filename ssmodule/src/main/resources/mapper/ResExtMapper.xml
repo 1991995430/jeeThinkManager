@@ -93,6 +93,8 @@
     <result column="land_area" property="landArea" jdbcType="DECIMAL" />
     <result column="OLD_MANAGEMENT_TYPE" property="oldManagementType" jdbcType="INTEGER" />
     <result column="room_type" property="roomType" jdbcType="INTEGER" />
+    <result column="house_name" property="houseName" jdbcType="VARCHAR" />
+    <result column="belong_community_id" property="belongCommunityId" jdbcType="BIGINT" />
   </resultMap>
   <resultMap id="ResultMapWithBLOBs" type="com.ss.up.model.ResExt" extends="BaseResultMap" >
     <result column="remark" property="remark" jdbcType="LONGVARCHAR" />
@@ -168,7 +170,8 @@
     soil_min_type, approval_status, apply_id, house_type, live_number, live_sex, allot_status, 
     contract_id, sale_status, park_name, park_name_code, park_district, park_district_code, 
     obj_type, obj_type_code, park_local_code, first_id, first_group_id, first_name, area, 
-    use_area, opt_status, lock_reason, land_area, OLD_MANAGEMENT_TYPE, room_type
+    use_area, opt_status, lock_reason, land_area, OLD_MANAGEMENT_TYPE, room_type, house_name, 
+    belong_community_id
   </sql>
   <sql id="Blob_Column_List" >
     remark
@@ -252,7 +255,8 @@
       first_id, first_group_id, first_name, 
       area, use_area, opt_status, 
       lock_reason, land_area, OLD_MANAGEMENT_TYPE, 
-      room_type, remark)
+      room_type, house_name, belong_community_id, 
+      remark)
     values (#{id,jdbcType=INTEGER}, #{resId,jdbcType=BIGINT}, #{resType,jdbcType=INTEGER}, 
       #{groupId,jdbcType=BIGINT}, #{communityId,jdbcType=BIGINT}, #{resStyle,jdbcType=INTEGER}, 
       #{billArea,jdbcType=DECIMAL}, #{billMode,jdbcType=INTEGER}, #{leaseMode,jdbcType=INTEGER}, 
@@ -283,7 +287,8 @@
       #{firstId,jdbcType=INTEGER}, #{firstGroupId,jdbcType=INTEGER}, #{firstName,jdbcType=VARCHAR}, 
       #{area,jdbcType=DECIMAL}, #{useArea,jdbcType=DECIMAL}, #{optStatus,jdbcType=TINYINT}, 
       #{lockReason,jdbcType=INTEGER}, #{landArea,jdbcType=DECIMAL}, #{oldManagementType,jdbcType=INTEGER}, 
-      #{roomType,jdbcType=INTEGER}, #{remark,jdbcType=LONGVARCHAR})
+      #{roomType,jdbcType=INTEGER}, #{houseName,jdbcType=VARCHAR}, #{belongCommunityId,jdbcType=BIGINT}, 
+      #{remark,jdbcType=LONGVARCHAR})
   </insert>
   <insert id="insertSelective" parameterType="com.ss.up.model.ResExt" >
     insert into res_ext
@@ -560,6 +565,12 @@
       </if>
       <if test="roomType != null" >
         room_type,
+      </if>
+      <if test="houseName != null" >
+        house_name,
+      </if>
+      <if test="belongCommunityId != null" >
+        belong_community_id,
       </if>
       <if test="remark != null" >
         remark,
@@ -838,6 +849,12 @@
       </if>
       <if test="roomType != null" >
         #{roomType,jdbcType=INTEGER},
+      </if>
+      <if test="houseName != null" >
+        #{houseName,jdbcType=VARCHAR},
+      </if>
+      <if test="belongCommunityId != null" >
+        #{belongCommunityId,jdbcType=BIGINT},
       </if>
       <if test="remark != null" >
         #{remark,jdbcType=LONGVARCHAR},
@@ -1126,6 +1143,12 @@
       <if test="record.roomType != null" >
         room_type = #{record.roomType,jdbcType=INTEGER},
       </if>
+      <if test="record.houseName != null" >
+        house_name = #{record.houseName,jdbcType=VARCHAR},
+      </if>
+      <if test="record.belongCommunityId != null" >
+        belong_community_id = #{record.belongCommunityId,jdbcType=BIGINT},
+      </if>
       <if test="record.remark != null" >
         remark = #{record.remark,jdbcType=LONGVARCHAR},
       </if>
@@ -1227,6 +1250,8 @@
       land_area = #{record.landArea,jdbcType=DECIMAL},
       OLD_MANAGEMENT_TYPE = #{record.oldManagementType,jdbcType=INTEGER},
       room_type = #{record.roomType,jdbcType=INTEGER},
+      house_name = #{record.houseName,jdbcType=VARCHAR},
+      belong_community_id = #{record.belongCommunityId,jdbcType=BIGINT},
       remark = #{record.remark,jdbcType=LONGVARCHAR}
     <if test="_parameter != null" >
       <include refid="Update_By_Example_Where_Clause" />
@@ -1324,7 +1349,9 @@
       lock_reason = #{record.lockReason,jdbcType=INTEGER},
       land_area = #{record.landArea,jdbcType=DECIMAL},
       OLD_MANAGEMENT_TYPE = #{record.oldManagementType,jdbcType=INTEGER},
-      room_type = #{record.roomType,jdbcType=INTEGER}
+      room_type = #{record.roomType,jdbcType=INTEGER},
+      house_name = #{record.houseName,jdbcType=VARCHAR},
+      belong_community_id = #{record.belongCommunityId,jdbcType=BIGINT}
     <if test="_parameter != null" >
       <include refid="Update_By_Example_Where_Clause" />
     </if>
@@ -1602,6 +1629,12 @@
       <if test="roomType != null" >
         room_type = #{roomType,jdbcType=INTEGER},
       </if>
+      <if test="houseName != null" >
+        house_name = #{houseName,jdbcType=VARCHAR},
+      </if>
+      <if test="belongCommunityId != null" >
+        belong_community_id = #{belongCommunityId,jdbcType=BIGINT},
+      </if>
       <if test="remark != null" >
         remark = #{remark,jdbcType=LONGVARCHAR},
       </if>
@@ -1700,6 +1733,8 @@
       land_area = #{landArea,jdbcType=DECIMAL},
       OLD_MANAGEMENT_TYPE = #{oldManagementType,jdbcType=INTEGER},
       room_type = #{roomType,jdbcType=INTEGER},
+      house_name = #{houseName,jdbcType=VARCHAR},
+      belong_community_id = #{belongCommunityId,jdbcType=BIGINT},
       remark = #{remark,jdbcType=LONGVARCHAR}
     where id = #{id,jdbcType=INTEGER}
   </update>
@@ -1794,7 +1829,9 @@
       lock_reason = #{lockReason,jdbcType=INTEGER},
       land_area = #{landArea,jdbcType=DECIMAL},
       OLD_MANAGEMENT_TYPE = #{oldManagementType,jdbcType=INTEGER},
-      room_type = #{roomType,jdbcType=INTEGER}
+      room_type = #{roomType,jdbcType=INTEGER},
+      house_name = #{houseName,jdbcType=VARCHAR},
+      belong_community_id = #{belongCommunityId,jdbcType=BIGINT}
     where id = #{id,jdbcType=INTEGER}
   </update>
   <select resultMap="ResultMapWithBLOBs" parameterType="com.ss.up.model.ResExtCriteria" id="selectByExampleWithBLOBsWithRowbounds" >

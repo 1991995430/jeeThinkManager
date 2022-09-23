@@ -5845,6 +5845,136 @@ public class ResExtCriteria {
             return (Criteria) this;
         }
 
+        public Criteria andHouseNameIsNull() {
+            addCriterion("house_name is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andHouseNameIsNotNull() {
+            addCriterion("house_name is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andHouseNameEqualTo(String value) {
+            addCriterion("house_name =", value, "houseName");
+            return (Criteria) this;
+        }
+
+        public Criteria andHouseNameNotEqualTo(String value) {
+            addCriterion("house_name <>", value, "houseName");
+            return (Criteria) this;
+        }
+
+        public Criteria andHouseNameGreaterThan(String value) {
+            addCriterion("house_name >", value, "houseName");
+            return (Criteria) this;
+        }
+
+        public Criteria andHouseNameGreaterThanOrEqualTo(String value) {
+            addCriterion("house_name >=", value, "houseName");
+            return (Criteria) this;
+        }
+
+        public Criteria andHouseNameLessThan(String value) {
+            addCriterion("house_name <", value, "houseName");
+            return (Criteria) this;
+        }
+
+        public Criteria andHouseNameLessThanOrEqualTo(String value) {
+            addCriterion("house_name <=", value, "houseName");
+            return (Criteria) this;
+        }
+
+        public Criteria andHouseNameLike(String value) {
+            addCriterion("house_name like", value, "houseName");
+            return (Criteria) this;
+        }
+
+        public Criteria andHouseNameNotLike(String value) {
+            addCriterion("house_name not like", value, "houseName");
+            return (Criteria) this;
+        }
+
+        public Criteria andHouseNameIn(List<String> values) {
+            addCriterion("house_name in", values, "houseName");
+            return (Criteria) this;
+        }
+
+        public Criteria andHouseNameNotIn(List<String> values) {
+            addCriterion("house_name not in", values, "houseName");
+            return (Criteria) this;
+        }
+
+        public Criteria andHouseNameBetween(String value1, String value2) {
+            addCriterion("house_name between", value1, value2, "houseName");
+            return (Criteria) this;
+        }
+
+        public Criteria andHouseNameNotBetween(String value1, String value2) {
+            addCriterion("house_name not between", value1, value2, "houseName");
+            return (Criteria) this;
+        }
+
+        public Criteria andBelongCommunityIdIsNull() {
+            addCriterion("belong_community_id is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andBelongCommunityIdIsNotNull() {
+            addCriterion("belong_community_id is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andBelongCommunityIdEqualTo(Long value) {
+            addCriterion("belong_community_id =", value, "belongCommunityId");
+            return (Criteria) this;
+        }
+
+        public Criteria andBelongCommunityIdNotEqualTo(Long value) {
+            addCriterion("belong_community_id <>", value, "belongCommunityId");
+            return (Criteria) this;
+        }
+
+        public Criteria andBelongCommunityIdGreaterThan(Long value) {
+            addCriterion("belong_community_id >", value, "belongCommunityId");
+            return (Criteria) this;
+        }
+
+        public Criteria andBelongCommunityIdGreaterThanOrEqualTo(Long value) {
+            addCriterion("belong_community_id >=", value, "belongCommunityId");
+            return (Criteria) this;
+        }
+
+        public Criteria andBelongCommunityIdLessThan(Long value) {
+            addCriterion("belong_community_id <", value, "belongCommunityId");
+            return (Criteria) this;
+        }
+
+        public Criteria andBelongCommunityIdLessThanOrEqualTo(Long value) {
+            addCriterion("belong_community_id <=", value, "belongCommunityId");
+            return (Criteria) this;
+        }
+
+        public Criteria andBelongCommunityIdIn(List<Long> values) {
+            addCriterion("belong_community_id in", values, "belongCommunityId");
+            return (Criteria) this;
+        }
+
+        public Criteria andBelongCommunityIdNotIn(List<Long> values) {
+            addCriterion("belong_community_id not in", values, "belongCommunityId");
+            return (Criteria) this;
+        }
+
+        public Criteria andBelongCommunityIdBetween(Long value1, Long value2) {
+            addCriterion("belong_community_id between", value1, value2, "belongCommunityId");
+            return (Criteria) this;
+        }
+
+        public Criteria andBelongCommunityIdNotBetween(Long value1, Long value2) {
+            addCriterion("belong_community_id not between", value1, value2, "belongCommunityId");
+            return (Criteria) this;
+        }
+
         public Criteria andResDescLikeInsensitive(String value) {
             addCriterion("upper(RES_DESC) like", value.toUpperCase(), "resDesc");
             return (Criteria) this;
@@ -5982,6 +6112,11 @@ public class ResExtCriteria {
 
         public Criteria andFirstNameLikeInsensitive(String value) {
             addCriterion("upper(first_name) like", value.toUpperCase(), "firstName");
+            return (Criteria) this;
+        }
+
+        public Criteria andHouseNameLikeInsensitive(String value) {
+            addCriterion("upper(house_name) like", value.toUpperCase(), "houseName");
             return (Criteria) this;
         }
     }
