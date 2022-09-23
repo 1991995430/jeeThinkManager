@@ -87,7 +87,6 @@ public class AsyncServiceImpl implements AsyncService {
         //字体颜色
         Font font = workbook.createFont();
         font.setColor(Font.COLOR_RED);
-        font.setBoldweight((short)6);
         cellStyle.setFont(font);
         cellStyle.setWrapText(true);
         //设置表头数据
