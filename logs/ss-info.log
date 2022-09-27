@@ -1,523 +1,665 @@
-10:45:32.318 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.0.22.Final
-10:45:32.335 [main] INFO  c.s.u.CircularApplication - [logStarting,55] - Starting CircularApplication on DESKTOP-1OONTGS with PID 70204 (D:\Program Files\project\ssmodule\target\classes started by Thin'k'pa'd in D:\Program Files\project)
-10:45:32.336 [main] INFO  c.s.u.CircularApplication - [logStartupProfileInfo,655] - The following profiles are active: druid
-10:45:34.460 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8955"]
-10:45:34.461 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
-10:45:34.462 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
-10:45:34.649 [main] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring embedded WebApplicationContext
-10:45:35.560 [main] INFO  c.s.u.s.TaskServiceImpl - [init,17] - -------初始化开始--------
-10:45:35.638 [main] INFO  c.ss.up.task.ScTask - [addCache,34] - ************* 添加缓存开始 data:shang
-10:45:37.193 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8955"]
-10:45:37.238 [main] INFO  c.s.u.CircularApplication - [logStarted,61] - Started CircularApplication in 5.635 seconds (JVM running for 8.351)
-10:46:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-10:46:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1045":"shang"}
-10:46:00.007 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1046
-10:46:00.007 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1045=shang}
-10:46:00.007 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-10:46:21.030 [http-nio-8955-exec-3] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-10:47:00.033 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-10:47:00.034 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1045":"shang"}
-10:47:00.034 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1047
-10:47:00.034 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1045=shang}
-10:47:00.035 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-10:47:17.880 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2043] - {dataSource-0} closing ...
-10:47:26.024 [main] INFO  c.s.u.CircularApplication - [logStarting,55] - Starting CircularApplication on DESKTOP-1OONTGS with PID 74052 (D:\Program Files\project\ssmodule\target\classes started by Thin'k'pa'd in D:\Program Files\project)
-10:47:26.021 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.0.22.Final
-10:47:26.028 [main] INFO  c.s.u.CircularApplication - [logStartupProfileInfo,655] - The following profiles are active: druid
-10:47:27.987 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8955"]
-10:47:27.988 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
-10:47:27.989 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
-10:47:28.169 [main] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring embedded WebApplicationContext
-10:47:29.023 [main] INFO  c.s.u.s.TaskServiceImpl - [init,17] - -------初始化开始--------
-10:47:29.127 [main] INFO  c.ss.up.task.ScTask - [addCache,34] - ************* 添加缓存开始 data:shang
-10:47:31.432 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8955"]
-10:47:31.496 [main] INFO  c.s.u.CircularApplication - [logStarted,61] - Started CircularApplication in 6.148 seconds (JVM running for 9.17)
-10:47:41.295 [http-nio-8955-exec-1] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-10:48:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-10:48:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1047":"shang"}
-10:48:00.009 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1048
-10:48:00.010 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1047=shang}
-10:48:00.010 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-10:49:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-10:49:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1047":"shang"}
-10:49:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1049
-10:49:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1047=shang}
-10:49:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-10:50:06.724 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-10:50:06.726 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1047":"shang"}
-10:50:06.726 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1050
-10:50:06.726 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1047=shang}
-10:50:06.727 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-10:50:06.916 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2043] - {dataSource-0} closing ...
-10:50:44.512 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.0.22.Final
-10:50:44.519 [main] INFO  c.s.u.CircularApplication - [logStarting,55] - Starting CircularApplication on DESKTOP-1OONTGS with PID 65560 (D:\Program Files\project\ssmodule\target\classes started by Thin'k'pa'd in D:\Program Files\project)
-10:50:44.520 [main] INFO  c.s.u.CircularApplication - [logStartupProfileInfo,655] - The following profiles are active: druid
-10:50:46.393 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8955"]
-10:50:46.394 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
-10:50:46.394 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
-10:50:46.575 [main] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring embedded WebApplicationContext
-10:50:47.306 [main] INFO  c.s.u.s.TaskServiceImpl - [init,17] - -------初始化开始--------
-10:50:47.370 [main] INFO  c.ss.up.task.ScTask - [addCache,34] - ************* 添加缓存开始 data:shang
-10:50:48.532 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8955"]
-10:50:48.570 [main] INFO  c.s.u.CircularApplication - [logStarted,61] - Started CircularApplication in 4.693 seconds (JVM running for 7.271)
-10:51:00.006 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-10:51:00.012 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1050":"shang"}
-10:51:00.037 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1051
-10:51:00.038 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1050=shang}
-10:51:00.049 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-10:52:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-10:52:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1050":"shang"}
-10:52:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1052
-10:52:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1050=shang}
-10:52:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-10:52:22.570 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2043] - {dataSource-0} closing ...
-10:54:20.871 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.0.22.Final
-10:54:20.878 [main] INFO  c.s.u.CircularApplication - [logStarting,55] - Starting CircularApplication on DESKTOP-1OONTGS with PID 60556 (D:\Program Files\project\ssmodule\target\classes started by Thin'k'pa'd in D:\Program Files\project)
-10:54:20.879 [main] INFO  c.s.u.CircularApplication - [logStartupProfileInfo,655] - The following profiles are active: druid
-10:54:22.848 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8955"]
-10:54:22.849 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
-10:54:22.849 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
-10:54:23.021 [main] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring embedded WebApplicationContext
-10:54:23.927 [main] INFO  c.s.u.s.TaskServiceImpl - [init,17] - -------初始化开始--------
-10:54:24.035 [main] INFO  c.ss.up.task.ScTask - [addCache,34] - ************* 添加缓存开始 data:shang
-10:54:25.552 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8955"]
-10:54:25.621 [main] INFO  c.s.u.CircularApplication - [logStarted,61] - Started CircularApplication in 5.446 seconds (JVM running for 8.717)
-10:54:33.967 [http-nio-8955-exec-1] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-10:55:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-10:55:00.005 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1054":"shang"}
-10:55:00.016 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1055
-10:55:00.017 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1054=shang}
-10:55:00.017 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-10:55:09.885 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2043] - {dataSource-0} closing ...
-10:55:20.473 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.0.22.Final
-10:55:20.480 [main] INFO  c.s.u.CircularApplication - [logStarting,55] - Starting CircularApplication on DESKTOP-1OONTGS with PID 75156 (D:\Program Files\project\ssmodule\target\classes started by Thin'k'pa'd in D:\Program Files\project)
-10:55:20.481 [main] INFO  c.s.u.CircularApplication - [logStartupProfileInfo,655] - The following profiles are active: druid
-10:55:22.268 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8955"]
-10:55:22.269 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
-10:55:22.270 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
-10:55:22.423 [main] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring embedded WebApplicationContext
-10:55:23.209 [main] INFO  c.s.u.s.TaskServiceImpl - [init,17] - -------初始化开始--------
-10:55:23.292 [main] INFO  c.ss.up.task.ScTask - [addCache,34] - ************* 添加缓存开始 data:shang
-10:55:24.554 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8955"]
-10:55:24.592 [main] INFO  c.s.u.CircularApplication - [logStarted,61] - Started CircularApplication in 4.716 seconds (JVM running for 7.3)
-10:55:31.037 [http-nio-8955-exec-1] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-10:56:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-10:56:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1055":"shang"}
-10:56:00.007 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1056
-10:56:00.008 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1055=shang}
-10:56:00.008 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-10:57:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-10:57:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1055":"shang"}
-10:57:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1057
-10:57:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1055=shang}
-10:57:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-10:58:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-10:58:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1055":"shang"}
-10:58:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1058
-10:58:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1055=shang}
-10:58:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-10:59:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-10:59:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1055":"shang"}
-10:59:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1059
-10:59:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1055=shang}
-10:59:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-11:00:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-11:00:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1055":"shang"}
-11:00:00.005 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1100
-11:00:00.005 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1055=shang}
-11:00:00.005 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-11:01:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-11:01:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1055":"shang"}
-11:01:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1101
-11:01:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1055=shang}
-11:01:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-11:02:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-11:02:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1055":"shang"}
-11:02:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1102
-11:02:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1055=shang}
-11:02:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-11:03:00.007 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-11:03:00.009 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1055":"shang"}
-11:03:00.009 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1103
-11:03:00.010 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1055=shang}
-11:03:00.011 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-11:04:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-11:04:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1055":"shang"}
-11:04:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1104
-11:04:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1055=shang}
-11:04:00.005 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-11:05:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-11:05:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1055":"shang"}
-11:05:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1105
-11:05:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1055=shang}
-11:05:00.005 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-11:06:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-11:06:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1055":"shang"}
-11:06:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1106
-11:06:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1055=shang}
-11:06:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-11:07:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-11:07:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1055":"shang"}
-11:07:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1107
-11:07:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1055=shang}
-11:07:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-11:08:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-11:08:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1055":"shang"}
-11:08:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1108
-11:08:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1055=shang}
-11:08:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-11:09:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-11:09:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1055":"shang"}
-11:09:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1109
-11:09:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1055=shang}
-11:09:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-11:10:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-11:10:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1055":"shang"}
-11:10:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1110
-11:10:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1055=shang}
-11:10:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-11:11:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-11:11:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1055":"shang"}
-11:11:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1111
-11:11:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1055=shang}
-11:11:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-11:12:00.000 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-11:12:00.000 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1055":"shang"}
-11:12:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1112
-11:12:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1055=shang}
-11:12:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-11:13:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-11:13:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1055":"shang"}
-11:13:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1113
-11:13:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1055=shang}
-11:13:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-11:14:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-11:14:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1055":"shang"}
-11:14:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1114
-11:14:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1055=shang}
-11:14:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-11:15:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-11:15:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1055":"shang"}
-11:15:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1115
-11:15:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1055=shang}
-11:15:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-11:15:11.046 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2043] - {dataSource-0} closing ...
-11:26:54.051 [main] INFO  c.s.up.SsApplication - [logStarting,55] - Starting SsApplication on DESKTOP-1OONTGS with PID 75520 (D:\Program Files\project\ssmodule\target\classes started by Thin'k'pa'd in D:\Program Files\project)
-11:26:54.054 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.0.22.Final
-11:26:54.056 [main] INFO  c.s.up.SsApplication - [logStartupProfileInfo,655] - The following profiles are active: druid
-11:26:55.557 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8955"]
-11:26:55.557 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
-11:26:55.558 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
-11:26:55.697 [main] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring embedded WebApplicationContext
-11:26:56.394 [main] INFO  c.s.u.s.TaskServiceImpl - [init,17] - -------初始化开始--------
-11:26:56.448 [main] INFO  c.ss.up.task.ScTask - [addCache,34] - ************* 添加缓存开始 data:shang
-11:26:57.762 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8955"]
-11:26:57.806 [main] INFO  c.s.up.SsApplication - [logStarted,61] - Started SsApplication in 4.297 seconds (JVM running for 6.718)
-11:27:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-11:27:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1126":"shang"}
-11:27:00.009 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1127
-11:27:00.009 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1126=shang}
-11:27:00.009 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-11:27:15.445 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2043] - {dataSource-0} closing ...
-14:19:45.597 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.0.22.Final
-14:19:45.604 [main] INFO  c.s.up.SsApplication - [logStarting,55] - Starting SsApplication on DESKTOP-1OONTGS with PID 76016 (D:\Program Files\project\ssmodule\target\classes started by Thin'k'pa'd in D:\Program Files\project)
-14:19:45.605 [main] INFO  c.s.up.SsApplication - [logStartupProfileInfo,655] - The following profiles are active: druid
-14:19:47.451 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8955"]
-14:19:47.452 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
-14:19:47.452 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
-14:19:47.608 [main] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring embedded WebApplicationContext
-14:19:48.364 [main] INFO  c.s.u.s.TaskServiceImpl - [init,17] - -------初始化开始--------
-14:19:48.424 [main] INFO  c.ss.up.task.ScTask - [addCache,34] - ************* 添加缓存开始 data:shang
-14:19:49.742 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8955"]
-14:19:49.780 [main] INFO  c.s.up.SsApplication - [logStarted,61] - Started SsApplication in 4.795 seconds (JVM running for 7.412)
-14:20:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-14:20:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1419":"shang"}
-14:20:00.007 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1420
-14:20:00.007 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1419=shang}
-14:20:00.007 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-14:20:06.276 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2043] - {dataSource-0} closing ...
-15:06:48.962 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.0.22.Final
-15:06:48.970 [main] INFO  c.s.up.SsApplication - [logStarting,55] - Starting SsApplication on DESKTOP-1OONTGS with PID 14424 (D:\Program Files\project\ssmodule\target\classes started by Thin'k'pa'd in D:\Program Files\project)
-15:06:48.971 [main] INFO  c.s.up.SsApplication - [logStartupProfileInfo,655] - The following profiles are active: druid
-15:06:51.087 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8955"]
-15:06:51.088 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
-15:06:51.088 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
-15:06:51.275 [main] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring embedded WebApplicationContext
-15:06:52.065 [main] INFO  c.s.u.s.TaskServiceImpl - [init,17] - -------初始化开始--------
-15:06:52.127 [main] INFO  c.ss.up.task.ScTask - [addCache,34] - ************* 添加缓存开始 data:shang
-15:06:53.477 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8955"]
-15:06:53.517 [main] INFO  c.s.up.SsApplication - [logStarted,61] - Started SsApplication in 5.167 seconds (JVM running for 8.186)
-15:06:56.930 [http-nio-8955-exec-1] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:15:02.387 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.0.22.Final
+10:15:02.396 [main] INFO  c.s.up.SsApplication - [logStarting,55] - Starting SsApplication on DESKTOP-1OONTGS with PID 34016 (D:\Program Files\project\ssmodule\target\classes started by Thin'k'pa'd in D:\Program Files\project)
+10:15:02.396 [main] INFO  c.s.up.SsApplication - [logStartupProfileInfo,655] - The following profiles are active: druid
+10:15:04.040 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8955"]
+10:15:04.041 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+10:15:04.041 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+10:15:04.186 [main] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring embedded WebApplicationContext
+10:15:04.852 [main] INFO  c.s.u.s.TaskServiceImpl - [init,17] - -------初始化开始--------
+10:15:04.904 [main] INFO  c.ss.up.task.ScTask - [addCache,34] - ************* 添加缓存开始 data:shang
+10:15:06.058 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8955"]
+10:15:06.091 [main] INFO  c.s.up.SsApplication - [logStarted,61] - Started SsApplication in 4.284 seconds (JVM running for 6.447)
+10:16:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+10:16:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1015":"shang"}
+10:16:00.007 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1016
+10:16:00.007 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1015=shang}
+10:16:00.008 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+10:17:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+10:17:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1015":"shang"}
+10:17:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1017
+10:17:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1015=shang}
+10:17:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+10:18:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+10:18:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1015":"shang"}
+10:18:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1018
+10:18:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1015=shang}
+10:18:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+10:19:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+10:19:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1015":"shang"}
+10:19:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1019
+10:19:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1015=shang}
+10:19:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+10:20:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+10:20:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1015":"shang"}
+10:20:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1020
+10:20:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1015=shang}
+10:20:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+10:20:03.483 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2043] - {dataSource-0} closing ...
+11:13:46.161 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.0.22.Final
+11:13:46.175 [main] INFO  c.s.up.SsApplication - [logStarting,55] - Starting SsApplication on DESKTOP-1OONTGS with PID 37380 (D:\Program Files\project\ssmodule\target\classes started by Thin'k'pa'd in D:\Program Files\project)
+11:13:46.176 [main] INFO  c.s.up.SsApplication - [logStartupProfileInfo,655] - The following profiles are active: druid
+11:13:48.042 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8955"]
+11:13:48.043 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:13:48.043 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+11:13:48.197 [main] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:13:48.934 [main] INFO  c.s.u.s.TaskServiceImpl - [init,17] - -------初始化开始--------
+11:13:48.993 [main] INFO  c.ss.up.task.ScTask - [addCache,34] - ************* 添加缓存开始 data:shang
+11:13:50.281 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8955"]
+11:13:50.330 [main] INFO  c.s.up.SsApplication - [logStarted,61] - Started SsApplication in 4.769 seconds (JVM running for 7.691)
+11:14:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+11:14:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1113":"shang"}
+11:14:00.013 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1114
+11:14:00.014 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1113=shang}
+11:14:00.015 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+11:14:11.539 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2043] - {dataSource-0} closing ...
+14:38:55.522 [main] INFO  c.s.up.SsApplication - [logStarting,55] - Starting SsApplication on DESKTOP-1OONTGS with PID 42424 (D:\Program Files\project\ssmodule\target\classes started by Thin'k'pa'd in D:\Program Files\project)
+14:38:55.517 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.0.22.Final
+14:38:55.525 [main] INFO  c.s.up.SsApplication - [logStartupProfileInfo,655] - The following profiles are active: druid
+14:40:46.480 [main] INFO  c.s.up.SsApplication - [logStarting,55] - Starting SsApplication on DESKTOP-1OONTGS with PID 42924 (D:\Program Files\project\ssmodule\target\classes started by Thin'k'pa'd in D:\Program Files\project)
+14:40:46.478 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.0.22.Final
+14:40:46.484 [main] INFO  c.s.up.SsApplication - [logStartupProfileInfo,655] - The following profiles are active: druid
+14:42:36.724 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.0.22.Final
+14:42:38.405 [main] INFO  c.s.up.SsApplication - [logStartupProfileInfo,655] - The following profiles are active: druid
+14:42:40.082 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8955"]
+14:42:40.083 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+14:42:40.084 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+14:42:40.290 [main] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring embedded WebApplicationContext
+14:42:41.120 [main] INFO  c.s.u.s.TaskServiceImpl - [init,17] - -------初始化开始--------
+14:42:41.180 [main] INFO  c.ss.up.task.ScTask - [addCache,34] - ************* 添加缓存开始 data:shang
+14:42:43.686 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8955"]
+14:42:44.831 [main] INFO  c.s.up.SsApplication - [logStarted,61] - Started SsApplication in 9.812 seconds (JVM running for 12.378)
+14:42:48.815 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2043] - {dataSource-0} closing ...
+14:43:48.805 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.0.22.Final
+14:43:50.556 [main] INFO  c.s.up.SsApplication - [logStartupProfileInfo,655] - The following profiles are active: druid
+14:43:52.144 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8955"]
+14:43:52.145 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+14:43:52.145 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+14:43:52.349 [main] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring embedded WebApplicationContext
+14:43:53.012 [main] INFO  c.s.u.s.TaskServiceImpl - [init,17] - -------初始化开始--------
+14:43:53.071 [main] INFO  c.ss.up.task.ScTask - [addCache,34] - ************* 添加缓存开始 data:shang
+14:43:55.514 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8955"]
+14:43:56.787 [main] INFO  c.s.up.SsApplication - [logStarted,61] - Started SsApplication in 9.533 seconds (JVM running for 12.253)
+14:44:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+14:44:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1443":"shang"}
+14:44:00.008 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1444
+14:44:00.008 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1443=shang}
+14:44:00.008 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+14:44:52.663 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2043] - {dataSource-0} closing ...
+14:47:49.916 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.0.22.Final
+14:49:25.933 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.0.22.Final
+14:50:42.461 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.0.22.Final
+14:50:44.648 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor - [<clinit>,195] - LOCAL_SNAPSHOT_PATH:C:\Users\Thin'k'pa'd\nacos\config
+14:52:04.737 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.0.22.Final
+14:52:06.712 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor - [<clinit>,195] - LOCAL_SNAPSHOT_PATH:C:\Users\Thin'k'pa'd\nacos\config
+14:52:06.762 [main] INFO  c.a.n.c.c.i.Limiter - [<clinit>,53] - limitTime:5.0
+14:52:06.803 [main] INFO  c.a.n.c.c.u.JVMUtil - [<clinit>,47] - isMultiInstance:false
+14:52:06.895 [main] INFO  c.s.up.SsApplication - [logStartupProfileInfo,655] - The following profiles are active: druid
+14:52:08.546 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8955"]
+14:52:08.547 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+14:52:08.548 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+14:52:08.705 [main] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring embedded WebApplicationContext
+14:52:09.372 [main] INFO  c.s.u.s.TaskServiceImpl - [init,17] - -------初始化开始--------
+14:52:09.376 [main] INFO  c.ss.up.task.ScTask - [addCache,34] - ************* 添加缓存开始 data:shang
+14:52:10.845 [main] INFO  c.a.n.client.naming - [call,56] - initializer namespace from System Property :null
+14:52:10.846 [main] INFO  c.a.n.client.naming - [call,65] - initializer namespace from System Environment :null
+14:52:10.846 [main] INFO  c.a.n.client.naming - [call,75] - initializer namespace from System Property :null
+14:52:13.242 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8955"]
+14:52:13.292 [main] INFO  c.a.n.client.naming - [addBeatInfo,66] - [BEAT] adding beat: {"cluster":"DEFAULT","ip":"192.168.3.7","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":8955,"scheduled":false,"serviceName":"DEFAULT_GROUP@@ssmodule","stopped":false,"weight":1.0} to beat map.
+14:52:13.323 [main] INFO  c.a.n.client.naming - [registerService,196] - [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@ssmodule with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"192.168.3.7","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8955,"weight":1.0}
+14:52:13.369 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,65] - nacos registry, DEFAULT_GROUP ssmodule 192.168.3.7:8955 register finished
+14:52:14.505 [main] INFO  c.s.up.SsApplication - [logStarted,61] - Started SsApplication in 11.426 seconds (JVM running for 13.671)
+14:52:14.509 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,197] - [fixed-localhost_8848] [subscribe] ssmodule+DEFAULT_GROUP
+14:52:14.511 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=ssmodule, group=DEFAULT_GROUP, cnt=1
+14:52:14.511 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,197] - [fixed-localhost_8848] [subscribe] ssmodule-druid.properties+DEFAULT_GROUP
+14:52:14.512 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=ssmodule-druid.properties, group=DEFAULT_GROUP, cnt=1
+14:52:14.512 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,197] - [fixed-localhost_8848] [subscribe] ssmodule.properties+DEFAULT_GROUP
+14:52:14.512 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=ssmodule.properties, group=DEFAULT_GROUP, cnt=1
+14:52:14.527 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+14:52:44.225 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+14:53:00.000 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+14:53:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1452":"shang"}
+14:53:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1453
+14:53:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1452=shang}
+14:53:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+14:53:13.734 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+14:53:43.241 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+14:54:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+14:54:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1452":"shang"}
+14:54:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1454
+14:54:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1452=shang}
+14:54:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+14:54:12.751 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+14:54:42.257 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+14:55:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+14:55:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1452":"shang"}
+14:55:00.005 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1455
+14:55:00.005 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1452=shang}
+14:55:00.006 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+14:55:11.763 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+14:55:41.268 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+14:55:58.253 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [parseUpdateDataIdResponse,427] - [fixed-localhost_8848] [polling-resp] config changed. dataId=ssmodule, group=DEFAULT_GROUP
+14:55:58.253 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[ssmodule+DEFAULT_GROUP]
+14:55:58.267 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,539] - [fixed-localhost_8848] [data-received] dataId=ssmodule, group=DEFAULT_GROUP, tenant=null, md5=3c508c3558f92b96c4cfda731b10ec46, content=id=1234
+name=shangsong, type=properties
+14:55:58.268 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.CacheData - [run,192] - [fixed-localhost_8848] [notify-context] dataId=ssmodule, group=DEFAULT_GROUP, md5=3c508c3558f92b96c4cfda731b10ec46
+14:56:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+14:56:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1452":"shang"}
+14:56:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1456
+14:56:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1452=shang}
+14:56:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+14:56:00.813 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.CacheData - [run,214] - [fixed-localhost_8848] [notify-ok] dataId=ssmodule, group=DEFAULT_GROUP, md5=3c508c3558f92b96c4cfda731b10ec46, listener=com.alibaba.cloud.nacos.refresh.NacosContextRefresher$1@71c676f5 
+14:56:00.814 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.CacheData - [safeNotifyListener,240] - [fixed-localhost_8848] [notify-listener] time cost=2546ms in ClientWorker, dataId=ssmodule, group=DEFAULT_GROUP, md5=3c508c3558f92b96c4cfda731b10ec46, listener=com.alibaba.cloud.nacos.refresh.NacosContextRefresher$1@71c676f5 
+14:56:10.618 [SpringContextShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,80] - De-registering from Nacos Server now...
+14:56:10.619 [SpringContextShutdownHook] INFO  c.a.n.client.naming - [removeBeatInfo,79] - [BEAT] removing beat: DEFAULT_GROUP@@ssmodule:192.168.3.7:8955 from beat map.
+14:56:10.620 [SpringContextShutdownHook] INFO  c.a.n.client.naming - [deregisterService,218] - [DEREGISTER-SERVICE] public deregistering service DEFAULT_GROUP@@ssmodule with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceIdGenerator":"simple","ip":"192.168.3.7","ipDeleteTimeout":30000,"metadata":{},"port":8955,"weight":1.0}
+14:56:10.624 [SpringContextShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,100] - De-registration finished.
+14:56:10.626 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2043] - {dataSource-0} closing ...
+14:56:18.118 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.0.22.Final
+14:56:19.878 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor - [<clinit>,195] - LOCAL_SNAPSHOT_PATH:C:\Users\Thin'k'pa'd\nacos\config
+14:56:19.913 [main] INFO  c.a.n.c.c.i.Limiter - [<clinit>,53] - limitTime:5.0
+14:56:19.930 [main] INFO  c.a.n.c.c.u.JVMUtil - [<clinit>,47] - isMultiInstance:false
+14:56:20.043 [main] INFO  c.s.up.SsApplication - [logStartupProfileInfo,655] - The following profiles are active: druid
+14:56:21.808 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8955"]
+14:56:21.808 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+14:56:21.809 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+14:56:21.960 [main] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring embedded WebApplicationContext
+14:56:22.626 [main] INFO  c.s.u.s.TaskServiceImpl - [init,17] - -------初始化开始--------
+14:56:22.631 [main] INFO  c.ss.up.task.ScTask - [addCache,34] - ************* 添加缓存开始 data:shang
+14:56:24.042 [main] INFO  c.a.n.client.naming - [call,56] - initializer namespace from System Property :null
+14:56:24.043 [main] INFO  c.a.n.client.naming - [call,65] - initializer namespace from System Environment :null
+14:56:24.044 [main] INFO  c.a.n.client.naming - [call,75] - initializer namespace from System Property :null
+14:56:26.284 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8955"]
+14:56:26.328 [main] INFO  c.a.n.client.naming - [addBeatInfo,66] - [BEAT] adding beat: {"cluster":"DEFAULT","ip":"192.168.3.7","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":8955,"scheduled":false,"serviceName":"DEFAULT_GROUP@@ssmodule","stopped":false,"weight":1.0} to beat map.
+14:56:26.369 [main] INFO  c.a.n.client.naming - [registerService,196] - [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@ssmodule with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"192.168.3.7","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8955,"weight":1.0}
+14:56:26.385 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,65] - nacos registry, DEFAULT_GROUP ssmodule 192.168.3.7:8955 register finished
+14:56:27.593 [main] INFO  c.s.up.SsApplication - [logStarted,61] - Started SsApplication in 11.014 seconds (JVM running for 13.421)
+14:56:27.597 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,197] - [fixed-localhost_8848] [subscribe] ssmodule+DEFAULT_GROUP
+14:56:27.599 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=ssmodule, group=DEFAULT_GROUP, cnt=1
+14:56:27.599 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,197] - [fixed-localhost_8848] [subscribe] ssmodule-druid.properties+DEFAULT_GROUP
+14:56:27.600 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=ssmodule-druid.properties, group=DEFAULT_GROUP, cnt=1
+14:56:27.600 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,197] - [fixed-localhost_8848] [subscribe] ssmodule.properties+DEFAULT_GROUP
+14:56:27.600 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=ssmodule.properties, group=DEFAULT_GROUP, cnt=1
+14:56:27.605 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+14:56:57.306 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+14:57:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+14:57:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1456":"shang"}
+14:57:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1457
+14:57:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1456=shang}
+14:57:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+14:57:26.812 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+14:57:56.317 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+14:58:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+14:58:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1456":"shang"}
+14:58:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1458
+14:58:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1456=shang}
+14:58:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+14:58:06.828 [SpringContextShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,80] - De-registering from Nacos Server now...
+14:58:06.829 [SpringContextShutdownHook] INFO  c.a.n.client.naming - [removeBeatInfo,79] - [BEAT] removing beat: DEFAULT_GROUP@@ssmodule:192.168.3.7:8955 from beat map.
+14:58:06.829 [SpringContextShutdownHook] INFO  c.a.n.client.naming - [deregisterService,218] - [DEREGISTER-SERVICE] public deregistering service DEFAULT_GROUP@@ssmodule with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceIdGenerator":"simple","ip":"192.168.3.7","ipDeleteTimeout":30000,"metadata":{},"port":8955,"weight":1.0}
+14:58:06.834 [SpringContextShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,100] - De-registration finished.
+14:58:06.836 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2043] - {dataSource-0} closing ...
+14:58:19.650 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.0.22.Final
+14:58:21.538 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor - [<clinit>,195] - LOCAL_SNAPSHOT_PATH:C:\Users\Thin'k'pa'd\nacos\config
+14:58:21.585 [main] INFO  c.a.n.c.c.i.Limiter - [<clinit>,53] - limitTime:5.0
+14:58:21.605 [main] INFO  c.a.n.c.c.u.JVMUtil - [<clinit>,47] - isMultiInstance:false
+14:58:21.710 [main] INFO  c.s.up.SsApplication - [logStartupProfileInfo,655] - The following profiles are active: druid
+14:58:23.671 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8955"]
+14:58:23.671 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+14:58:23.672 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+14:58:23.828 [main] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring embedded WebApplicationContext
+14:58:24.506 [main] INFO  c.s.u.s.TaskServiceImpl - [init,17] - -------初始化开始--------
+14:58:24.510 [main] INFO  c.ss.up.task.ScTask - [addCache,34] - ************* 添加缓存开始 data:shang
+14:58:26.064 [main] INFO  c.a.n.client.naming - [call,56] - initializer namespace from System Property :null
+14:58:26.065 [main] INFO  c.a.n.client.naming - [call,65] - initializer namespace from System Environment :null
+14:58:26.067 [main] INFO  c.a.n.client.naming - [call,75] - initializer namespace from System Property :null
+14:58:28.348 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8955"]
+14:58:28.404 [main] INFO  c.a.n.client.naming - [addBeatInfo,66] - [BEAT] adding beat: {"cluster":"DEFAULT","ip":"192.168.3.7","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":8955,"scheduled":false,"serviceName":"DEFAULT_GROUP@@ssmodule","stopped":false,"weight":1.0} to beat map.
+14:58:28.444 [main] INFO  c.a.n.client.naming - [registerService,196] - [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@ssmodule with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"192.168.3.7","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8955,"weight":1.0}
+14:58:28.457 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,65] - nacos registry, DEFAULT_GROUP ssmodule 192.168.3.7:8955 register finished
+14:58:29.600 [main] INFO  c.s.up.SsApplication - [logStarted,61] - Started SsApplication in 11.662 seconds (JVM running for 14.833)
+14:58:29.605 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,197] - [fixed-localhost_8848] [subscribe] ssmodule+DEFAULT_GROUP
+14:58:29.607 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=ssmodule, group=DEFAULT_GROUP, cnt=1
+14:58:29.607 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,197] - [fixed-localhost_8848] [subscribe] ssmodule-druid.properties+DEFAULT_GROUP
+14:58:29.607 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=ssmodule-druid.properties, group=DEFAULT_GROUP, cnt=1
+14:58:29.608 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,197] - [fixed-localhost_8848] [subscribe] ssmodule.properties+DEFAULT_GROUP
+14:58:29.608 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=ssmodule.properties, group=DEFAULT_GROUP, cnt=1
+14:58:29.622 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+14:58:59.322 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+14:59:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+14:59:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1458":"shang"}
+14:59:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1459
+14:59:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1458=shang}
+14:59:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+14:59:07.789 [http-nio-8955-exec-1] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:59:28.827 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+14:59:38.638 [SpringContextShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,80] - De-registering from Nacos Server now...
+14:59:38.638 [SpringContextShutdownHook] INFO  c.a.n.client.naming - [removeBeatInfo,79] - [BEAT] removing beat: DEFAULT_GROUP@@ssmodule:192.168.3.7:8955 from beat map.
+14:59:38.639 [SpringContextShutdownHook] INFO  c.a.n.client.naming - [deregisterService,218] - [DEREGISTER-SERVICE] public deregistering service DEFAULT_GROUP@@ssmodule with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceIdGenerator":"simple","ip":"192.168.3.7","ipDeleteTimeout":30000,"metadata":{},"port":8955,"weight":1.0}
+14:59:38.642 [SpringContextShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,100] - De-registration finished.
+14:59:38.644 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2043] - {dataSource-0} closing ...
+14:59:49.582 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.0.22.Final
+14:59:51.356 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor - [<clinit>,195] - LOCAL_SNAPSHOT_PATH:C:\Users\Thin'k'pa'd\nacos\config
+14:59:51.396 [main] INFO  c.a.n.c.c.i.Limiter - [<clinit>,53] - limitTime:5.0
+14:59:51.413 [main] INFO  c.a.n.c.c.u.JVMUtil - [<clinit>,47] - isMultiInstance:false
+14:59:51.511 [main] INFO  c.s.up.SsApplication - [logStartupProfileInfo,655] - The following profiles are active: druid
+14:59:53.354 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8955"]
+14:59:53.355 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+14:59:53.355 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+14:59:53.522 [main] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring embedded WebApplicationContext
+14:59:54.245 [main] INFO  c.s.u.s.TaskServiceImpl - [init,17] - -------初始化开始--------
+14:59:54.249 [main] INFO  c.ss.up.task.ScTask - [addCache,34] - ************* 添加缓存开始 data:shang
+14:59:55.626 [main] INFO  c.a.n.client.naming - [call,56] - initializer namespace from System Property :null
+14:59:55.627 [main] INFO  c.a.n.client.naming - [call,65] - initializer namespace from System Environment :null
+14:59:55.628 [main] INFO  c.a.n.client.naming - [call,75] - initializer namespace from System Property :null
+14:59:57.761 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8955"]
+14:59:57.801 [main] INFO  c.a.n.client.naming - [addBeatInfo,66] - [BEAT] adding beat: {"cluster":"DEFAULT","ip":"192.168.3.7","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":8955,"scheduled":false,"serviceName":"DEFAULT_GROUP@@ssmodule","stopped":false,"weight":1.0} to beat map.
+14:59:57.835 [main] INFO  c.a.n.client.naming - [registerService,196] - [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@ssmodule with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"192.168.3.7","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8955,"weight":1.0}
+14:59:57.846 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,65] - nacos registry, DEFAULT_GROUP ssmodule 192.168.3.7:8955 register finished
+14:59:58.978 [main] INFO  c.s.up.SsApplication - [logStarted,61] - Started SsApplication in 11.084 seconds (JVM running for 13.418)
+14:59:58.984 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,197] - [fixed-localhost_8848] [subscribe] ssmodule+DEFAULT_GROUP
+14:59:58.986 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=ssmodule, group=DEFAULT_GROUP, cnt=1
+14:59:58.986 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,197] - [fixed-localhost_8848] [subscribe] ssmodule-druid.properties+DEFAULT_GROUP
+14:59:58.986 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=ssmodule-druid.properties, group=DEFAULT_GROUP, cnt=1
+14:59:58.987 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,197] - [fixed-localhost_8848] [subscribe] ssmodule.properties+DEFAULT_GROUP
+14:59:58.987 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=ssmodule.properties, group=DEFAULT_GROUP, cnt=1
+14:59:58.999 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:00:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:00:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1459":"shang"}
+15:00:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1500
+15:00:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1459=shang}
+15:00:00.005 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:00:03.324 [http-nio-8955-exec-2] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:00:28.701 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:00:58.206 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:01:00.000 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:01:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1459":"shang"}
+15:01:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1501
+15:01:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1459=shang}
+15:01:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:01:27.709 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:01:43.860 [SpringContextShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,80] - De-registering from Nacos Server now...
+15:01:43.861 [SpringContextShutdownHook] INFO  c.a.n.client.naming - [removeBeatInfo,79] - [BEAT] removing beat: DEFAULT_GROUP@@ssmodule:192.168.3.7:8955 from beat map.
+15:01:43.861 [SpringContextShutdownHook] INFO  c.a.n.client.naming - [deregisterService,218] - [DEREGISTER-SERVICE] public deregistering service DEFAULT_GROUP@@ssmodule with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceIdGenerator":"simple","ip":"192.168.3.7","ipDeleteTimeout":30000,"metadata":{},"port":8955,"weight":1.0}
+15:01:43.864 [SpringContextShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,100] - De-registration finished.
+15:01:43.866 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2043] - {dataSource-0} closing ...
+15:01:54.603 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.0.22.Final
+15:01:56.435 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor - [<clinit>,195] - LOCAL_SNAPSHOT_PATH:C:\Users\Thin'k'pa'd\nacos\config
+15:01:56.473 [main] INFO  c.a.n.c.c.i.Limiter - [<clinit>,53] - limitTime:5.0
+15:01:56.491 [main] INFO  c.a.n.c.c.u.JVMUtil - [<clinit>,47] - isMultiInstance:false
+15:01:56.582 [main] INFO  c.s.up.SsApplication - [logStartupProfileInfo,655] - The following profiles are active: druid
+15:01:58.248 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8955"]
+15:01:58.249 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+15:01:58.250 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+15:01:58.402 [main] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring embedded WebApplicationContext
+15:01:59.065 [main] INFO  c.s.u.s.TaskServiceImpl - [init,17] - -------初始化开始--------
+15:01:59.071 [main] INFO  c.ss.up.task.ScTask - [addCache,34] - ************* 添加缓存开始 data:shang
+15:02:00.522 [main] INFO  c.a.n.client.naming - [call,56] - initializer namespace from System Property :null
+15:02:00.524 [main] INFO  c.a.n.client.naming - [call,65] - initializer namespace from System Environment :null
+15:02:00.525 [main] INFO  c.a.n.client.naming - [call,75] - initializer namespace from System Property :null
+15:02:03.069 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8955"]
+15:02:03.104 [main] INFO  c.a.n.client.naming - [addBeatInfo,66] - [BEAT] adding beat: {"cluster":"DEFAULT","ip":"192.168.3.7","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":8955,"scheduled":false,"serviceName":"DEFAULT_GROUP@@ssmodule","stopped":false,"weight":1.0} to beat map.
+15:02:03.132 [main] INFO  c.a.n.client.naming - [registerService,196] - [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@ssmodule with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"192.168.3.7","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8955,"weight":1.0}
+15:02:03.141 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,65] - nacos registry, DEFAULT_GROUP ssmodule 192.168.3.7:8955 register finished
+15:02:04.205 [main] INFO  c.s.up.SsApplication - [logStarted,61] - Started SsApplication in 11.169 seconds (JVM running for 13.594)
+15:02:04.210 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,197] - [fixed-localhost_8848] [subscribe] ssmodule+DEFAULT_GROUP
+15:02:04.211 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=ssmodule, group=DEFAULT_GROUP, cnt=1
+15:02:04.212 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,197] - [fixed-localhost_8848] [subscribe] ssmodule-druid.properties+DEFAULT_GROUP
+15:02:04.212 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=ssmodule-druid.properties, group=DEFAULT_GROUP, cnt=1
+15:02:04.212 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,197] - [fixed-localhost_8848] [subscribe] ssmodule.properties+DEFAULT_GROUP
+15:02:04.212 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=ssmodule.properties, group=DEFAULT_GROUP, cnt=1
+15:02:04.221 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:02:14.183 [http-nio-8955-exec-1] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:02:33.923 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:02:56.955 [SpringContextShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,80] - De-registering from Nacos Server now...
+15:02:56.955 [SpringContextShutdownHook] INFO  c.a.n.client.naming - [removeBeatInfo,79] - [BEAT] removing beat: DEFAULT_GROUP@@ssmodule:192.168.3.7:8955 from beat map.
+15:02:56.956 [SpringContextShutdownHook] INFO  c.a.n.client.naming - [deregisterService,218] - [DEREGISTER-SERVICE] public deregistering service DEFAULT_GROUP@@ssmodule with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceIdGenerator":"simple","ip":"192.168.3.7","ipDeleteTimeout":30000,"metadata":{},"port":8955,"weight":1.0}
+15:02:56.960 [SpringContextShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,100] - De-registration finished.
+15:02:56.963 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2043] - {dataSource-0} closing ...
+15:03:08.017 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.0.22.Final
+15:03:09.799 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor - [<clinit>,195] - LOCAL_SNAPSHOT_PATH:C:\Users\Thin'k'pa'd\nacos\config
+15:03:09.835 [main] INFO  c.a.n.c.c.i.Limiter - [<clinit>,53] - limitTime:5.0
+15:03:09.853 [main] INFO  c.a.n.c.c.u.JVMUtil - [<clinit>,47] - isMultiInstance:false
+15:03:09.943 [main] INFO  c.s.up.SsApplication - [logStartupProfileInfo,655] - The following profiles are active: druid
+15:03:11.714 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8955"]
+15:03:11.715 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+15:03:11.715 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+15:03:11.863 [main] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring embedded WebApplicationContext
+15:03:12.518 [main] INFO  c.s.u.s.TaskServiceImpl - [init,17] - -------初始化开始--------
+15:03:12.523 [main] INFO  c.ss.up.task.ScTask - [addCache,34] - ************* 添加缓存开始 data:shang
+15:03:13.941 [main] INFO  c.a.n.client.naming - [call,56] - initializer namespace from System Property :null
+15:03:13.942 [main] INFO  c.a.n.client.naming - [call,65] - initializer namespace from System Environment :null
+15:03:13.943 [main] INFO  c.a.n.client.naming - [call,75] - initializer namespace from System Property :null
+15:03:20.373 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8955"]
+15:03:20.441 [main] INFO  c.a.n.client.naming - [addBeatInfo,66] - [BEAT] adding beat: {"cluster":"DEFAULT","ip":"192.168.3.7","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":8955,"scheduled":false,"serviceName":"DEFAULT_GROUP@@ssmodule","stopped":false,"weight":1.0} to beat map.
+15:03:20.496 [main] INFO  c.a.n.client.naming - [registerService,196] - [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@ssmodule with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"192.168.3.7","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8955,"weight":1.0}
+15:03:20.528 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,65] - nacos registry, DEFAULT_GROUP ssmodule 192.168.3.7:8955 register finished
+15:03:21.898 [http-nio-8955-exec-1] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:03:22.478 [main] INFO  c.s.up.SsApplication - [logStarted,61] - Started SsApplication in 16.068 seconds (JVM running for 18.497)
+15:03:22.485 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,197] - [fixed-localhost_8848] [subscribe] ssmodule+DEFAULT_GROUP
+15:03:22.487 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=ssmodule, group=DEFAULT_GROUP, cnt=1
+15:03:22.487 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,197] - [fixed-localhost_8848] [subscribe] ssmodule-druid.properties+DEFAULT_GROUP
+15:03:22.488 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=ssmodule-druid.properties, group=DEFAULT_GROUP, cnt=1
+15:03:22.488 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,197] - [fixed-localhost_8848] [subscribe] ssmodule.properties+DEFAULT_GROUP
+15:03:22.489 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=ssmodule.properties, group=DEFAULT_GROUP, cnt=1
+15:03:22.498 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:03:52.200 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:04:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:04:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1503":"shang"}
+15:04:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1504
+15:04:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1503=shang}
+15:04:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:04:21.704 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:04:51.208 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:05:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:05:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1503":"shang"}
+15:05:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1505
+15:05:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1503=shang}
+15:05:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:05:20.712 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:05:50.217 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:06:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:06:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1503":"shang"}
+15:06:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1506
+15:06:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1503=shang}
+15:06:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:06:19.721 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:06:49.226 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
 15:07:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-15:07:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
-15:07:00.009 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1507
-15:07:00.009 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
-15:07:00.009 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-15:07:10.200 [http-nio-8955-exec-3] INFO  c.a.d.p.DruidDataSource - [init,990] - {dataSource-1} inited
+15:07:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1503":"shang"}
+15:07:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1507
+15:07:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1503=shang}
+15:07:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:07:18.731 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:07:48.236 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
 15:08:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-15:08:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:08:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1503":"shang"}
 15:08:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1508
-15:08:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:08:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1503=shang}
 15:08:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-15:09:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-15:09:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:08:17.464 [SpringContextShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,80] - De-registering from Nacos Server now...
+15:08:17.464 [SpringContextShutdownHook] INFO  c.a.n.client.naming - [removeBeatInfo,79] - [BEAT] removing beat: DEFAULT_GROUP@@ssmodule:192.168.3.7:8955 from beat map.
+15:08:17.465 [SpringContextShutdownHook] INFO  c.a.n.client.naming - [deregisterService,218] - [DEREGISTER-SERVICE] public deregistering service DEFAULT_GROUP@@ssmodule with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceIdGenerator":"simple","ip":"192.168.3.7","ipDeleteTimeout":30000,"metadata":{},"port":8955,"weight":1.0}
+15:08:17.468 [SpringContextShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,100] - De-registration finished.
+15:08:17.470 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2043] - {dataSource-0} closing ...
+15:08:17.738 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:08:29.382 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.0.22.Final
+15:08:31.337 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor - [<clinit>,195] - LOCAL_SNAPSHOT_PATH:C:\Users\Thin'k'pa'd\nacos\config
+15:08:31.381 [main] INFO  c.a.n.c.c.i.Limiter - [<clinit>,53] - limitTime:5.0
+15:08:31.401 [main] INFO  c.a.n.c.c.u.JVMUtil - [<clinit>,47] - isMultiInstance:false
+15:08:31.502 [main] INFO  c.s.up.SsApplication - [logStartupProfileInfo,655] - The following profiles are active: druid
+15:08:33.217 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8955"]
+15:08:33.217 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+15:08:33.218 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+15:08:33.370 [main] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring embedded WebApplicationContext
+15:08:34.043 [main] INFO  c.s.u.s.TaskServiceImpl - [init,17] - -------初始化开始--------
+15:08:34.048 [main] INFO  c.ss.up.task.ScTask - [addCache,34] - ************* 添加缓存开始 data:shang
+15:08:35.445 [main] INFO  c.a.n.client.naming - [call,56] - initializer namespace from System Property :null
+15:08:35.446 [main] INFO  c.a.n.client.naming - [call,65] - initializer namespace from System Environment :null
+15:08:35.447 [main] INFO  c.a.n.client.naming - [call,75] - initializer namespace from System Property :null
+15:08:37.701 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8955"]
+15:08:37.740 [main] INFO  c.a.n.client.naming - [addBeatInfo,66] - [BEAT] adding beat: {"cluster":"DEFAULT","ip":"192.168.3.7","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":8955,"scheduled":false,"serviceName":"DEFAULT_GROUP@@ssmodule","stopped":false,"weight":1.0} to beat map.
+15:08:37.773 [main] INFO  c.a.n.client.naming - [registerService,196] - [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@ssmodule with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"192.168.3.7","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8955,"weight":1.0}
+15:08:37.782 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,65] - nacos registry, DEFAULT_GROUP ssmodule 192.168.3.7:8955 register finished
+15:08:38.872 [main] INFO  c.s.up.SsApplication - [logStarted,61] - Started SsApplication in 11.206 seconds (JVM running for 14.131)
+15:08:38.877 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,197] - [fixed-localhost_8848] [subscribe] ssmodule+DEFAULT_GROUP
+15:08:38.879 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=ssmodule, group=DEFAULT_GROUP, cnt=1
+15:08:38.880 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,197] - [fixed-localhost_8848] [subscribe] ssmodule-druid.properties+DEFAULT_GROUP
+15:08:38.880 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=ssmodule-druid.properties, group=DEFAULT_GROUP, cnt=1
+15:08:38.881 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,197] - [fixed-localhost_8848] [subscribe] ssmodule.properties+DEFAULT_GROUP
+15:08:38.881 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=ssmodule.properties, group=DEFAULT_GROUP, cnt=1
+15:08:38.884 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:08:38.888 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:08:52.069 [http-nio-8955-exec-1] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:09:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:09:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1508":"shang"}
 15:09:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1509
-15:09:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:09:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1508=shang}
 15:09:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:09:08.590 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:09:38.094 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
 15:10:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-15:10:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:10:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1508":"shang"}
 15:10:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1510
-15:10:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:10:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1508=shang}
 15:10:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-15:11:00.000 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-15:11:00.000 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
-15:11:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1511
-15:11:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
-15:11:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-15:12:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-15:12:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
-15:12:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1512
-15:12:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
-15:12:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:10:07.600 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:10:37.105 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:11:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:11:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1508":"shang"}
+15:11:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1511
+15:11:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1508=shang}
+15:11:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:11:06.610 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:11:36.115 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:12:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:12:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1508":"shang"}
+15:12:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1512
+15:12:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1508=shang}
+15:12:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:12:05.618 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:12:35.123 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
 15:13:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-15:13:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
-15:13:00.005 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1513
-15:13:00.005 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
-15:13:00.005 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-15:14:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-15:14:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
-15:14:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1514
-15:14:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
-15:14:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:13:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1508":"shang"}
+15:13:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1513
+15:13:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1508=shang}
+15:13:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:13:04.627 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:13:34.131 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:14:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:14:00.006 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1508":"shang"}
+15:14:00.006 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1514
+15:14:00.007 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1508=shang}
+15:14:00.007 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:14:03.763 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:14:33.274 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
 15:15:00.000 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-15:15:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
-15:15:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1515
-15:15:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
-15:15:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-15:16:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-15:16:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
-15:16:00.005 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1516
-15:16:00.005 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
-15:16:00.006 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-15:17:00.000 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-15:17:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
-15:17:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1517
-15:17:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
-15:17:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-15:18:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-15:18:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
-15:18:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1518
-15:18:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
-15:18:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-15:19:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-15:19:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
-15:19:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1519
-15:19:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
-15:19:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-15:20:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-15:20:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
-15:20:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1520
-15:20:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
-15:20:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-15:21:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-15:21:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:15:00.000 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1508":"shang"}
+15:15:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1515
+15:15:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1508=shang}
+15:15:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:15:02.779 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:15:32.285 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:16:00.000 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:16:00.000 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1508":"shang"}
+15:16:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1516
+15:16:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1508=shang}
+15:16:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:16:01.790 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:16:31.294 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:17:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:17:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1508":"shang"}
+15:17:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1517
+15:17:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1508=shang}
+15:17:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:17:00.799 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:17:30.302 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:17:59.805 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:18:00.012 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:18:00.013 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1508":"shang"}
+15:18:00.013 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1518
+15:18:00.014 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1508=shang}
+15:18:00.014 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:18:29.310 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:18:58.822 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:19:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:19:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1508":"shang"}
+15:19:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1519
+15:19:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1508=shang}
+15:19:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:19:28.326 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:19:57.832 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:20:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:20:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1508":"shang"}
+15:20:00.005 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1520
+15:20:00.006 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1508=shang}
+15:20:00.007 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:20:27.336 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:20:56.843 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:21:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:21:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1508":"shang"}
 15:21:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1521
-15:21:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
-15:21:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:21:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1508=shang}
+15:21:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:21:26.346 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:21:55.850 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
 15:22:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-15:22:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
-15:22:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1522
-15:22:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
-15:22:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-15:23:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-15:23:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
-15:23:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1523
-15:23:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
-15:23:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-15:24:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-15:24:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
-15:24:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1524
-15:24:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
-15:24:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-15:25:00.000 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-15:25:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
-15:25:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1525
-15:25:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
-15:25:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-15:26:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-15:26:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
-15:26:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1526
-15:26:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:22:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1508":"shang"}
+15:22:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1522
+15:22:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1508=shang}
+15:22:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:22:25.361 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:22:54.866 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:23:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:23:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1508":"shang"}
+15:23:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1523
+15:23:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1508=shang}
+15:23:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:23:24.369 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:23:53.875 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:24:00.000 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:24:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1508":"shang"}
+15:24:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1524
+15:24:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1508=shang}
+15:24:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:24:23.379 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:24:52.883 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:25:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:25:00.006 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1508":"shang"}
+15:25:00.007 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1525
+15:25:00.007 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1508=shang}
+15:25:00.007 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:25:22.388 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:25:51.893 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:26:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:26:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1508":"shang"}
+15:26:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1526
+15:26:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1508=shang}
 15:26:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:26:21.398 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:26:50.902 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
 15:27:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-15:27:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
-15:27:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1527
-15:27:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:27:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1508":"shang"}
+15:27:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1527
+15:27:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1508=shang}
 15:27:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-15:28:00.031 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-15:28:00.031 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
-15:28:00.065 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1528
-15:28:00.066 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
-15:28:00.067 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-15:29:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-15:29:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:27:20.404 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:27:49.908 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:28:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:28:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1508":"shang"}
+15:28:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1528
+15:28:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1508=shang}
+15:28:00.005 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:28:19.413 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:28:48.916 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:29:00.000 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:29:00.000 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1508":"shang"}
 15:29:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1529
-15:29:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
-15:29:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:29:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1508=shang}
+15:29:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:29:18.420 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:29:47.924 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
 15:30:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-15:30:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:30:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1508":"shang"}
 15:30:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1530
-15:30:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:30:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1508=shang}
 15:30:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-15:31:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-15:31:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
+15:30:17.428 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:30:46.933 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:31:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:31:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1508":"shang"}
 15:31:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1531
-15:31:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
+15:31:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1508=shang}
 15:31:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-15:32:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-15:32:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
-15:32:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1532
-15:32:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
-15:32:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-15:33:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-15:33:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
-15:33:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1533
-15:33:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
-15:33:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-15:34:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-15:34:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
-15:34:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1534
-15:34:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
-15:34:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-15:35:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-15:35:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
-15:35:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1535
-15:35:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
-15:35:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-15:36:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-15:36:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
-15:36:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1536
-15:36:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
-15:36:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-15:37:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-15:37:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
-15:37:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1537
-15:37:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
-15:37:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-15:38:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-15:38:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
-15:38:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1538
-15:38:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
-15:38:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-15:39:00.000 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-15:39:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
-15:39:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1539
-15:39:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
-15:39:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-15:40:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-15:40:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
-15:40:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1540
-15:40:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
-15:40:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-15:41:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-15:41:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
-15:41:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1541
-15:41:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
-15:41:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-15:42:00.000 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-15:42:00.000 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
-15:42:00.000 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1542
-15:42:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
-15:42:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-15:43:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-15:43:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
-15:43:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1543
-15:43:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
-15:43:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-15:44:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-15:44:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
-15:44:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1544
-15:44:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
-15:44:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-15:45:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-15:45:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
-15:45:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1545
-15:45:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
-15:45:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-15:46:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-15:46:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
-15:46:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1546
-15:46:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
-15:46:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-15:47:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-15:47:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
-15:47:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1547
-15:47:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
-15:47:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-15:48:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-15:48:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
-15:48:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1548
-15:48:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
-15:48:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-15:49:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-15:49:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
-15:49:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1549
-15:49:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
-15:49:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-15:50:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-15:50:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
-15:50:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1550
-15:50:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
-15:50:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-15:51:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-15:51:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1506":"shang"}
-15:51:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1551
-15:51:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1506=shang}
-15:51:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-15:51:32.452 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2043] - {dataSource-1} closing ...
-15:51:32.455 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2116] - {dataSource-1} closed
-15:58:37.838 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.0.22.Final
-15:58:37.844 [main] INFO  c.s.up.SsApplication - [logStarting,55] - Starting SsApplication on DESKTOP-1OONTGS with PID 39312 (D:\Program Files\project\ssmodule\target\classes started by Thin'k'pa'd in D:\Program Files\project)
-15:58:37.844 [main] INFO  c.s.up.SsApplication - [logStartupProfileInfo,655] - The following profiles are active: druid
-15:58:39.793 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8955"]
-15:58:39.794 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
-15:58:39.794 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
-15:58:39.958 [main] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring embedded WebApplicationContext
-15:58:40.716 [main] INFO  c.s.u.s.TaskServiceImpl - [init,17] - -------初始化开始--------
-15:58:40.776 [main] INFO  c.ss.up.task.ScTask - [addCache,34] - ************* 添加缓存开始 data:shang
-15:58:42.140 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8955"]
-15:58:42.181 [main] INFO  c.s.up.SsApplication - [logStarted,61] - Started SsApplication in 5.013 seconds (JVM running for 7.804)
-15:58:44.109 [http-nio-8955-exec-2] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-15:58:44.595 [http-nio-8955-exec-2] INFO  c.a.d.p.DruidDataSource - [init,990] - {dataSource-1} inited
-15:59:00.000 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-15:59:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1558":"shang"}
-15:59:00.009 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1559
-15:59:00.009 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1558=shang}
-15:59:00.009 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-16:00:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-16:00:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1558":"shang"}
-16:00:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1600
-16:00:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1558=shang}
-16:00:00.005 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-16:01:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-16:01:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1558":"shang"}
-16:01:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1601
-16:01:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1558=shang}
-16:01:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-16:02:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-16:02:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1558":"shang"}
-16:02:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1602
-16:02:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1558=shang}
-16:02:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-16:03:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-16:03:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1558":"shang"}
-16:03:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1603
-16:03:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1558=shang}
-16:03:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-16:04:00.081 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
-16:04:00.082 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1558":"shang"}
-16:04:00.083 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1604
-16:04:00.083 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1558=shang}
-16:04:00.083 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
-16:04:07.380 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2043] - {dataSource-1} closing ...
-16:04:07.391 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2116] - {dataSource-1} closed
+15:31:16.436 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:31:45.941 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:32:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:32:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1508":"shang"}
+15:32:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1532
+15:32:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1508=shang}
+15:32:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:32:15.445 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:32:44.949 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+15:33:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+15:33:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1508":"shang"}
+15:33:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1533
+15:33:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1508=shang}
+15:33:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+15:33:03.553 [SpringContextShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,80] - De-registering from Nacos Server now...
+15:33:03.554 [SpringContextShutdownHook] INFO  c.a.n.client.naming - [removeBeatInfo,79] - [BEAT] removing beat: DEFAULT_GROUP@@ssmodule:192.168.3.7:8955 from beat map.
+15:33:03.554 [SpringContextShutdownHook] INFO  c.a.n.client.naming - [deregisterService,218] - [DEREGISTER-SERVICE] public deregistering service DEFAULT_GROUP@@ssmodule with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceIdGenerator":"simple","ip":"192.168.3.7","ipDeleteTimeout":30000,"metadata":{},"port":8955,"weight":1.0}
+15:33:03.557 [SpringContextShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,100] - De-registration finished.
+15:33:03.559 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2043] - {dataSource-0} closing ...
+16:41:31.510 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.0.22.Final
+16:41:33.344 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor - [<clinit>,195] - LOCAL_SNAPSHOT_PATH:C:\Users\Thin'k'pa'd\nacos\config
+16:41:33.373 [main] INFO  c.a.n.c.c.i.Limiter - [<clinit>,53] - limitTime:5.0
+16:41:33.398 [main] INFO  c.a.n.c.c.u.JVMUtil - [<clinit>,47] - isMultiInstance:false
+16:41:33.481 [main] INFO  c.s.up.SsApplication - [logStartupProfileInfo,655] - The following profiles are active: druid
+16:41:35.286 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8955"]
+16:41:35.287 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:41:35.288 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+16:41:35.470 [main] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:41:36.136 [main] INFO  c.s.u.s.TaskServiceImpl - [init,17] - -------初始化开始--------
+16:41:36.141 [main] INFO  c.ss.up.task.ScTask - [addCache,34] - ************* 添加缓存开始 data:shang
+16:41:36.418 [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+16:41:36.424 [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+16:41:37.580 [main] INFO  c.a.n.client.naming - [call,56] - initializer namespace from System Property :null
+16:41:37.581 [main] INFO  c.a.n.client.naming - [call,65] - initializer namespace from System Environment :null
+16:41:37.582 [main] INFO  c.a.n.client.naming - [call,75] - initializer namespace from System Property :null
+16:41:39.780 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8955"]
+16:41:39.814 [main] INFO  c.a.n.client.naming - [addBeatInfo,66] - [BEAT] adding beat: {"cluster":"DEFAULT","ip":"192.168.3.7","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":8955,"scheduled":false,"serviceName":"DEFAULT_GROUP@@ssmodule","stopped":false,"weight":1.0} to beat map.
+16:41:39.841 [main] INFO  c.a.n.client.naming - [registerService,196] - [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@ssmodule with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"192.168.3.7","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8955,"weight":1.0}
+16:41:39.851 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,65] - nacos registry, DEFAULT_GROUP ssmodule 192.168.3.7:8955 register finished
+16:41:40.906 [main] INFO  c.s.up.SsApplication - [logStarted,61] - Started SsApplication in 10.984 seconds (JVM running for 13.698)
+16:41:40.914 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,197] - [fixed-localhost_8848] [subscribe] ssmodule+DEFAULT_GROUP
+16:41:40.916 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=ssmodule, group=DEFAULT_GROUP, cnt=1
+16:41:40.918 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,197] - [fixed-localhost_8848] [subscribe] ssmodule-druid.properties+DEFAULT_GROUP
+16:41:40.918 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=ssmodule-druid.properties, group=DEFAULT_GROUP, cnt=1
+16:41:40.919 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,197] - [fixed-localhost_8848] [subscribe] ssmodule.properties+DEFAULT_GROUP
+16:41:40.919 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=ssmodule.properties, group=DEFAULT_GROUP, cnt=1
+16:41:40.926 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+16:42:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+16:42:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1641":"shang"}
+16:42:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1642
+16:42:00.005 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1641=shang}
+16:42:00.005 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+16:42:10.625 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+16:42:40.129 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+16:43:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+16:43:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1641":"shang"}
+16:43:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1643
+16:43:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1641=shang}
+16:43:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+16:43:09.633 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+16:43:39.138 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+16:44:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+16:44:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1641":"shang"}
+16:44:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1644
+16:44:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1641=shang}
+16:44:00.005 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+16:44:08.641 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+16:44:38.147 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+16:45:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+16:45:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1641":"shang"}
+16:45:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1645
+16:45:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1641=shang}
+16:45:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+16:45:07.651 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+16:45:37.155 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+16:46:00.000 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+16:46:00.000 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1641":"shang"}
+16:46:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1646
+16:46:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1641=shang}
+16:46:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+16:46:06.659 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+16:46:36.163 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+16:47:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+16:47:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1641":"shang"}
+16:47:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1647
+16:47:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1641=shang}
+16:47:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+16:47:05.666 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  c.a.n.c.c.i.ClientWorker - [run,522] - get changedGroupKeys:[]
+16:47:25.179 [SpringContextShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,80] - De-registering from Nacos Server now...
+16:47:25.180 [SpringContextShutdownHook] INFO  c.a.n.client.naming - [removeBeatInfo,79] - [BEAT] removing beat: DEFAULT_GROUP@@ssmodule:192.168.3.7:8955 from beat map.
+16:47:25.180 [SpringContextShutdownHook] INFO  c.a.n.client.naming - [deregisterService,218] - [DEREGISTER-SERVICE] public deregistering service DEFAULT_GROUP@@ssmodule with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceIdGenerator":"simple","ip":"192.168.3.7","ipDeleteTimeout":30000,"metadata":{},"port":8955,"weight":1.0}
+16:47:25.183 [SpringContextShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,100] - De-registration finished.
+16:47:25.187 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2043] - {dataSource-0} closing ...

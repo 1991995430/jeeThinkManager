@@ -8,8 +8,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="jeethink-common" />
-        <module name="jeethink-quartz" />
         <module name="ssmodule" />
+        <module name="jeethink-quartz" />
         <module name="jeethink-generator" />
         <module name="jeethink-framework" />
         <module name="ss-0819" />
@@ -28,6 +28,7 @@
       <module name="jeethink-quartz" target="1.8" />
       <module name="jeethink-system" target="1.8" />
       <module name="ss-0819" target="1.8" />
+      <module name="ss-service" target="1.8" />
       <module name="ss1module" target="1.8" />
       <module name="ssmodule" target="1.8" />
       <module name="ssmodule (1)" target="1.8" />

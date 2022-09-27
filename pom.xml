@@ -221,6 +221,21 @@
                 <version>${jeethink.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>2.2.1.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>Hoxton.SR3</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
@@ -231,8 +246,7 @@
         <module>jeethink-quartz</module>
         <module>jeethink-generator</module>
         <module>jeethink-common</module>
-        <module>ssmodule</module>
-        <module>ss-0819</module>
+        <module>ss-service</module>
     </modules>
     <packaging>pom</packaging>
 

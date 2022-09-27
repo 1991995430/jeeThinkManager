@@ -1,0 +1,17 @@
+15:53:14.574 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - [report,40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+┌─────┐
+|  AService defined in file [D:\Program Files\project\ssmodule\target\classes\com\ss\up\service\AService.class]
+↑     ↓
+|  BService defined in file [D:\Program Files\project\ssmodule\target\classes\com\ss\up\service\BService.class]
+└─────┘
+
+

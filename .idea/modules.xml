@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/jeethink-quartz/jeethink-quartz.iml" filepath="$PROJECT_DIR$/jeethink-quartz/jeethink-quartz.iml" />
       <module fileurl="file://$PROJECT_DIR$/jeethink-system/jeethink-system.iml" filepath="$PROJECT_DIR$/jeethink-system/jeethink-system.iml" />
       <module fileurl="file://$PROJECT_DIR$/ss-0819/ss-0819.iml" filepath="$PROJECT_DIR$/ss-0819/ss-0819.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss-service/ss-service.iml" filepath="$PROJECT_DIR$/ss-service/ss-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/ssmodule/ssmodule.iml" filepath="$PROJECT_DIR$/ssmodule/ssmodule.iml" />
     </modules>
   </component>

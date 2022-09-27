@@ -1,0 +1,242 @@
+14:01:06.671 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.0.22.Final
+14:01:06.685 [main] INFO  c.s.up.SsApplication - [logStarting,55] - Starting SsApplication on DESKTOP-1OONTGS with PID 17488 (D:\Program Files\project\ssmodule\target\classes started by Thin'k'pa'd in D:\Program Files\project)
+14:01:06.686 [main] INFO  c.s.up.SsApplication - [logStartupProfileInfo,655] - The following profiles are active: druid
+14:01:09.447 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8955"]
+14:01:09.448 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+14:01:09.449 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+14:01:09.642 [main] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring embedded WebApplicationContext
+14:01:10.471 [main] INFO  c.s.u.s.TaskServiceImpl - [init,17] - -------初始化开始--------
+14:01:10.534 [main] INFO  c.ss.up.task.ScTask - [addCache,34] - ************* 添加缓存开始 data:shang
+14:01:11.768 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8955"]
+14:01:11.809 [main] INFO  c.s.up.SsApplication - [logStarted,61] - Started SsApplication in 5.698 seconds (JVM running for 8.484)
+14:01:14.976 [http-nio-8955-exec-1] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:02:00.006 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+14:02:00.008 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1401":"shang"}
+14:02:00.015 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1402
+14:02:00.015 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1401=shang}
+14:02:00.015 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+14:03:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+14:03:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1401":"shang"}
+14:03:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1403
+14:03:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1401=shang}
+14:03:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+14:03:25.480 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2043] - {dataSource-0} closing ...
+14:04:11.094 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.0.22.Final
+14:04:11.100 [main] INFO  c.s.up.SsApplication - [logStarting,55] - Starting SsApplication on DESKTOP-1OONTGS with PID 20520 (D:\Program Files\project\ssmodule\target\classes started by Thin'k'pa'd in D:\Program Files\project)
+14:04:11.101 [main] INFO  c.s.up.SsApplication - [logStartupProfileInfo,655] - The following profiles are active: druid
+14:04:13.855 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8955"]
+14:04:13.856 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+14:04:13.856 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+14:04:14.018 [main] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring embedded WebApplicationContext
+14:04:14.795 [main] INFO  c.s.u.s.TaskServiceImpl - [init,17] - -------初始化开始--------
+14:04:14.857 [main] INFO  c.ss.up.task.ScTask - [addCache,34] - ************* 添加缓存开始 data:shang
+14:04:16.230 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8955"]
+14:04:16.287 [main] INFO  c.s.up.SsApplication - [logStarted,61] - Started SsApplication in 6.172 seconds (JVM running for 8.991)
+14:04:22.964 [http-nio-8955-exec-1] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:05:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+14:05:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1404":"shang"}
+14:05:00.007 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1405
+14:05:00.008 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1404=shang}
+14:05:00.008 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+14:05:44.790 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2043] - {dataSource-0} closing ...
+14:07:20.031 [main] INFO  c.s.up.SsApplication - [logStarting,55] - Starting SsApplication on DESKTOP-1OONTGS with PID 22384 (D:\Program Files\project\ssmodule\target\classes started by Thin'k'pa'd in D:\Program Files\project)
+14:07:20.026 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.0.22.Final
+14:07:20.033 [main] INFO  c.s.up.SsApplication - [logStartupProfileInfo,655] - The following profiles are active: druid
+14:07:21.602 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8955"]
+14:07:21.602 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+14:07:21.603 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+14:07:21.740 [main] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring embedded WebApplicationContext
+14:07:22.426 [main] INFO  c.s.u.s.TaskServiceImpl - [init,17] - -------初始化开始--------
+14:07:22.479 [main] INFO  c.ss.up.task.ScTask - [addCache,34] - ************* 添加缓存开始 data:shang
+14:07:23.754 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8955"]
+14:07:23.798 [main] INFO  c.s.up.SsApplication - [logStarted,61] - Started SsApplication in 4.313 seconds (JVM running for 6.538)
+14:07:27.770 [http-nio-8955-exec-2] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:08:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+14:08:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1407":"shang"}
+14:08:00.009 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1408
+14:08:00.009 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1407=shang}
+14:08:00.009 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+14:09:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+14:09:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1407":"shang"}
+14:09:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1409
+14:09:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1407=shang}
+14:09:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+14:10:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+14:10:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1407":"shang"}
+14:10:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1410
+14:10:00.005 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1407=shang}
+14:10:00.005 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+14:11:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+14:11:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1407":"shang"}
+14:11:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1411
+14:11:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1407=shang}
+14:11:00.005 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+14:12:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+14:12:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1407":"shang"}
+14:12:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1412
+14:12:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1407=shang}
+14:12:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+14:12:43.352 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2043] - {dataSource-0} closing ...
+17:00:44.755 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.0.22.Final
+17:00:44.760 [main] INFO  c.s.up.SsApplication - [logStarting,55] - Starting SsApplication on DESKTOP-1OONTGS with PID 19988 (D:\Program Files\project\ssmodule\target\classes started by Thin'k'pa'd in D:\Program Files\project)
+17:00:44.761 [main] INFO  c.s.up.SsApplication - [logStartupProfileInfo,655] - The following profiles are active: druid
+17:00:47.667 [main] INFO  c.s.u.s.TaskServiceImpl - [init,17] - -------初始化开始--------
+17:00:47.720 [main] INFO  c.ss.up.task.ScTask - [addCache,34] - ************* 添加缓存开始 data:shang
+17:00:49.627 [main] INFO  c.s.up.SsApplication - [logStarted,61] - Started SsApplication in 5.476 seconds (JVM running for 8.483)
+17:00:49.642 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2043] - {dataSource-0} closing ...
+17:01:48.723 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.0.22.Final
+17:01:48.729 [main] INFO  c.s.up.SsApplication - [logStarting,55] - Starting SsApplication on DESKTOP-1OONTGS with PID 20424 (D:\Program Files\project\ssmodule\target\classes started by Thin'k'pa'd in D:\Program Files\project)
+17:01:48.731 [main] INFO  c.s.up.SsApplication - [logStartupProfileInfo,655] - The following profiles are active: druid
+17:01:50.383 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8955"]
+17:01:50.384 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:01:50.385 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+17:01:50.554 [main] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:01:51.318 [main] INFO  c.s.u.s.TaskServiceImpl - [init,17] - -------初始化开始--------
+17:01:51.383 [main] INFO  c.ss.up.task.ScTask - [addCache,34] - ************* 添加缓存开始 data:shang
+17:01:52.587 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8955"]
+17:01:52.627 [main] INFO  c.s.up.SsApplication - [logStarted,61] - Started SsApplication in 4.49 seconds (JVM running for 6.66)
+17:01:56.563 [http-nio-8955-exec-1] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:02:00.000 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+17:02:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1701":"shang"}
+17:02:00.012 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1702
+17:02:00.013 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1701=shang}
+17:02:00.013 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+17:02:23.050 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2043] - {dataSource-0} closing ...
+17:02:32.963 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.0.22.Final
+17:02:32.968 [main] INFO  c.s.up.SsApplication - [logStarting,55] - Starting SsApplication on DESKTOP-1OONTGS with PID 2140 (D:\Program Files\project\ssmodule\target\classes started by Thin'k'pa'd in D:\Program Files\project)
+17:02:32.969 [main] INFO  c.s.up.SsApplication - [logStartupProfileInfo,655] - The following profiles are active: druid
+17:02:34.708 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8955"]
+17:02:34.709 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:02:34.709 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+17:02:34.849 [main] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:02:35.562 [main] INFO  c.s.u.s.TaskServiceImpl - [init,17] - -------初始化开始--------
+17:02:35.615 [main] INFO  c.ss.up.task.ScTask - [addCache,34] - ************* 添加缓存开始 data:shang
+17:02:36.784 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8955"]
+17:02:36.820 [main] INFO  c.s.up.SsApplication - [logStarted,61] - Started SsApplication in 4.405 seconds (JVM running for 7.041)
+17:02:39.721 [http-nio-8955-exec-1] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:03:00.000 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+17:03:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1702":"shang"}
+17:03:00.007 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1703
+17:03:00.007 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1702=shang}
+17:03:00.008 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+17:03:19.904 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2043] - {dataSource-0} closing ...
+17:03:29.784 [main] INFO  c.s.up.SsApplication - [logStarting,55] - Starting SsApplication on DESKTOP-1OONTGS with PID 17040 (D:\Program Files\project\ssmodule\target\classes started by Thin'k'pa'd in D:\Program Files\project)
+17:03:29.780 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.0.22.Final
+17:03:29.786 [main] INFO  c.s.up.SsApplication - [logStartupProfileInfo,655] - The following profiles are active: druid
+17:03:31.385 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8955"]
+17:03:31.386 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:03:31.386 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+17:03:31.536 [main] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:03:32.227 [main] INFO  c.s.u.s.TaskServiceImpl - [init,17] - -------初始化开始--------
+17:03:32.280 [main] INFO  c.ss.up.task.ScTask - [addCache,34] - ************* 添加缓存开始 data:shang
+17:03:33.545 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8955"]
+17:03:33.593 [main] INFO  c.s.up.SsApplication - [logStarted,61] - Started SsApplication in 4.341 seconds (JVM running for 7.186)
+17:03:44.962 [http-nio-8955-exec-2] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:04:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+17:04:00.005 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1703":"shang"}
+17:04:00.013 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1704
+17:04:00.014 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1703=shang}
+17:04:00.015 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+17:04:42.391 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2043] - {dataSource-0} closing ...
+17:04:52.119 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.0.22.Final
+17:04:52.124 [main] INFO  c.s.up.SsApplication - [logStarting,55] - Starting SsApplication on DESKTOP-1OONTGS with PID 24832 (D:\Program Files\project\ssmodule\target\classes started by Thin'k'pa'd in D:\Program Files\project)
+17:04:52.127 [main] INFO  c.s.up.SsApplication - [logStartupProfileInfo,655] - The following profiles are active: druid
+17:04:53.728 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8955"]
+17:04:53.729 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:04:53.730 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+17:04:53.874 [main] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:04:54.531 [main] INFO  c.s.u.s.TaskServiceImpl - [init,17] - -------初始化开始--------
+17:04:54.584 [main] INFO  c.ss.up.task.ScTask - [addCache,34] - ************* 添加缓存开始 data:shang
+17:04:55.672 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8955"]
+17:04:55.704 [main] INFO  c.s.up.SsApplication - [logStarted,61] - Started SsApplication in 4.246 seconds (JVM running for 6.758)
+17:05:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+17:05:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1704":"shang"}
+17:05:00.010 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1705
+17:05:00.010 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1704=shang}
+17:05:00.010 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+17:05:24.936 [http-nio-8955-exec-1] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:05:50.748 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2043] - {dataSource-0} closing ...
+17:06:00.293 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.0.22.Final
+17:06:00.301 [main] INFO  c.s.up.SsApplication - [logStarting,55] - Starting SsApplication on DESKTOP-1OONTGS with PID 12608 (D:\Program Files\project\ssmodule\target\classes started by Thin'k'pa'd in D:\Program Files\project)
+17:06:00.303 [main] INFO  c.s.up.SsApplication - [logStartupProfileInfo,655] - The following profiles are active: druid
+17:06:02.011 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8955"]
+17:06:02.012 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:06:02.012 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+17:06:02.165 [main] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:06:02.837 [main] INFO  c.s.u.s.TaskServiceImpl - [init,17] - -------初始化开始--------
+17:06:02.901 [main] INFO  c.ss.up.task.ScTask - [addCache,34] - ************* 添加缓存开始 data:shang
+17:06:04.042 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8955"]
+17:06:04.077 [main] INFO  c.s.up.SsApplication - [logStarted,61] - Started SsApplication in 4.315 seconds (JVM running for 6.42)
+17:06:18.291 [http-nio-8955-exec-1] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:07:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+17:07:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1706":"shang"}
+17:07:00.008 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1707
+17:07:00.008 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1706=shang}
+17:07:00.008 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+17:07:51.224 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2043] - {dataSource-0} closing ...
+17:08:01.207 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.0.22.Final
+17:08:01.212 [main] INFO  c.s.up.SsApplication - [logStarting,55] - Starting SsApplication on DESKTOP-1OONTGS with PID 14456 (D:\Program Files\project\ssmodule\target\classes started by Thin'k'pa'd in D:\Program Files\project)
+17:08:01.213 [main] INFO  c.s.up.SsApplication - [logStartupProfileInfo,655] - The following profiles are active: druid
+17:08:02.801 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8955"]
+17:08:02.802 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:08:02.802 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+17:08:02.939 [main] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:08:03.593 [main] INFO  c.s.u.s.TaskServiceImpl - [init,17] - -------初始化开始--------
+17:08:03.648 [main] INFO  c.ss.up.task.ScTask - [addCache,34] - ************* 添加缓存开始 data:shang
+17:08:04.829 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8955"]
+17:08:04.883 [main] INFO  c.s.up.SsApplication - [logStarted,61] - Started SsApplication in 4.22 seconds (JVM running for 6.376)
+17:08:06.833 [http-nio-8955-exec-1] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:08:59.130 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2043] - {dataSource-0} closing ...
+17:09:08.782 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.0.22.Final
+17:09:08.786 [main] INFO  c.s.up.SsApplication - [logStarting,55] - Starting SsApplication on DESKTOP-1OONTGS with PID 2232 (D:\Program Files\project\ssmodule\target\classes started by Thin'k'pa'd in D:\Program Files\project)
+17:09:08.787 [main] INFO  c.s.up.SsApplication - [logStartupProfileInfo,655] - The following profiles are active: druid
+17:09:10.324 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8955"]
+17:09:10.325 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:09:10.325 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+17:09:10.462 [main] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:09:11.151 [main] INFO  c.s.u.s.TaskServiceImpl - [init,17] - -------初始化开始--------
+17:09:11.206 [main] INFO  c.ss.up.task.ScTask - [addCache,34] - ************* 添加缓存开始 data:shang
+17:09:12.284 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8955"]
+17:09:12.316 [main] INFO  c.s.up.SsApplication - [logStarted,61] - Started SsApplication in 4.19 seconds (JVM running for 6.233)
+17:09:16.029 [http-nio-8955-exec-2] INFO  o.a.c.c.C.[.[.[/ss] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:10:00.051 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+17:10:00.054 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1709":"shang"}
+17:10:00.061 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1710
+17:10:00.062 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1709=shang}
+17:10:00.063 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+17:11:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+17:11:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1709":"shang"}
+17:11:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1711
+17:11:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1709=shang}
+17:11:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+17:12:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+17:12:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1709":"shang"}
+17:12:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1712
+17:12:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1709=shang}
+17:12:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+17:13:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+17:13:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1709":"shang"}
+17:13:00.004 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1713
+17:13:00.005 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1709=shang}
+17:13:00.006 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+17:14:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+17:14:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1709":"shang"}
+17:14:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1714
+17:14:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1709=shang}
+17:14:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+17:15:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+17:15:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1709":"shang"}
+17:15:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1715
+17:15:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1709=shang}
+17:15:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+17:16:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+17:16:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1709":"shang"}
+17:16:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1716
+17:16:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1709=shang}
+17:16:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+17:17:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,25] - ------定时任务开始-------
+17:17:00.001 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,26] - 缓存 map = {"1709":"shang"}
+17:17:00.002 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,28] - 时分 currentHHmm = 1717
+17:17:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,29] - 数据：{1709=shang}
+17:17:00.003 [scheduling-1] INFO  c.ss.up.task.ScTask - [print,30] - ------定时任务结束-------
+17:17:30.393 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2043] - {dataSource-0} closing ...

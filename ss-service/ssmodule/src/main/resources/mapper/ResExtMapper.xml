@@ -1,0 +1,1867 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ss.up.mapper.ResExtMapper" >
+  <resultMap id="BaseResultMap" type="com.ss.up.model.ResExt" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="RES_ID" property="resId" jdbcType="BIGINT" />
+    <result column="RES_TYPE" property="resType" jdbcType="INTEGER" />
+    <result column="GROUP_ID" property="groupId" jdbcType="BIGINT" />
+    <result column="COMMUNITY_ID" property="communityId" jdbcType="BIGINT" />
+    <result column="RES_STYLE" property="resStyle" jdbcType="INTEGER" />
+    <result column="BILL_AREA" property="billArea" jdbcType="DECIMAL" />
+    <result column="BILL_MODE" property="billMode" jdbcType="INTEGER" />
+    <result column="LEASE_MODE" property="leaseMode" jdbcType="INTEGER" />
+    <result column="RES_PURPOSE" property="resPurpose" jdbcType="INTEGER" />
+    <result column="RES_DESC" property="resDesc" jdbcType="VARCHAR" />
+    <result column="RES_SOURCE" property="resSource" jdbcType="INTEGER" />
+    <result column="BUSI_STATUS" property="busiStatus" jdbcType="INTEGER" />
+    <result column="RES_STATUS" property="resStatus" jdbcType="INTEGER" />
+    <result column="LEASE_STATUS" property="leaseStatus" jdbcType="INTEGER" />
+    <result column="PREP_DATE" property="prepDate" jdbcType="BIGINT" />
+    <result column="XPOINT" property="xpoint" jdbcType="VARCHAR" />
+    <result column="YPOINT" property="ypoint" jdbcType="VARCHAR" />
+    <result column="COLOR" property="color" jdbcType="VARCHAR" />
+    <result column="PRODUCT_LINE" property="productLine" jdbcType="INTEGER" />
+    <result column="MANAGEMENT_TYPE" property="managementType" jdbcType="INTEGER" />
+    <result column="IS_WORKFLOW" property="isWorkflow" jdbcType="INTEGER" />
+    <result column="brand_type_main" property="brandTypeMain" jdbcType="VARCHAR" />
+    <result column="brand_type_sub" property="brandTypeSub" jdbcType="VARCHAR" />
+    <result column="sub_lease_area" property="subLeaseArea" jdbcType="DECIMAL" />
+    <result column="CREATE_TIME" property="createTime" jdbcType="BIGINT" />
+    <result column="CREATE_USER_ID" property="createUserId" jdbcType="INTEGER" />
+    <result column="CREATE_USER_NAME" property="createUserName" jdbcType="VARCHAR" />
+    <result column="UPDATE_TIME" property="updateTime" jdbcType="BIGINT" />
+    <result column="UPDATE_USER_ID" property="updateUserId" jdbcType="INTEGER" />
+    <result column="UPDATE_USER_NAME" property="updateUserName" jdbcType="VARCHAR" />
+    <result column="organ_id" property="organId" jdbcType="INTEGER" />
+    <result column="organ_name" property="organName" jdbcType="VARCHAR" />
+    <result column="position_id" property="positionId" jdbcType="INTEGER" />
+    <result column="position_name" property="positionName" jdbcType="VARCHAR" />
+    <result column="res_code" property="resCode" jdbcType="VARCHAR" />
+    <result column="res_name" property="resName" jdbcType="VARCHAR" />
+    <result column="point_type" property="pointType" jdbcType="INTEGER" />
+    <result column="business_type" property="businessType" jdbcType="INTEGER" />
+    <result column="new_use_direction" property="newUseDirection" jdbcType="INTEGER" />
+    <result column="invalid_time" property="invalidTime" jdbcType="BIGINT" />
+    <result column="use_direction" property="useDirection" jdbcType="INTEGER" />
+    <result column="price_unit" property="priceUnit" jdbcType="VARCHAR" />
+    <result column="fee_unit" property="feeUnit" jdbcType="VARCHAR" />
+    <result column="fee_amount" property="feeAmount" jdbcType="INTEGER" />
+    <result column="charge_id" property="chargeId" jdbcType="INTEGER" />
+    <result column="charge_name" property="chargeName" jdbcType="VARCHAR" />
+    <result column="fee_price" property="feePrice" jdbcType="DECIMAL" />
+    <result column="cycle" property="cycle" jdbcType="VARCHAR" />
+    <result column="rent_cost" property="rentCost" jdbcType="DECIMAL" />
+    <result column="effect_time" property="effectTime" jdbcType="BIGINT" />
+    <result column="build_id" property="buildId" jdbcType="INTEGER" />
+    <result column="build_name" property="buildName" jdbcType="VARCHAR" />
+    <result column="unit_id" property="unitId" jdbcType="INTEGER" />
+    <result column="unit_name" property="unitName" jdbcType="VARCHAR" />
+    <result column="floor_id" property="floorId" jdbcType="INTEGER" />
+    <result column="floor_name" property="floorName" jdbcType="VARCHAR" />
+    <result column="sell_status" property="sellStatus" jdbcType="INTEGER" />
+    <result column="sell_date" property="sellDate" jdbcType="BIGINT" />
+    <result column="purchasera" property="purchasera" jdbcType="VARCHAR" />
+    <result column="keep_organ_id" property="keepOrganId" jdbcType="INTEGER" />
+    <result column="keep_organ_name" property="keepOrganName" jdbcType="VARCHAR" />
+    <result column="quit_cause" property="quitCause" jdbcType="VARCHAR" />
+    <result column="soil_type" property="soilType" jdbcType="INTEGER" />
+    <result column="soil_max_type" property="soilMaxType" jdbcType="INTEGER" />
+    <result column="soil_min_type" property="soilMinType" jdbcType="INTEGER" />
+    <result column="approval_status" property="approvalStatus" jdbcType="INTEGER" />
+    <result column="apply_id" property="applyId" jdbcType="INTEGER" />
+    <result column="house_type" property="houseType" jdbcType="VARCHAR" />
+    <result column="live_number" property="liveNumber" jdbcType="INTEGER" />
+    <result column="live_sex" property="liveSex" jdbcType="INTEGER" />
+    <result column="allot_status" property="allotStatus" jdbcType="TINYINT" />
+    <result column="contract_id" property="contractId" jdbcType="INTEGER" />
+    <result column="sale_status" property="saleStatus" jdbcType="INTEGER" />
+    <result column="park_name" property="parkName" jdbcType="VARCHAR" />
+    <result column="park_name_code" property="parkNameCode" jdbcType="INTEGER" />
+    <result column="park_district" property="parkDistrict" jdbcType="VARCHAR" />
+    <result column="park_district_code" property="parkDistrictCode" jdbcType="INTEGER" />
+    <result column="obj_type" property="objType" jdbcType="VARCHAR" />
+    <result column="obj_type_code" property="objTypeCode" jdbcType="INTEGER" />
+    <result column="park_local_code" property="parkLocalCode" jdbcType="VARCHAR" />
+    <result column="first_id" property="firstId" jdbcType="INTEGER" />
+    <result column="first_group_id" property="firstGroupId" jdbcType="INTEGER" />
+    <result column="first_name" property="firstName" jdbcType="VARCHAR" />
+    <result column="area" property="area" jdbcType="DECIMAL" />
+    <result column="use_area" property="useArea" jdbcType="DECIMAL" />
+    <result column="opt_status" property="optStatus" jdbcType="TINYINT" />
+    <result column="lock_reason" property="lockReason" jdbcType="INTEGER" />
+    <result column="land_area" property="landArea" jdbcType="DECIMAL" />
+    <result column="OLD_MANAGEMENT_TYPE" property="oldManagementType" jdbcType="INTEGER" />
+    <result column="room_type" property="roomType" jdbcType="INTEGER" />
+    <result column="house_name" property="houseName" jdbcType="VARCHAR" />
+    <result column="belong_community_id" property="belongCommunityId" jdbcType="BIGINT" />
+  </resultMap>
+  <resultMap id="ResultMapWithBLOBs" type="com.ss.up.model.ResExt" extends="BaseResultMap" >
+    <result column="remark" property="remark" jdbcType="LONGVARCHAR" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    id, RES_ID, RES_TYPE, GROUP_ID, COMMUNITY_ID, RES_STYLE, BILL_AREA, BILL_MODE, LEASE_MODE, 
+    RES_PURPOSE, RES_DESC, RES_SOURCE, BUSI_STATUS, RES_STATUS, LEASE_STATUS, PREP_DATE, 
+    XPOINT, YPOINT, COLOR, PRODUCT_LINE, MANAGEMENT_TYPE, IS_WORKFLOW, brand_type_main, 
+    brand_type_sub, sub_lease_area, CREATE_TIME, CREATE_USER_ID, CREATE_USER_NAME, UPDATE_TIME, 
+    UPDATE_USER_ID, UPDATE_USER_NAME, organ_id, organ_name, position_id, position_name, 
+    res_code, res_name, point_type, business_type, new_use_direction, invalid_time, use_direction, 
+    price_unit, fee_unit, fee_amount, charge_id, charge_name, fee_price, cycle, rent_cost, 
+    effect_time, build_id, build_name, unit_id, unit_name, floor_id, floor_name, sell_status, 
+    sell_date, purchasera, keep_organ_id, keep_organ_name, quit_cause, soil_type, soil_max_type, 
+    soil_min_type, approval_status, apply_id, house_type, live_number, live_sex, allot_status, 
+    contract_id, sale_status, park_name, park_name_code, park_district, park_district_code, 
+    obj_type, obj_type_code, park_local_code, first_id, first_group_id, first_name, area, 
+    use_area, opt_status, lock_reason, land_area, OLD_MANAGEMENT_TYPE, room_type, house_name, 
+    belong_community_id
+  </sql>
+  <sql id="Blob_Column_List" >
+    remark
+  </sql>
+  <select id="selectByExampleWithBLOBs" resultMap="ResultMapWithBLOBs" parameterType="com.ss.up.model.ResExtCriteria" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from res_ext
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.ss.up.model.ResExtCriteria" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from res_ext
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="ResultMapWithBLOBs" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from res_ext
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from res_ext
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.ss.up.model.ResExtCriteria" >
+    delete from res_ext
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.ss.up.model.ResExt" >
+    insert into res_ext (id, RES_ID, RES_TYPE, 
+      GROUP_ID, COMMUNITY_ID, RES_STYLE, 
+      BILL_AREA, BILL_MODE, LEASE_MODE, 
+      RES_PURPOSE, RES_DESC, RES_SOURCE, 
+      BUSI_STATUS, RES_STATUS, LEASE_STATUS, 
+      PREP_DATE, XPOINT, YPOINT, 
+      COLOR, PRODUCT_LINE, MANAGEMENT_TYPE, 
+      IS_WORKFLOW, brand_type_main, brand_type_sub, 
+      sub_lease_area, CREATE_TIME, CREATE_USER_ID, 
+      CREATE_USER_NAME, UPDATE_TIME, UPDATE_USER_ID, 
+      UPDATE_USER_NAME, organ_id, organ_name, 
+      position_id, position_name, res_code, 
+      res_name, point_type, business_type, 
+      new_use_direction, invalid_time, use_direction, 
+      price_unit, fee_unit, fee_amount, 
+      charge_id, charge_name, fee_price, 
+      cycle, rent_cost, effect_time, 
+      build_id, build_name, unit_id, 
+      unit_name, floor_id, floor_name, 
+      sell_status, sell_date, purchasera, 
+      keep_organ_id, keep_organ_name, quit_cause, 
+      soil_type, soil_max_type, soil_min_type, 
+      approval_status, apply_id, house_type, 
+      live_number, live_sex, allot_status, 
+      contract_id, sale_status, park_name, 
+      park_name_code, park_district, park_district_code, 
+      obj_type, obj_type_code, park_local_code, 
+      first_id, first_group_id, first_name, 
+      area, use_area, opt_status, 
+      lock_reason, land_area, OLD_MANAGEMENT_TYPE, 
+      room_type, house_name, belong_community_id, 
+      remark)
+    values (#{id,jdbcType=INTEGER}, #{resId,jdbcType=BIGINT}, #{resType,jdbcType=INTEGER}, 
+      #{groupId,jdbcType=BIGINT}, #{communityId,jdbcType=BIGINT}, #{resStyle,jdbcType=INTEGER}, 
+      #{billArea,jdbcType=DECIMAL}, #{billMode,jdbcType=INTEGER}, #{leaseMode,jdbcType=INTEGER}, 
+      #{resPurpose,jdbcType=INTEGER}, #{resDesc,jdbcType=VARCHAR}, #{resSource,jdbcType=INTEGER}, 
+      #{busiStatus,jdbcType=INTEGER}, #{resStatus,jdbcType=INTEGER}, #{leaseStatus,jdbcType=INTEGER}, 
+      #{prepDate,jdbcType=BIGINT}, #{xpoint,jdbcType=VARCHAR}, #{ypoint,jdbcType=VARCHAR}, 
+      #{color,jdbcType=VARCHAR}, #{productLine,jdbcType=INTEGER}, #{managementType,jdbcType=INTEGER}, 
+      #{isWorkflow,jdbcType=INTEGER}, #{brandTypeMain,jdbcType=VARCHAR}, #{brandTypeSub,jdbcType=VARCHAR}, 
+      #{subLeaseArea,jdbcType=DECIMAL}, #{createTime,jdbcType=BIGINT}, #{createUserId,jdbcType=INTEGER}, 
+      #{createUserName,jdbcType=VARCHAR}, #{updateTime,jdbcType=BIGINT}, #{updateUserId,jdbcType=INTEGER}, 
+      #{updateUserName,jdbcType=VARCHAR}, #{organId,jdbcType=INTEGER}, #{organName,jdbcType=VARCHAR}, 
+      #{positionId,jdbcType=INTEGER}, #{positionName,jdbcType=VARCHAR}, #{resCode,jdbcType=VARCHAR}, 
+      #{resName,jdbcType=VARCHAR}, #{pointType,jdbcType=INTEGER}, #{businessType,jdbcType=INTEGER}, 
+      #{newUseDirection,jdbcType=INTEGER}, #{invalidTime,jdbcType=BIGINT}, #{useDirection,jdbcType=INTEGER}, 
+      #{priceUnit,jdbcType=VARCHAR}, #{feeUnit,jdbcType=VARCHAR}, #{feeAmount,jdbcType=INTEGER}, 
+      #{chargeId,jdbcType=INTEGER}, #{chargeName,jdbcType=VARCHAR}, #{feePrice,jdbcType=DECIMAL}, 
+      #{cycle,jdbcType=VARCHAR}, #{rentCost,jdbcType=DECIMAL}, #{effectTime,jdbcType=BIGINT}, 
+      #{buildId,jdbcType=INTEGER}, #{buildName,jdbcType=VARCHAR}, #{unitId,jdbcType=INTEGER}, 
+      #{unitName,jdbcType=VARCHAR}, #{floorId,jdbcType=INTEGER}, #{floorName,jdbcType=VARCHAR}, 
+      #{sellStatus,jdbcType=INTEGER}, #{sellDate,jdbcType=BIGINT}, #{purchasera,jdbcType=VARCHAR}, 
+      #{keepOrganId,jdbcType=INTEGER}, #{keepOrganName,jdbcType=VARCHAR}, #{quitCause,jdbcType=VARCHAR}, 
+      #{soilType,jdbcType=INTEGER}, #{soilMaxType,jdbcType=INTEGER}, #{soilMinType,jdbcType=INTEGER}, 
+      #{approvalStatus,jdbcType=INTEGER}, #{applyId,jdbcType=INTEGER}, #{houseType,jdbcType=VARCHAR}, 
+      #{liveNumber,jdbcType=INTEGER}, #{liveSex,jdbcType=INTEGER}, #{allotStatus,jdbcType=TINYINT}, 
+      #{contractId,jdbcType=INTEGER}, #{saleStatus,jdbcType=INTEGER}, #{parkName,jdbcType=VARCHAR}, 
+      #{parkNameCode,jdbcType=INTEGER}, #{parkDistrict,jdbcType=VARCHAR}, #{parkDistrictCode,jdbcType=INTEGER}, 
+      #{objType,jdbcType=VARCHAR}, #{objTypeCode,jdbcType=INTEGER}, #{parkLocalCode,jdbcType=VARCHAR}, 
+      #{firstId,jdbcType=INTEGER}, #{firstGroupId,jdbcType=INTEGER}, #{firstName,jdbcType=VARCHAR}, 
+      #{area,jdbcType=DECIMAL}, #{useArea,jdbcType=DECIMAL}, #{optStatus,jdbcType=TINYINT}, 
+      #{lockReason,jdbcType=INTEGER}, #{landArea,jdbcType=DECIMAL}, #{oldManagementType,jdbcType=INTEGER}, 
+      #{roomType,jdbcType=INTEGER}, #{houseName,jdbcType=VARCHAR}, #{belongCommunityId,jdbcType=BIGINT}, 
+      #{remark,jdbcType=LONGVARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.ss.up.model.ResExt" >
+    insert into res_ext
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="resId != null" >
+        RES_ID,
+      </if>
+      <if test="resType != null" >
+        RES_TYPE,
+      </if>
+      <if test="groupId != null" >
+        GROUP_ID,
+      </if>
+      <if test="communityId != null" >
+        COMMUNITY_ID,
+      </if>
+      <if test="resStyle != null" >
+        RES_STYLE,
+      </if>
+      <if test="billArea != null" >
+        BILL_AREA,
+      </if>
+      <if test="billMode != null" >
+        BILL_MODE,
+      </if>
+      <if test="leaseMode != null" >
+        LEASE_MODE,
+      </if>
+      <if test="resPurpose != null" >
+        RES_PURPOSE,
+      </if>
+      <if test="resDesc != null" >
+        RES_DESC,
+      </if>
+      <if test="resSource != null" >
+        RES_SOURCE,
+      </if>
+      <if test="busiStatus != null" >
+        BUSI_STATUS,
+      </if>
+      <if test="resStatus != null" >
+        RES_STATUS,
+      </if>
+      <if test="leaseStatus != null" >
+        LEASE_STATUS,
+      </if>
+      <if test="prepDate != null" >
+        PREP_DATE,
+      </if>
+      <if test="xpoint != null" >
+        XPOINT,
+      </if>
+      <if test="ypoint != null" >
+        YPOINT,
+      </if>
+      <if test="color != null" >
+        COLOR,
+      </if>
+      <if test="productLine != null" >
+        PRODUCT_LINE,
+      </if>
+      <if test="managementType != null" >
+        MANAGEMENT_TYPE,
+      </if>
+      <if test="isWorkflow != null" >
+        IS_WORKFLOW,
+      </if>
+      <if test="brandTypeMain != null" >
+        brand_type_main,
+      </if>
+      <if test="brandTypeSub != null" >
+        brand_type_sub,
+      </if>
+      <if test="subLeaseArea != null" >
+        sub_lease_area,
+      </if>
+      <if test="createTime != null" >
+        CREATE_TIME,
+      </if>
+      <if test="createUserId != null" >
+        CREATE_USER_ID,
+      </if>
+      <if test="createUserName != null" >
+        CREATE_USER_NAME,
+      </if>
+      <if test="updateTime != null" >
+        UPDATE_TIME,
+      </if>
+      <if test="updateUserId != null" >
+        UPDATE_USER_ID,
+      </if>
+      <if test="updateUserName != null" >
+        UPDATE_USER_NAME,
+      </if>
+      <if test="organId != null" >
+        organ_id,
+      </if>
+      <if test="organName != null" >
+        organ_name,
+      </if>
+      <if test="positionId != null" >
+        position_id,
+      </if>
+      <if test="positionName != null" >
+        position_name,
+      </if>
+      <if test="resCode != null" >
+        res_code,
+      </if>
+      <if test="resName != null" >
+        res_name,
+      </if>
+      <if test="pointType != null" >
+        point_type,
+      </if>
+      <if test="businessType != null" >
+        business_type,
+      </if>
+      <if test="newUseDirection != null" >
+        new_use_direction,
+      </if>
+      <if test="invalidTime != null" >
+        invalid_time,
+      </if>
+      <if test="useDirection != null" >
+        use_direction,
+      </if>
+      <if test="priceUnit != null" >
+        price_unit,
+      </if>
+      <if test="feeUnit != null" >
+        fee_unit,
+      </if>
+      <if test="feeAmount != null" >
+        fee_amount,
+      </if>
+      <if test="chargeId != null" >
+        charge_id,
+      </if>
+      <if test="chargeName != null" >
+        charge_name,
+      </if>
+      <if test="feePrice != null" >
+        fee_price,
+      </if>
+      <if test="cycle != null" >
+        cycle,
+      </if>
+      <if test="rentCost != null" >
+        rent_cost,
+      </if>
+      <if test="effectTime != null" >
+        effect_time,
+      </if>
+      <if test="buildId != null" >
+        build_id,
+      </if>
+      <if test="buildName != null" >
+        build_name,
+      </if>
+      <if test="unitId != null" >
+        unit_id,
+      </if>
+      <if test="unitName != null" >
+        unit_name,
+      </if>
+      <if test="floorId != null" >
+        floor_id,
+      </if>
+      <if test="floorName != null" >
+        floor_name,
+      </if>
+      <if test="sellStatus != null" >
+        sell_status,
+      </if>
+      <if test="sellDate != null" >
+        sell_date,
+      </if>
+      <if test="purchasera != null" >
+        purchasera,
+      </if>
+      <if test="keepOrganId != null" >
+        keep_organ_id,
+      </if>
+      <if test="keepOrganName != null" >
+        keep_organ_name,
+      </if>
+      <if test="quitCause != null" >
+        quit_cause,
+      </if>
+      <if test="soilType != null" >
+        soil_type,
+      </if>
+      <if test="soilMaxType != null" >
+        soil_max_type,
+      </if>
+      <if test="soilMinType != null" >
+        soil_min_type,
+      </if>
+      <if test="approvalStatus != null" >
+        approval_status,
+      </if>
+      <if test="applyId != null" >
+        apply_id,
+      </if>
+      <if test="houseType != null" >
+        house_type,
+      </if>
+      <if test="liveNumber != null" >
+        live_number,
+      </if>
+      <if test="liveSex != null" >
+        live_sex,
+      </if>
+      <if test="allotStatus != null" >
+        allot_status,
+      </if>
+      <if test="contractId != null" >
+        contract_id,
+      </if>
+      <if test="saleStatus != null" >
+        sale_status,
+      </if>
+      <if test="parkName != null" >
+        park_name,
+      </if>
+      <if test="parkNameCode != null" >
+        park_name_code,
+      </if>
+      <if test="parkDistrict != null" >
+        park_district,
+      </if>
+      <if test="parkDistrictCode != null" >
+        park_district_code,
+      </if>
+      <if test="objType != null" >
+        obj_type,
+      </if>
+      <if test="objTypeCode != null" >
+        obj_type_code,
+      </if>
+      <if test="parkLocalCode != null" >
+        park_local_code,
+      </if>
+      <if test="firstId != null" >
+        first_id,
+      </if>
+      <if test="firstGroupId != null" >
+        first_group_id,
+      </if>
+      <if test="firstName != null" >
+        first_name,
+      </if>
+      <if test="area != null" >
+        area,
+      </if>
+      <if test="useArea != null" >
+        use_area,
+      </if>
+      <if test="optStatus != null" >
+        opt_status,
+      </if>
+      <if test="lockReason != null" >
+        lock_reason,
+      </if>
+      <if test="landArea != null" >
+        land_area,
+      </if>
+      <if test="oldManagementType != null" >
+        OLD_MANAGEMENT_TYPE,
+      </if>
+      <if test="roomType != null" >
+        room_type,
+      </if>
+      <if test="houseName != null" >
+        house_name,
+      </if>
+      <if test="belongCommunityId != null" >
+        belong_community_id,
+      </if>
+      <if test="remark != null" >
+        remark,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="resId != null" >
+        #{resId,jdbcType=BIGINT},
+      </if>
+      <if test="resType != null" >
+        #{resType,jdbcType=INTEGER},
+      </if>
+      <if test="groupId != null" >
+        #{groupId,jdbcType=BIGINT},
+      </if>
+      <if test="communityId != null" >
+        #{communityId,jdbcType=BIGINT},
+      </if>
+      <if test="resStyle != null" >
+        #{resStyle,jdbcType=INTEGER},
+      </if>
+      <if test="billArea != null" >
+        #{billArea,jdbcType=DECIMAL},
+      </if>
+      <if test="billMode != null" >
+        #{billMode,jdbcType=INTEGER},
+      </if>
+      <if test="leaseMode != null" >
+        #{leaseMode,jdbcType=INTEGER},
+      </if>
+      <if test="resPurpose != null" >
+        #{resPurpose,jdbcType=INTEGER},
+      </if>
+      <if test="resDesc != null" >
+        #{resDesc,jdbcType=VARCHAR},
+      </if>
+      <if test="resSource != null" >
+        #{resSource,jdbcType=INTEGER},
+      </if>
+      <if test="busiStatus != null" >
+        #{busiStatus,jdbcType=INTEGER},
+      </if>
+      <if test="resStatus != null" >
+        #{resStatus,jdbcType=INTEGER},
+      </if>
+      <if test="leaseStatus != null" >
+        #{leaseStatus,jdbcType=INTEGER},
+      </if>
+      <if test="prepDate != null" >
+        #{prepDate,jdbcType=BIGINT},
+      </if>
+      <if test="xpoint != null" >
+        #{xpoint,jdbcType=VARCHAR},
+      </if>
+      <if test="ypoint != null" >
+        #{ypoint,jdbcType=VARCHAR},
+      </if>
+      <if test="color != null" >
+        #{color,jdbcType=VARCHAR},
+      </if>
+      <if test="productLine != null" >
+        #{productLine,jdbcType=INTEGER},
+      </if>
+      <if test="managementType != null" >
+        #{managementType,jdbcType=INTEGER},
+      </if>
+      <if test="isWorkflow != null" >
+        #{isWorkflow,jdbcType=INTEGER},
+      </if>
+      <if test="brandTypeMain != null" >
+        #{brandTypeMain,jdbcType=VARCHAR},
+      </if>
+      <if test="brandTypeSub != null" >
+        #{brandTypeSub,jdbcType=VARCHAR},
+      </if>
+      <if test="subLeaseArea != null" >
+        #{subLeaseArea,jdbcType=DECIMAL},
+      </if>
+      <if test="createTime != null" >
+        #{createTime,jdbcType=BIGINT},
+      </if>
+      <if test="createUserId != null" >
+        #{createUserId,jdbcType=INTEGER},
+      </if>
+      <if test="createUserName != null" >
+        #{createUserName,jdbcType=VARCHAR},
+      </if>
+      <if test="updateTime != null" >
+        #{updateTime,jdbcType=BIGINT},
+      </if>
+      <if test="updateUserId != null" >
+        #{updateUserId,jdbcType=INTEGER},
+      </if>
+      <if test="updateUserName != null" >
+        #{updateUserName,jdbcType=VARCHAR},
+      </if>
+      <if test="organId != null" >
+        #{organId,jdbcType=INTEGER},
+      </if>
+      <if test="organName != null" >
+        #{organName,jdbcType=VARCHAR},
+      </if>
+      <if test="positionId != null" >
+        #{positionId,jdbcType=INTEGER},
+      </if>
+      <if test="positionName != null" >
+        #{positionName,jdbcType=VARCHAR},
+      </if>
+      <if test="resCode != null" >
+        #{resCode,jdbcType=VARCHAR},
+      </if>
+      <if test="resName != null" >
+        #{resName,jdbcType=VARCHAR},
+      </if>
+      <if test="pointType != null" >
+        #{pointType,jdbcType=INTEGER},
+      </if>
+      <if test="businessType != null" >
+        #{businessType,jdbcType=INTEGER},
+      </if>
+      <if test="newUseDirection != null" >
+        #{newUseDirection,jdbcType=INTEGER},
+      </if>
+      <if test="invalidTime != null" >
+        #{invalidTime,jdbcType=BIGINT},
+      </if>
+      <if test="useDirection != null" >
+        #{useDirection,jdbcType=INTEGER},
+      </if>
+      <if test="priceUnit != null" >
+        #{priceUnit,jdbcType=VARCHAR},
+      </if>
+      <if test="feeUnit != null" >
+        #{feeUnit,jdbcType=VARCHAR},
+      </if>
+      <if test="feeAmount != null" >
+        #{feeAmount,jdbcType=INTEGER},
+      </if>
+      <if test="chargeId != null" >
+        #{chargeId,jdbcType=INTEGER},
+      </if>
+      <if test="chargeName != null" >
+        #{chargeName,jdbcType=VARCHAR},
+      </if>
+      <if test="feePrice != null" >
+        #{feePrice,jdbcType=DECIMAL},
+      </if>
+      <if test="cycle != null" >
+        #{cycle,jdbcType=VARCHAR},
+      </if>
+      <if test="rentCost != null" >
+        #{rentCost,jdbcType=DECIMAL},
+      </if>
+      <if test="effectTime != null" >
+        #{effectTime,jdbcType=BIGINT},
+      </if>
+      <if test="buildId != null" >
+        #{buildId,jdbcType=INTEGER},
+      </if>
+      <if test="buildName != null" >
+        #{buildName,jdbcType=VARCHAR},
+      </if>
+      <if test="unitId != null" >
+        #{unitId,jdbcType=INTEGER},
+      </if>
+      <if test="unitName != null" >
+        #{unitName,jdbcType=VARCHAR},
+      </if>
+      <if test="floorId != null" >
+        #{floorId,jdbcType=INTEGER},
+      </if>
+      <if test="floorName != null" >
+        #{floorName,jdbcType=VARCHAR},
+      </if>
+      <if test="sellStatus != null" >
+        #{sellStatus,jdbcType=INTEGER},
+      </if>
+      <if test="sellDate != null" >
+        #{sellDate,jdbcType=BIGINT},
+      </if>
+      <if test="purchasera != null" >
+        #{purchasera,jdbcType=VARCHAR},
+      </if>
+      <if test="keepOrganId != null" >
+        #{keepOrganId,jdbcType=INTEGER},
+      </if>
+      <if test="keepOrganName != null" >
+        #{keepOrganName,jdbcType=VARCHAR},
+      </if>
+      <if test="quitCause != null" >
+        #{quitCause,jdbcType=VARCHAR},
+      </if>
+      <if test="soilType != null" >
+        #{soilType,jdbcType=INTEGER},
+      </if>
+      <if test="soilMaxType != null" >
+        #{soilMaxType,jdbcType=INTEGER},
+      </if>
+      <if test="soilMinType != null" >
+        #{soilMinType,jdbcType=INTEGER},
+      </if>
+      <if test="approvalStatus != null" >
+        #{approvalStatus,jdbcType=INTEGER},
+      </if>
+      <if test="applyId != null" >
+        #{applyId,jdbcType=INTEGER},
+      </if>
+      <if test="houseType != null" >
+        #{houseType,jdbcType=VARCHAR},
+      </if>
+      <if test="liveNumber != null" >
+        #{liveNumber,jdbcType=INTEGER},
+      </if>
+      <if test="liveSex != null" >
+        #{liveSex,jdbcType=INTEGER},
+      </if>
+      <if test="allotStatus != null" >
+        #{allotStatus,jdbcType=TINYINT},
+      </if>
+      <if test="contractId != null" >
+        #{contractId,jdbcType=INTEGER},
+      </if>
+      <if test="saleStatus != null" >
+        #{saleStatus,jdbcType=INTEGER},
+      </if>
+      <if test="parkName != null" >
+        #{parkName,jdbcType=VARCHAR},
+      </if>
+      <if test="parkNameCode != null" >
+        #{parkNameCode,jdbcType=INTEGER},
+      </if>
+      <if test="parkDistrict != null" >
+        #{parkDistrict,jdbcType=VARCHAR},
+      </if>
+      <if test="parkDistrictCode != null" >
+        #{parkDistrictCode,jdbcType=INTEGER},
+      </if>
+      <if test="objType != null" >
+        #{objType,jdbcType=VARCHAR},
+      </if>
+      <if test="objTypeCode != null" >
+        #{objTypeCode,jdbcType=INTEGER},
+      </if>
+      <if test="parkLocalCode != null" >
+        #{parkLocalCode,jdbcType=VARCHAR},
+      </if>
+      <if test="firstId != null" >
+        #{firstId,jdbcType=INTEGER},
+      </if>
+      <if test="firstGroupId != null" >
+        #{firstGroupId,jdbcType=INTEGER},
+      </if>
+      <if test="firstName != null" >
+        #{firstName,jdbcType=VARCHAR},
+      </if>
+      <if test="area != null" >
+        #{area,jdbcType=DECIMAL},
+      </if>
+      <if test="useArea != null" >
+        #{useArea,jdbcType=DECIMAL},
+      </if>
+      <if test="optStatus != null" >
+        #{optStatus,jdbcType=TINYINT},
+      </if>
+      <if test="lockReason != null" >
+        #{lockReason,jdbcType=INTEGER},
+      </if>
+      <if test="landArea != null" >
+        #{landArea,jdbcType=DECIMAL},
+      </if>
+      <if test="oldManagementType != null" >
+        #{oldManagementType,jdbcType=INTEGER},
+      </if>
+      <if test="roomType != null" >
+        #{roomType,jdbcType=INTEGER},
+      </if>
+      <if test="houseName != null" >
+        #{houseName,jdbcType=VARCHAR},
+      </if>
+      <if test="belongCommunityId != null" >
+        #{belongCommunityId,jdbcType=BIGINT},
+      </if>
+      <if test="remark != null" >
+        #{remark,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.ss.up.model.ResExtCriteria" resultType="java.lang.Integer" >
+    select count(*) from res_ext
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update res_ext
+    <set >
+      <if test="record.id != null" >
+        id = #{record.id,jdbcType=INTEGER},
+      </if>
+      <if test="record.resId != null" >
+        RES_ID = #{record.resId,jdbcType=BIGINT},
+      </if>
+      <if test="record.resType != null" >
+        RES_TYPE = #{record.resType,jdbcType=INTEGER},
+      </if>
+      <if test="record.groupId != null" >
+        GROUP_ID = #{record.groupId,jdbcType=BIGINT},
+      </if>
+      <if test="record.communityId != null" >
+        COMMUNITY_ID = #{record.communityId,jdbcType=BIGINT},
+      </if>
+      <if test="record.resStyle != null" >
+        RES_STYLE = #{record.resStyle,jdbcType=INTEGER},
+      </if>
+      <if test="record.billArea != null" >
+        BILL_AREA = #{record.billArea,jdbcType=DECIMAL},
+      </if>
+      <if test="record.billMode != null" >
+        BILL_MODE = #{record.billMode,jdbcType=INTEGER},
+      </if>
+      <if test="record.leaseMode != null" >
+        LEASE_MODE = #{record.leaseMode,jdbcType=INTEGER},
+      </if>
+      <if test="record.resPurpose != null" >
+        RES_PURPOSE = #{record.resPurpose,jdbcType=INTEGER},
+      </if>
+      <if test="record.resDesc != null" >
+        RES_DESC = #{record.resDesc,jdbcType=VARCHAR},
+      </if>
+      <if test="record.resSource != null" >
+        RES_SOURCE = #{record.resSource,jdbcType=INTEGER},
+      </if>
+      <if test="record.busiStatus != null" >
+        BUSI_STATUS = #{record.busiStatus,jdbcType=INTEGER},
+      </if>
+      <if test="record.resStatus != null" >
+        RES_STATUS = #{record.resStatus,jdbcType=INTEGER},
+      </if>
+      <if test="record.leaseStatus != null" >
+        LEASE_STATUS = #{record.leaseStatus,jdbcType=INTEGER},
+      </if>
+      <if test="record.prepDate != null" >
+        PREP_DATE = #{record.prepDate,jdbcType=BIGINT},
+      </if>
+      <if test="record.xpoint != null" >
+        XPOINT = #{record.xpoint,jdbcType=VARCHAR},
+      </if>
+      <if test="record.ypoint != null" >
+        YPOINT = #{record.ypoint,jdbcType=VARCHAR},
+      </if>
+      <if test="record.color != null" >
+        COLOR = #{record.color,jdbcType=VARCHAR},
+      </if>
+      <if test="record.productLine != null" >
+        PRODUCT_LINE = #{record.productLine,jdbcType=INTEGER},
+      </if>
+      <if test="record.managementType != null" >
+        MANAGEMENT_TYPE = #{record.managementType,jdbcType=INTEGER},
+      </if>
+      <if test="record.isWorkflow != null" >
+        IS_WORKFLOW = #{record.isWorkflow,jdbcType=INTEGER},
+      </if>
+      <if test="record.brandTypeMain != null" >
+        brand_type_main = #{record.brandTypeMain,jdbcType=VARCHAR},
+      </if>
+      <if test="record.brandTypeSub != null" >
+        brand_type_sub = #{record.brandTypeSub,jdbcType=VARCHAR},
+      </if>
+      <if test="record.subLeaseArea != null" >
+        sub_lease_area = #{record.subLeaseArea,jdbcType=DECIMAL},
+      </if>
+      <if test="record.createTime != null" >
+        CREATE_TIME = #{record.createTime,jdbcType=BIGINT},
+      </if>
+      <if test="record.createUserId != null" >
+        CREATE_USER_ID = #{record.createUserId,jdbcType=INTEGER},
+      </if>
+      <if test="record.createUserName != null" >
+        CREATE_USER_NAME = #{record.createUserName,jdbcType=VARCHAR},
+      </if>
+      <if test="record.updateTime != null" >
+        UPDATE_TIME = #{record.updateTime,jdbcType=BIGINT},
+      </if>
+      <if test="record.updateUserId != null" >
+        UPDATE_USER_ID = #{record.updateUserId,jdbcType=INTEGER},
+      </if>
+      <if test="record.updateUserName != null" >
+        UPDATE_USER_NAME = #{record.updateUserName,jdbcType=VARCHAR},
+      </if>
+      <if test="record.organId != null" >
+        organ_id = #{record.organId,jdbcType=INTEGER},
+      </if>
+      <if test="record.organName != null" >
+        organ_name = #{record.organName,jdbcType=VARCHAR},
+      </if>
+      <if test="record.positionId != null" >
+        position_id = #{record.positionId,jdbcType=INTEGER},
+      </if>
+      <if test="record.positionName != null" >
+        position_name = #{record.positionName,jdbcType=VARCHAR},
+      </if>
+      <if test="record.resCode != null" >
+        res_code = #{record.resCode,jdbcType=VARCHAR},
+      </if>
+      <if test="record.resName != null" >
+        res_name = #{record.resName,jdbcType=VARCHAR},
+      </if>
+      <if test="record.pointType != null" >
+        point_type = #{record.pointType,jdbcType=INTEGER},
+      </if>
+      <if test="record.businessType != null" >
+        business_type = #{record.businessType,jdbcType=INTEGER},
+      </if>
+      <if test="record.newUseDirection != null" >
+        new_use_direction = #{record.newUseDirection,jdbcType=INTEGER},
+      </if>
+      <if test="record.invalidTime != null" >
+        invalid_time = #{record.invalidTime,jdbcType=BIGINT},
+      </if>
+      <if test="record.useDirection != null" >
+        use_direction = #{record.useDirection,jdbcType=INTEGER},
+      </if>
+      <if test="record.priceUnit != null" >
+        price_unit = #{record.priceUnit,jdbcType=VARCHAR},
+      </if>
+      <if test="record.feeUnit != null" >
+        fee_unit = #{record.feeUnit,jdbcType=VARCHAR},
+      </if>
+      <if test="record.feeAmount != null" >
+        fee_amount = #{record.feeAmount,jdbcType=INTEGER},
+      </if>
+      <if test="record.chargeId != null" >
+        charge_id = #{record.chargeId,jdbcType=INTEGER},
+      </if>
+      <if test="record.chargeName != null" >
+        charge_name = #{record.chargeName,jdbcType=VARCHAR},
+      </if>
+      <if test="record.feePrice != null" >
+        fee_price = #{record.feePrice,jdbcType=DECIMAL},
+      </if>
+      <if test="record.cycle != null" >
+        cycle = #{record.cycle,jdbcType=VARCHAR},
+      </if>
+      <if test="record.rentCost != null" >
+        rent_cost = #{record.rentCost,jdbcType=DECIMAL},
+      </if>
+      <if test="record.effectTime != null" >
+        effect_time = #{record.effectTime,jdbcType=BIGINT},
+      </if>
+      <if test="record.buildId != null" >
+        build_id = #{record.buildId,jdbcType=INTEGER},
+      </if>
+      <if test="record.buildName != null" >
+        build_name = #{record.buildName,jdbcType=VARCHAR},
+      </if>
+      <if test="record.unitId != null" >
+        unit_id = #{record.unitId,jdbcType=INTEGER},
+      </if>
+      <if test="record.unitName != null" >
+        unit_name = #{record.unitName,jdbcType=VARCHAR},
+      </if>
+      <if test="record.floorId != null" >
+        floor_id = #{record.floorId,jdbcType=INTEGER},
+      </if>
+      <if test="record.floorName != null" >
+        floor_name = #{record.floorName,jdbcType=VARCHAR},
+      </if>
+      <if test="record.sellStatus != null" >
+        sell_status = #{record.sellStatus,jdbcType=INTEGER},
+      </if>
+      <if test="record.sellDate != null" >
+        sell_date = #{record.sellDate,jdbcType=BIGINT},
+      </if>
+      <if test="record.purchasera != null" >
+        purchasera = #{record.purchasera,jdbcType=VARCHAR},
+      </if>
+      <if test="record.keepOrganId != null" >
+        keep_organ_id = #{record.keepOrganId,jdbcType=INTEGER},
+      </if>
+      <if test="record.keepOrganName != null" >
+        keep_organ_name = #{record.keepOrganName,jdbcType=VARCHAR},
+      </if>
+      <if test="record.quitCause != null" >
+        quit_cause = #{record.quitCause,jdbcType=VARCHAR},
+      </if>
+      <if test="record.soilType != null" >
+        soil_type = #{record.soilType,jdbcType=INTEGER},
+      </if>
+      <if test="record.soilMaxType != null" >
+        soil_max_type = #{record.soilMaxType,jdbcType=INTEGER},
+      </if>
+      <if test="record.soilMinType != null" >
+        soil_min_type = #{record.soilMinType,jdbcType=INTEGER},
+      </if>
+      <if test="record.approvalStatus != null" >
+        approval_status = #{record.approvalStatus,jdbcType=INTEGER},
+      </if>
+      <if test="record.applyId != null" >
+        apply_id = #{record.applyId,jdbcType=INTEGER},
+      </if>
+      <if test="record.houseType != null" >
+        house_type = #{record.houseType,jdbcType=VARCHAR},
+      </if>
+      <if test="record.liveNumber != null" >
+        live_number = #{record.liveNumber,jdbcType=INTEGER},
+      </if>
+      <if test="record.liveSex != null" >
+        live_sex = #{record.liveSex,jdbcType=INTEGER},
+      </if>
+      <if test="record.allotStatus != null" >
+        allot_status = #{record.allotStatus,jdbcType=TINYINT},
+      </if>
+      <if test="record.contractId != null" >
+        contract_id = #{record.contractId,jdbcType=INTEGER},
+      </if>
+      <if test="record.saleStatus != null" >
+        sale_status = #{record.saleStatus,jdbcType=INTEGER},
+      </if>
+      <if test="record.parkName != null" >
+        park_name = #{record.parkName,jdbcType=VARCHAR},
+      </if>
+      <if test="record.parkNameCode != null" >
+        park_name_code = #{record.parkNameCode,jdbcType=INTEGER},
+      </if>
+      <if test="record.parkDistrict != null" >
+        park_district = #{record.parkDistrict,jdbcType=VARCHAR},
+      </if>
+      <if test="record.parkDistrictCode != null" >
+        park_district_code = #{record.parkDistrictCode,jdbcType=INTEGER},
+      </if>
+      <if test="record.objType != null" >
+        obj_type = #{record.objType,jdbcType=VARCHAR},
+      </if>
+      <if test="record.objTypeCode != null" >
+        obj_type_code = #{record.objTypeCode,jdbcType=INTEGER},
+      </if>
+      <if test="record.parkLocalCode != null" >
+        park_local_code = #{record.parkLocalCode,jdbcType=VARCHAR},
+      </if>
+      <if test="record.firstId != null" >
+        first_id = #{record.firstId,jdbcType=INTEGER},
+      </if>
+      <if test="record.firstGroupId != null" >
+        first_group_id = #{record.firstGroupId,jdbcType=INTEGER},
+      </if>
+      <if test="record.firstName != null" >
+        first_name = #{record.firstName,jdbcType=VARCHAR},
+      </if>
+      <if test="record.area != null" >
+        area = #{record.area,jdbcType=DECIMAL},
+      </if>
+      <if test="record.useArea != null" >
+        use_area = #{record.useArea,jdbcType=DECIMAL},
+      </if>
+      <if test="record.optStatus != null" >
+        opt_status = #{record.optStatus,jdbcType=TINYINT},
+      </if>
+      <if test="record.lockReason != null" >
+        lock_reason = #{record.lockReason,jdbcType=INTEGER},
+      </if>
+      <if test="record.landArea != null" >
+        land_area = #{record.landArea,jdbcType=DECIMAL},
+      </if>
+      <if test="record.oldManagementType != null" >
+        OLD_MANAGEMENT_TYPE = #{record.oldManagementType,jdbcType=INTEGER},
+      </if>
+      <if test="record.roomType != null" >
+        room_type = #{record.roomType,jdbcType=INTEGER},
+      </if>
+      <if test="record.houseName != null" >
+        house_name = #{record.houseName,jdbcType=VARCHAR},
+      </if>
+      <if test="record.belongCommunityId != null" >
+        belong_community_id = #{record.belongCommunityId,jdbcType=BIGINT},
+      </if>
+      <if test="record.remark != null" >
+        remark = #{record.remark,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExampleWithBLOBs" parameterType="map" >
+    update res_ext
+    set id = #{record.id,jdbcType=INTEGER},
+      RES_ID = #{record.resId,jdbcType=BIGINT},
+      RES_TYPE = #{record.resType,jdbcType=INTEGER},
+      GROUP_ID = #{record.groupId,jdbcType=BIGINT},
+      COMMUNITY_ID = #{record.communityId,jdbcType=BIGINT},
+      RES_STYLE = #{record.resStyle,jdbcType=INTEGER},
+      BILL_AREA = #{record.billArea,jdbcType=DECIMAL},
+      BILL_MODE = #{record.billMode,jdbcType=INTEGER},
+      LEASE_MODE = #{record.leaseMode,jdbcType=INTEGER},
+      RES_PURPOSE = #{record.resPurpose,jdbcType=INTEGER},
+      RES_DESC = #{record.resDesc,jdbcType=VARCHAR},
+      RES_SOURCE = #{record.resSource,jdbcType=INTEGER},
+      BUSI_STATUS = #{record.busiStatus,jdbcType=INTEGER},
+      RES_STATUS = #{record.resStatus,jdbcType=INTEGER},
+      LEASE_STATUS = #{record.leaseStatus,jdbcType=INTEGER},
+      PREP_DATE = #{record.prepDate,jdbcType=BIGINT},
+      XPOINT = #{record.xpoint,jdbcType=VARCHAR},
+      YPOINT = #{record.ypoint,jdbcType=VARCHAR},
+      COLOR = #{record.color,jdbcType=VARCHAR},
+      PRODUCT_LINE = #{record.productLine,jdbcType=INTEGER},
+      MANAGEMENT_TYPE = #{record.managementType,jdbcType=INTEGER},
+      IS_WORKFLOW = #{record.isWorkflow,jdbcType=INTEGER},
+      brand_type_main = #{record.brandTypeMain,jdbcType=VARCHAR},
+      brand_type_sub = #{record.brandTypeSub,jdbcType=VARCHAR},
+      sub_lease_area = #{record.subLeaseArea,jdbcType=DECIMAL},
+      CREATE_TIME = #{record.createTime,jdbcType=BIGINT},
+      CREATE_USER_ID = #{record.createUserId,jdbcType=INTEGER},
+      CREATE_USER_NAME = #{record.createUserName,jdbcType=VARCHAR},
+      UPDATE_TIME = #{record.updateTime,jdbcType=BIGINT},
+      UPDATE_USER_ID = #{record.updateUserId,jdbcType=INTEGER},
+      UPDATE_USER_NAME = #{record.updateUserName,jdbcType=VARCHAR},
+      organ_id = #{record.organId,jdbcType=INTEGER},
+      organ_name = #{record.organName,jdbcType=VARCHAR},
+      position_id = #{record.positionId,jdbcType=INTEGER},
+      position_name = #{record.positionName,jdbcType=VARCHAR},
+      res_code = #{record.resCode,jdbcType=VARCHAR},
+      res_name = #{record.resName,jdbcType=VARCHAR},
+      point_type = #{record.pointType,jdbcType=INTEGER},
+      business_type = #{record.businessType,jdbcType=INTEGER},
+      new_use_direction = #{record.newUseDirection,jdbcType=INTEGER},
+      invalid_time = #{record.invalidTime,jdbcType=BIGINT},
+      use_direction = #{record.useDirection,jdbcType=INTEGER},
+      price_unit = #{record.priceUnit,jdbcType=VARCHAR},
+      fee_unit = #{record.feeUnit,jdbcType=VARCHAR},
+      fee_amount = #{record.feeAmount,jdbcType=INTEGER},
+      charge_id = #{record.chargeId,jdbcType=INTEGER},
+      charge_name = #{record.chargeName,jdbcType=VARCHAR},
+      fee_price = #{record.feePrice,jdbcType=DECIMAL},
+      cycle = #{record.cycle,jdbcType=VARCHAR},
+      rent_cost = #{record.rentCost,jdbcType=DECIMAL},
+      effect_time = #{record.effectTime,jdbcType=BIGINT},
+      build_id = #{record.buildId,jdbcType=INTEGER},
+      build_name = #{record.buildName,jdbcType=VARCHAR},
+      unit_id = #{record.unitId,jdbcType=INTEGER},
+      unit_name = #{record.unitName,jdbcType=VARCHAR},
+      floor_id = #{record.floorId,jdbcType=INTEGER},
+      floor_name = #{record.floorName,jdbcType=VARCHAR},
+      sell_status = #{record.sellStatus,jdbcType=INTEGER},
+      sell_date = #{record.sellDate,jdbcType=BIGINT},
+      purchasera = #{record.purchasera,jdbcType=VARCHAR},
+      keep_organ_id = #{record.keepOrganId,jdbcType=INTEGER},
+      keep_organ_name = #{record.keepOrganName,jdbcType=VARCHAR},
+      quit_cause = #{record.quitCause,jdbcType=VARCHAR},
+      soil_type = #{record.soilType,jdbcType=INTEGER},
+      soil_max_type = #{record.soilMaxType,jdbcType=INTEGER},
+      soil_min_type = #{record.soilMinType,jdbcType=INTEGER},
+      approval_status = #{record.approvalStatus,jdbcType=INTEGER},
+      apply_id = #{record.applyId,jdbcType=INTEGER},
+      house_type = #{record.houseType,jdbcType=VARCHAR},
+      live_number = #{record.liveNumber,jdbcType=INTEGER},
+      live_sex = #{record.liveSex,jdbcType=INTEGER},
+      allot_status = #{record.allotStatus,jdbcType=TINYINT},
+      contract_id = #{record.contractId,jdbcType=INTEGER},
+      sale_status = #{record.saleStatus,jdbcType=INTEGER},
+      park_name = #{record.parkName,jdbcType=VARCHAR},
+      park_name_code = #{record.parkNameCode,jdbcType=INTEGER},
+      park_district = #{record.parkDistrict,jdbcType=VARCHAR},
+      park_district_code = #{record.parkDistrictCode,jdbcType=INTEGER},
+      obj_type = #{record.objType,jdbcType=VARCHAR},
+      obj_type_code = #{record.objTypeCode,jdbcType=INTEGER},
+      park_local_code = #{record.parkLocalCode,jdbcType=VARCHAR},
+      first_id = #{record.firstId,jdbcType=INTEGER},
+      first_group_id = #{record.firstGroupId,jdbcType=INTEGER},
+      first_name = #{record.firstName,jdbcType=VARCHAR},
+      area = #{record.area,jdbcType=DECIMAL},
+      use_area = #{record.useArea,jdbcType=DECIMAL},
+      opt_status = #{record.optStatus,jdbcType=TINYINT},
+      lock_reason = #{record.lockReason,jdbcType=INTEGER},
+      land_area = #{record.landArea,jdbcType=DECIMAL},
+      OLD_MANAGEMENT_TYPE = #{record.oldManagementType,jdbcType=INTEGER},
+      room_type = #{record.roomType,jdbcType=INTEGER},
+      house_name = #{record.houseName,jdbcType=VARCHAR},
+      belong_community_id = #{record.belongCommunityId,jdbcType=BIGINT},
+      remark = #{record.remark,jdbcType=LONGVARCHAR}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update res_ext
+    set id = #{record.id,jdbcType=INTEGER},
+      RES_ID = #{record.resId,jdbcType=BIGINT},
+      RES_TYPE = #{record.resType,jdbcType=INTEGER},
+      GROUP_ID = #{record.groupId,jdbcType=BIGINT},
+      COMMUNITY_ID = #{record.communityId,jdbcType=BIGINT},
+      RES_STYLE = #{record.resStyle,jdbcType=INTEGER},
+      BILL_AREA = #{record.billArea,jdbcType=DECIMAL},
+      BILL_MODE = #{record.billMode,jdbcType=INTEGER},
+      LEASE_MODE = #{record.leaseMode,jdbcType=INTEGER},
+      RES_PURPOSE = #{record.resPurpose,jdbcType=INTEGER},
+      RES_DESC = #{record.resDesc,jdbcType=VARCHAR},
+      RES_SOURCE = #{record.resSource,jdbcType=INTEGER},
+      BUSI_STATUS = #{record.busiStatus,jdbcType=INTEGER},
+      RES_STATUS = #{record.resStatus,jdbcType=INTEGER},
+      LEASE_STATUS = #{record.leaseStatus,jdbcType=INTEGER},
+      PREP_DATE = #{record.prepDate,jdbcType=BIGINT},
+      XPOINT = #{record.xpoint,jdbcType=VARCHAR},
+      YPOINT = #{record.ypoint,jdbcType=VARCHAR},
+      COLOR = #{record.color,jdbcType=VARCHAR},
+      PRODUCT_LINE = #{record.productLine,jdbcType=INTEGER},
+      MANAGEMENT_TYPE = #{record.managementType,jdbcType=INTEGER},
+      IS_WORKFLOW = #{record.isWorkflow,jdbcType=INTEGER},
+      brand_type_main = #{record.brandTypeMain,jdbcType=VARCHAR},
+      brand_type_sub = #{record.brandTypeSub,jdbcType=VARCHAR},
+      sub_lease_area = #{record.subLeaseArea,jdbcType=DECIMAL},
+      CREATE_TIME = #{record.createTime,jdbcType=BIGINT},
+      CREATE_USER_ID = #{record.createUserId,jdbcType=INTEGER},
+      CREATE_USER_NAME = #{record.createUserName,jdbcType=VARCHAR},
+      UPDATE_TIME = #{record.updateTime,jdbcType=BIGINT},
+      UPDATE_USER_ID = #{record.updateUserId,jdbcType=INTEGER},
+      UPDATE_USER_NAME = #{record.updateUserName,jdbcType=VARCHAR},
+      organ_id = #{record.organId,jdbcType=INTEGER},
+      organ_name = #{record.organName,jdbcType=VARCHAR},
+      position_id = #{record.positionId,jdbcType=INTEGER},
+      position_name = #{record.positionName,jdbcType=VARCHAR},
+      res_code = #{record.resCode,jdbcType=VARCHAR},
+      res_name = #{record.resName,jdbcType=VARCHAR},
+      point_type = #{record.pointType,jdbcType=INTEGER},
+      business_type = #{record.businessType,jdbcType=INTEGER},
+      new_use_direction = #{record.newUseDirection,jdbcType=INTEGER},
+      invalid_time = #{record.invalidTime,jdbcType=BIGINT},
+      use_direction = #{record.useDirection,jdbcType=INTEGER},
+      price_unit = #{record.priceUnit,jdbcType=VARCHAR},
+      fee_unit = #{record.feeUnit,jdbcType=VARCHAR},
+      fee_amount = #{record.feeAmount,jdbcType=INTEGER},
+      charge_id = #{record.chargeId,jdbcType=INTEGER},
+      charge_name = #{record.chargeName,jdbcType=VARCHAR},
+      fee_price = #{record.feePrice,jdbcType=DECIMAL},
+      cycle = #{record.cycle,jdbcType=VARCHAR},
+      rent_cost = #{record.rentCost,jdbcType=DECIMAL},
+      effect_time = #{record.effectTime,jdbcType=BIGINT},
+      build_id = #{record.buildId,jdbcType=INTEGER},
+      build_name = #{record.buildName,jdbcType=VARCHAR},
+      unit_id = #{record.unitId,jdbcType=INTEGER},
+      unit_name = #{record.unitName,jdbcType=VARCHAR},
+      floor_id = #{record.floorId,jdbcType=INTEGER},
+      floor_name = #{record.floorName,jdbcType=VARCHAR},
+      sell_status = #{record.sellStatus,jdbcType=INTEGER},
+      sell_date = #{record.sellDate,jdbcType=BIGINT},
+      purchasera = #{record.purchasera,jdbcType=VARCHAR},
+      keep_organ_id = #{record.keepOrganId,jdbcType=INTEGER},
+      keep_organ_name = #{record.keepOrganName,jdbcType=VARCHAR},
+      quit_cause = #{record.quitCause,jdbcType=VARCHAR},
+      soil_type = #{record.soilType,jdbcType=INTEGER},
+      soil_max_type = #{record.soilMaxType,jdbcType=INTEGER},
+      soil_min_type = #{record.soilMinType,jdbcType=INTEGER},
+      approval_status = #{record.approvalStatus,jdbcType=INTEGER},
+      apply_id = #{record.applyId,jdbcType=INTEGER},
+      house_type = #{record.houseType,jdbcType=VARCHAR},
+      live_number = #{record.liveNumber,jdbcType=INTEGER},
+      live_sex = #{record.liveSex,jdbcType=INTEGER},
+      allot_status = #{record.allotStatus,jdbcType=TINYINT},
+      contract_id = #{record.contractId,jdbcType=INTEGER},
+      sale_status = #{record.saleStatus,jdbcType=INTEGER},
+      park_name = #{record.parkName,jdbcType=VARCHAR},
+      park_name_code = #{record.parkNameCode,jdbcType=INTEGER},
+      park_district = #{record.parkDistrict,jdbcType=VARCHAR},
+      park_district_code = #{record.parkDistrictCode,jdbcType=INTEGER},
+      obj_type = #{record.objType,jdbcType=VARCHAR},
+      obj_type_code = #{record.objTypeCode,jdbcType=INTEGER},
+      park_local_code = #{record.parkLocalCode,jdbcType=VARCHAR},
+      first_id = #{record.firstId,jdbcType=INTEGER},
+      first_group_id = #{record.firstGroupId,jdbcType=INTEGER},
+      first_name = #{record.firstName,jdbcType=VARCHAR},
+      area = #{record.area,jdbcType=DECIMAL},
+      use_area = #{record.useArea,jdbcType=DECIMAL},
+      opt_status = #{record.optStatus,jdbcType=TINYINT},
+      lock_reason = #{record.lockReason,jdbcType=INTEGER},
+      land_area = #{record.landArea,jdbcType=DECIMAL},
+      OLD_MANAGEMENT_TYPE = #{record.oldManagementType,jdbcType=INTEGER},
+      room_type = #{record.roomType,jdbcType=INTEGER},
+      house_name = #{record.houseName,jdbcType=VARCHAR},
+      belong_community_id = #{record.belongCommunityId,jdbcType=BIGINT}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.ss.up.model.ResExt" >
+    update res_ext
+    <set >
+      <if test="resId != null" >
+        RES_ID = #{resId,jdbcType=BIGINT},
+      </if>
+      <if test="resType != null" >
+        RES_TYPE = #{resType,jdbcType=INTEGER},
+      </if>
+      <if test="groupId != null" >
+        GROUP_ID = #{groupId,jdbcType=BIGINT},
+      </if>
+      <if test="communityId != null" >
+        COMMUNITY_ID = #{communityId,jdbcType=BIGINT},
+      </if>
+      <if test="resStyle != null" >
+        RES_STYLE = #{resStyle,jdbcType=INTEGER},
+      </if>
+      <if test="billArea != null" >
+        BILL_AREA = #{billArea,jdbcType=DECIMAL},
+      </if>
+      <if test="billMode != null" >
+        BILL_MODE = #{billMode,jdbcType=INTEGER},
+      </if>
+      <if test="leaseMode != null" >
+        LEASE_MODE = #{leaseMode,jdbcType=INTEGER},
+      </if>
+      <if test="resPurpose != null" >
+        RES_PURPOSE = #{resPurpose,jdbcType=INTEGER},
+      </if>
+      <if test="resDesc != null" >
+        RES_DESC = #{resDesc,jdbcType=VARCHAR},
+      </if>
+      <if test="resSource != null" >
+        RES_SOURCE = #{resSource,jdbcType=INTEGER},
+      </if>
+      <if test="busiStatus != null" >
+        BUSI_STATUS = #{busiStatus,jdbcType=INTEGER},
+      </if>
+      <if test="resStatus != null" >
+        RES_STATUS = #{resStatus,jdbcType=INTEGER},
+      </if>
+      <if test="leaseStatus != null" >
+        LEASE_STATUS = #{leaseStatus,jdbcType=INTEGER},
+      </if>
+      <if test="prepDate != null" >
+        PREP_DATE = #{prepDate,jdbcType=BIGINT},
+      </if>
+      <if test="xpoint != null" >
+        XPOINT = #{xpoint,jdbcType=VARCHAR},
+      </if>
+      <if test="ypoint != null" >
+        YPOINT = #{ypoint,jdbcType=VARCHAR},
+      </if>
+      <if test="color != null" >
+        COLOR = #{color,jdbcType=VARCHAR},
+      </if>
+      <if test="productLine != null" >
+        PRODUCT_LINE = #{productLine,jdbcType=INTEGER},
+      </if>
+      <if test="managementType != null" >
+        MANAGEMENT_TYPE = #{managementType,jdbcType=INTEGER},
+      </if>
+      <if test="isWorkflow != null" >
+        IS_WORKFLOW = #{isWorkflow,jdbcType=INTEGER},
+      </if>
+      <if test="brandTypeMain != null" >
+        brand_type_main = #{brandTypeMain,jdbcType=VARCHAR},
+      </if>
+      <if test="brandTypeSub != null" >
+        brand_type_sub = #{brandTypeSub,jdbcType=VARCHAR},
+      </if>
+      <if test="subLeaseArea != null" >
+        sub_lease_area = #{subLeaseArea,jdbcType=DECIMAL},
+      </if>
+      <if test="createTime != null" >
+        CREATE_TIME = #{createTime,jdbcType=BIGINT},
+      </if>
+      <if test="createUserId != null" >
+        CREATE_USER_ID = #{createUserId,jdbcType=INTEGER},
+      </if>
+      <if test="createUserName != null" >
+        CREATE_USER_NAME = #{createUserName,jdbcType=VARCHAR},
+      </if>
+      <if test="updateTime != null" >
+        UPDATE_TIME = #{updateTime,jdbcType=BIGINT},
+      </if>
+      <if test="updateUserId != null" >
+        UPDATE_USER_ID = #{updateUserId,jdbcType=INTEGER},
+      </if>
+      <if test="updateUserName != null" >
+        UPDATE_USER_NAME = #{updateUserName,jdbcType=VARCHAR},
+      </if>
+      <if test="organId != null" >
+        organ_id = #{organId,jdbcType=INTEGER},
+      </if>
+      <if test="organName != null" >
+        organ_name = #{organName,jdbcType=VARCHAR},
+      </if>
+      <if test="positionId != null" >
+        position_id = #{positionId,jdbcType=INTEGER},
+      </if>
+      <if test="positionName != null" >
+        position_name = #{positionName,jdbcType=VARCHAR},
+      </if>
+      <if test="resCode != null" >
+        res_code = #{resCode,jdbcType=VARCHAR},
+      </if>
+      <if test="resName != null" >
+        res_name = #{resName,jdbcType=VARCHAR},
+      </if>
+      <if test="pointType != null" >
+        point_type = #{pointType,jdbcType=INTEGER},
+      </if>
+      <if test="businessType != null" >
+        business_type = #{businessType,jdbcType=INTEGER},
+      </if>
+      <if test="newUseDirection != null" >
+        new_use_direction = #{newUseDirection,jdbcType=INTEGER},
+      </if>
+      <if test="invalidTime != null" >
+        invalid_time = #{invalidTime,jdbcType=BIGINT},
+      </if>
+      <if test="useDirection != null" >
+        use_direction = #{useDirection,jdbcType=INTEGER},
+      </if>
+      <if test="priceUnit != null" >
+        price_unit = #{priceUnit,jdbcType=VARCHAR},
+      </if>
+      <if test="feeUnit != null" >
+        fee_unit = #{feeUnit,jdbcType=VARCHAR},
+      </if>
+      <if test="feeAmount != null" >
+        fee_amount = #{feeAmount,jdbcType=INTEGER},
+      </if>
+      <if test="chargeId != null" >
+        charge_id = #{chargeId,jdbcType=INTEGER},
+      </if>
+      <if test="chargeName != null" >
+        charge_name = #{chargeName,jdbcType=VARCHAR},
+      </if>
+      <if test="feePrice != null" >
+        fee_price = #{feePrice,jdbcType=DECIMAL},
+      </if>
+      <if test="cycle != null" >
+        cycle = #{cycle,jdbcType=VARCHAR},
+      </if>
+      <if test="rentCost != null" >
+        rent_cost = #{rentCost,jdbcType=DECIMAL},
+      </if>
+      <if test="effectTime != null" >
+        effect_time = #{effectTime,jdbcType=BIGINT},
+      </if>
+      <if test="buildId != null" >
+        build_id = #{buildId,jdbcType=INTEGER},
+      </if>
+      <if test="buildName != null" >
+        build_name = #{buildName,jdbcType=VARCHAR},
+      </if>
+      <if test="unitId != null" >
+        unit_id = #{unitId,jdbcType=INTEGER},
+      </if>
+      <if test="unitName != null" >
+        unit_name = #{unitName,jdbcType=VARCHAR},
+      </if>
+      <if test="floorId != null" >
+        floor_id = #{floorId,jdbcType=INTEGER},
+      </if>
+      <if test="floorName != null" >
+        floor_name = #{floorName,jdbcType=VARCHAR},
+      </if>
+      <if test="sellStatus != null" >
+        sell_status = #{sellStatus,jdbcType=INTEGER},
+      </if>
+      <if test="sellDate != null" >
+        sell_date = #{sellDate,jdbcType=BIGINT},
+      </if>
+      <if test="purchasera != null" >
+        purchasera = #{purchasera,jdbcType=VARCHAR},
+      </if>
+      <if test="keepOrganId != null" >
+        keep_organ_id = #{keepOrganId,jdbcType=INTEGER},
+      </if>
+      <if test="keepOrganName != null" >
+        keep_organ_name = #{keepOrganName,jdbcType=VARCHAR},
+      </if>
+      <if test="quitCause != null" >
+        quit_cause = #{quitCause,jdbcType=VARCHAR},
+      </if>
+      <if test="soilType != null" >
+        soil_type = #{soilType,jdbcType=INTEGER},
+      </if>
+      <if test="soilMaxType != null" >
+        soil_max_type = #{soilMaxType,jdbcType=INTEGER},
+      </if>
+      <if test="soilMinType != null" >
+        soil_min_type = #{soilMinType,jdbcType=INTEGER},
+      </if>
+      <if test="approvalStatus != null" >
+        approval_status = #{approvalStatus,jdbcType=INTEGER},
+      </if>
+      <if test="applyId != null" >
+        apply_id = #{applyId,jdbcType=INTEGER},
+      </if>
+      <if test="houseType != null" >
+        house_type = #{houseType,jdbcType=VARCHAR},
+      </if>
+      <if test="liveNumber != null" >
+        live_number = #{liveNumber,jdbcType=INTEGER},
+      </if>
+      <if test="liveSex != null" >
+        live_sex = #{liveSex,jdbcType=INTEGER},
+      </if>
+      <if test="allotStatus != null" >
+        allot_status = #{allotStatus,jdbcType=TINYINT},
+      </if>
+      <if test="contractId != null" >
+        contract_id = #{contractId,jdbcType=INTEGER},
+      </if>
+      <if test="saleStatus != null" >
+        sale_status = #{saleStatus,jdbcType=INTEGER},
+      </if>
+      <if test="parkName != null" >
+        park_name = #{parkName,jdbcType=VARCHAR},
+      </if>
+      <if test="parkNameCode != null" >
+        park_name_code = #{parkNameCode,jdbcType=INTEGER},
+      </if>
+      <if test="parkDistrict != null" >
+        park_district = #{parkDistrict,jdbcType=VARCHAR},
+      </if>
+      <if test="parkDistrictCode != null" >
+        park_district_code = #{parkDistrictCode,jdbcType=INTEGER},
+      </if>
+      <if test="objType != null" >
+        obj_type = #{objType,jdbcType=VARCHAR},
+      </if>
+      <if test="objTypeCode != null" >
+        obj_type_code = #{objTypeCode,jdbcType=INTEGER},
+      </if>
+      <if test="parkLocalCode != null" >
+        park_local_code = #{parkLocalCode,jdbcType=VARCHAR},
+      </if>
+      <if test="firstId != null" >
+        first_id = #{firstId,jdbcType=INTEGER},
+      </if>
+      <if test="firstGroupId != null" >
+        first_group_id = #{firstGroupId,jdbcType=INTEGER},
+      </if>
+      <if test="firstName != null" >
+        first_name = #{firstName,jdbcType=VARCHAR},
+      </if>
+      <if test="area != null" >
+        area = #{area,jdbcType=DECIMAL},
+      </if>
+      <if test="useArea != null" >
+        use_area = #{useArea,jdbcType=DECIMAL},
+      </if>
+      <if test="optStatus != null" >
+        opt_status = #{optStatus,jdbcType=TINYINT},
+      </if>
+      <if test="lockReason != null" >
+        lock_reason = #{lockReason,jdbcType=INTEGER},
+      </if>
+      <if test="landArea != null" >
+        land_area = #{landArea,jdbcType=DECIMAL},
+      </if>
+      <if test="oldManagementType != null" >
+        OLD_MANAGEMENT_TYPE = #{oldManagementType,jdbcType=INTEGER},
+      </if>
+      <if test="roomType != null" >
+        room_type = #{roomType,jdbcType=INTEGER},
+      </if>
+      <if test="houseName != null" >
+        house_name = #{houseName,jdbcType=VARCHAR},
+      </if>
+      <if test="belongCommunityId != null" >
+        belong_community_id = #{belongCommunityId,jdbcType=BIGINT},
+      </if>
+      <if test="remark != null" >
+        remark = #{remark,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.ss.up.model.ResExt" >
+    update res_ext
+    set RES_ID = #{resId,jdbcType=BIGINT},
+      RES_TYPE = #{resType,jdbcType=INTEGER},
+      GROUP_ID = #{groupId,jdbcType=BIGINT},
+      COMMUNITY_ID = #{communityId,jdbcType=BIGINT},
+      RES_STYLE = #{resStyle,jdbcType=INTEGER},
+      BILL_AREA = #{billArea,jdbcType=DECIMAL},
+      BILL_MODE = #{billMode,jdbcType=INTEGER},
+      LEASE_MODE = #{leaseMode,jdbcType=INTEGER},
+      RES_PURPOSE = #{resPurpose,jdbcType=INTEGER},
+      RES_DESC = #{resDesc,jdbcType=VARCHAR},
+      RES_SOURCE = #{resSource,jdbcType=INTEGER},
+      BUSI_STATUS = #{busiStatus,jdbcType=INTEGER},
+      RES_STATUS = #{resStatus,jdbcType=INTEGER},
+      LEASE_STATUS = #{leaseStatus,jdbcType=INTEGER},
+      PREP_DATE = #{prepDate,jdbcType=BIGINT},
+      XPOINT = #{xpoint,jdbcType=VARCHAR},
+      YPOINT = #{ypoint,jdbcType=VARCHAR},
+      COLOR = #{color,jdbcType=VARCHAR},
+      PRODUCT_LINE = #{productLine,jdbcType=INTEGER},
+      MANAGEMENT_TYPE = #{managementType,jdbcType=INTEGER},
+      IS_WORKFLOW = #{isWorkflow,jdbcType=INTEGER},
+      brand_type_main = #{brandTypeMain,jdbcType=VARCHAR},
+      brand_type_sub = #{brandTypeSub,jdbcType=VARCHAR},
+      sub_lease_area = #{subLeaseArea,jdbcType=DECIMAL},
+      CREATE_TIME = #{createTime,jdbcType=BIGINT},
+      CREATE_USER_ID = #{createUserId,jdbcType=INTEGER},
+      CREATE_USER_NAME = #{createUserName,jdbcType=VARCHAR},
+      UPDATE_TIME = #{updateTime,jdbcType=BIGINT},
+      UPDATE_USER_ID = #{updateUserId,jdbcType=INTEGER},
+      UPDATE_USER_NAME = #{updateUserName,jdbcType=VARCHAR},
+      organ_id = #{organId,jdbcType=INTEGER},
+      organ_name = #{organName,jdbcType=VARCHAR},
+      position_id = #{positionId,jdbcType=INTEGER},
+      position_name = #{positionName,jdbcType=VARCHAR},
+      res_code = #{resCode,jdbcType=VARCHAR},
+      res_name = #{resName,jdbcType=VARCHAR},
+      point_type = #{pointType,jdbcType=INTEGER},
+      business_type = #{businessType,jdbcType=INTEGER},
+      new_use_direction = #{newUseDirection,jdbcType=INTEGER},
+      invalid_time = #{invalidTime,jdbcType=BIGINT},
+      use_direction = #{useDirection,jdbcType=INTEGER},
+      price_unit = #{priceUnit,jdbcType=VARCHAR},
+      fee_unit = #{feeUnit,jdbcType=VARCHAR},
+      fee_amount = #{feeAmount,jdbcType=INTEGER},
+      charge_id = #{chargeId,jdbcType=INTEGER},
+      charge_name = #{chargeName,jdbcType=VARCHAR},
+      fee_price = #{feePrice,jdbcType=DECIMAL},
+      cycle = #{cycle,jdbcType=VARCHAR},
+      rent_cost = #{rentCost,jdbcType=DECIMAL},
+      effect_time = #{effectTime,jdbcType=BIGINT},
+      build_id = #{buildId,jdbcType=INTEGER},
+      build_name = #{buildName,jdbcType=VARCHAR},
+      unit_id = #{unitId,jdbcType=INTEGER},
+      unit_name = #{unitName,jdbcType=VARCHAR},
+      floor_id = #{floorId,jdbcType=INTEGER},
+      floor_name = #{floorName,jdbcType=VARCHAR},
+      sell_status = #{sellStatus,jdbcType=INTEGER},
+      sell_date = #{sellDate,jdbcType=BIGINT},
+      purchasera = #{purchasera,jdbcType=VARCHAR},
+      keep_organ_id = #{keepOrganId,jdbcType=INTEGER},
+      keep_organ_name = #{keepOrganName,jdbcType=VARCHAR},
+      quit_cause = #{quitCause,jdbcType=VARCHAR},
+      soil_type = #{soilType,jdbcType=INTEGER},
+      soil_max_type = #{soilMaxType,jdbcType=INTEGER},
+      soil_min_type = #{soilMinType,jdbcType=INTEGER},
+      approval_status = #{approvalStatus,jdbcType=INTEGER},
+      apply_id = #{applyId,jdbcType=INTEGER},
+      house_type = #{houseType,jdbcType=VARCHAR},
+      live_number = #{liveNumber,jdbcType=INTEGER},
+      live_sex = #{liveSex,jdbcType=INTEGER},
+      allot_status = #{allotStatus,jdbcType=TINYINT},
+      contract_id = #{contractId,jdbcType=INTEGER},
+      sale_status = #{saleStatus,jdbcType=INTEGER},
+      park_name = #{parkName,jdbcType=VARCHAR},
+      park_name_code = #{parkNameCode,jdbcType=INTEGER},
+      park_district = #{parkDistrict,jdbcType=VARCHAR},
+      park_district_code = #{parkDistrictCode,jdbcType=INTEGER},
+      obj_type = #{objType,jdbcType=VARCHAR},
+      obj_type_code = #{objTypeCode,jdbcType=INTEGER},
+      park_local_code = #{parkLocalCode,jdbcType=VARCHAR},
+      first_id = #{firstId,jdbcType=INTEGER},
+      first_group_id = #{firstGroupId,jdbcType=INTEGER},
+      first_name = #{firstName,jdbcType=VARCHAR},
+      area = #{area,jdbcType=DECIMAL},
+      use_area = #{useArea,jdbcType=DECIMAL},
+      opt_status = #{optStatus,jdbcType=TINYINT},
+      lock_reason = #{lockReason,jdbcType=INTEGER},
+      land_area = #{landArea,jdbcType=DECIMAL},
+      OLD_MANAGEMENT_TYPE = #{oldManagementType,jdbcType=INTEGER},
+      room_type = #{roomType,jdbcType=INTEGER},
+      house_name = #{houseName,jdbcType=VARCHAR},
+      belong_community_id = #{belongCommunityId,jdbcType=BIGINT},
+      remark = #{remark,jdbcType=LONGVARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.ss.up.model.ResExt" >
+    update res_ext
+    set RES_ID = #{resId,jdbcType=BIGINT},
+      RES_TYPE = #{resType,jdbcType=INTEGER},
+      GROUP_ID = #{groupId,jdbcType=BIGINT},
+      COMMUNITY_ID = #{communityId,jdbcType=BIGINT},
+      RES_STYLE = #{resStyle,jdbcType=INTEGER},
+      BILL_AREA = #{billArea,jdbcType=DECIMAL},
+      BILL_MODE = #{billMode,jdbcType=INTEGER},
+      LEASE_MODE = #{leaseMode,jdbcType=INTEGER},
+      RES_PURPOSE = #{resPurpose,jdbcType=INTEGER},
+      RES_DESC = #{resDesc,jdbcType=VARCHAR},
+      RES_SOURCE = #{resSource,jdbcType=INTEGER},
+      BUSI_STATUS = #{busiStatus,jdbcType=INTEGER},
+      RES_STATUS = #{resStatus,jdbcType=INTEGER},
+      LEASE_STATUS = #{leaseStatus,jdbcType=INTEGER},
+      PREP_DATE = #{prepDate,jdbcType=BIGINT},
+      XPOINT = #{xpoint,jdbcType=VARCHAR},
+      YPOINT = #{ypoint,jdbcType=VARCHAR},
+      COLOR = #{color,jdbcType=VARCHAR},
+      PRODUCT_LINE = #{productLine,jdbcType=INTEGER},
+      MANAGEMENT_TYPE = #{managementType,jdbcType=INTEGER},
+      IS_WORKFLOW = #{isWorkflow,jdbcType=INTEGER},
+      brand_type_main = #{brandTypeMain,jdbcType=VARCHAR},
+      brand_type_sub = #{brandTypeSub,jdbcType=VARCHAR},
+      sub_lease_area = #{subLeaseArea,jdbcType=DECIMAL},
+      CREATE_TIME = #{createTime,jdbcType=BIGINT},
+      CREATE_USER_ID = #{createUserId,jdbcType=INTEGER},
+      CREATE_USER_NAME = #{createUserName,jdbcType=VARCHAR},
+      UPDATE_TIME = #{updateTime,jdbcType=BIGINT},
+      UPDATE_USER_ID = #{updateUserId,jdbcType=INTEGER},
+      UPDATE_USER_NAME = #{updateUserName,jdbcType=VARCHAR},
+      organ_id = #{organId,jdbcType=INTEGER},
+      organ_name = #{organName,jdbcType=VARCHAR},
+      position_id = #{positionId,jdbcType=INTEGER},
+      position_name = #{positionName,jdbcType=VARCHAR},
+      res_code = #{resCode,jdbcType=VARCHAR},
+      res_name = #{resName,jdbcType=VARCHAR},
+      point_type = #{pointType,jdbcType=INTEGER},
+      business_type = #{businessType,jdbcType=INTEGER},
+      new_use_direction = #{newUseDirection,jdbcType=INTEGER},
+      invalid_time = #{invalidTime,jdbcType=BIGINT},
+      use_direction = #{useDirection,jdbcType=INTEGER},
+      price_unit = #{priceUnit,jdbcType=VARCHAR},
+      fee_unit = #{feeUnit,jdbcType=VARCHAR},
+      fee_amount = #{feeAmount,jdbcType=INTEGER},
+      charge_id = #{chargeId,jdbcType=INTEGER},
+      charge_name = #{chargeName,jdbcType=VARCHAR},
+      fee_price = #{feePrice,jdbcType=DECIMAL},
+      cycle = #{cycle,jdbcType=VARCHAR},
+      rent_cost = #{rentCost,jdbcType=DECIMAL},
+      effect_time = #{effectTime,jdbcType=BIGINT},
+      build_id = #{buildId,jdbcType=INTEGER},
+      build_name = #{buildName,jdbcType=VARCHAR},
+      unit_id = #{unitId,jdbcType=INTEGER},
+      unit_name = #{unitName,jdbcType=VARCHAR},
+      floor_id = #{floorId,jdbcType=INTEGER},
+      floor_name = #{floorName,jdbcType=VARCHAR},
+      sell_status = #{sellStatus,jdbcType=INTEGER},
+      sell_date = #{sellDate,jdbcType=BIGINT},
+      purchasera = #{purchasera,jdbcType=VARCHAR},
+      keep_organ_id = #{keepOrganId,jdbcType=INTEGER},
+      keep_organ_name = #{keepOrganName,jdbcType=VARCHAR},
+      quit_cause = #{quitCause,jdbcType=VARCHAR},
+      soil_type = #{soilType,jdbcType=INTEGER},
+      soil_max_type = #{soilMaxType,jdbcType=INTEGER},
+      soil_min_type = #{soilMinType,jdbcType=INTEGER},
+      approval_status = #{approvalStatus,jdbcType=INTEGER},
+      apply_id = #{applyId,jdbcType=INTEGER},
+      house_type = #{houseType,jdbcType=VARCHAR},
+      live_number = #{liveNumber,jdbcType=INTEGER},
+      live_sex = #{liveSex,jdbcType=INTEGER},
+      allot_status = #{allotStatus,jdbcType=TINYINT},
+      contract_id = #{contractId,jdbcType=INTEGER},
+      sale_status = #{saleStatus,jdbcType=INTEGER},
+      park_name = #{parkName,jdbcType=VARCHAR},
+      park_name_code = #{parkNameCode,jdbcType=INTEGER},
+      park_district = #{parkDistrict,jdbcType=VARCHAR},
+      park_district_code = #{parkDistrictCode,jdbcType=INTEGER},
+      obj_type = #{objType,jdbcType=VARCHAR},
+      obj_type_code = #{objTypeCode,jdbcType=INTEGER},
+      park_local_code = #{parkLocalCode,jdbcType=VARCHAR},
+      first_id = #{firstId,jdbcType=INTEGER},
+      first_group_id = #{firstGroupId,jdbcType=INTEGER},
+      first_name = #{firstName,jdbcType=VARCHAR},
+      area = #{area,jdbcType=DECIMAL},
+      use_area = #{useArea,jdbcType=DECIMAL},
+      opt_status = #{optStatus,jdbcType=TINYINT},
+      lock_reason = #{lockReason,jdbcType=INTEGER},
+      land_area = #{landArea,jdbcType=DECIMAL},
+      OLD_MANAGEMENT_TYPE = #{oldManagementType,jdbcType=INTEGER},
+      room_type = #{roomType,jdbcType=INTEGER},
+      house_name = #{houseName,jdbcType=VARCHAR},
+      belong_community_id = #{belongCommunityId,jdbcType=BIGINT}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <select resultMap="ResultMapWithBLOBs" parameterType="com.ss.up.model.ResExtCriteria" id="selectByExampleWithBLOBsWithRowbounds" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from res_ext
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select resultMap="BaseResultMap" parameterType="com.ss.up.model.ResExtCriteria" id="selectByExampleWithRowbounds" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from res_ext
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+</mapper>
